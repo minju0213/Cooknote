@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -17,10 +18,25 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="254dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="262dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="68dp"
+        android:text="양진선"
+        android:textSize="40pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
