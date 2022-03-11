@@ -3,13 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
-      </map>
-    </option>
-  </component>
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/activitiy_splash.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/activity_main.xml" value="0.12310030395136778" />
         <entry key="..\:/Users/art10/StudioProjects/Cooknote/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
       </map>
     </option>
