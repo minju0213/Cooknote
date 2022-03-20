@@ -19,8 +19,8 @@ public class FragmentC extends Fragment {
 
     }
 
-    public static FragmentA newInstance(int num){
-        FragmentA fragment = new FragmentA();
+    public static FragmentC newInstance(int num){
+        FragmentC fragment = new FragmentC();
         Bundle args = new Bundle();
         args.putInt("num",num);
         fragment.setArguments(args);
@@ -45,9 +45,7 @@ public class FragmentC extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        data_t = (TextView)
-                view.findViewById(R.id.tvName1);
-        data_t.setText("Page" + frag_num);
+
     }
 
     @Override

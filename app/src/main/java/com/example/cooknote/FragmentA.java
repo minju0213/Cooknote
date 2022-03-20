@@ -45,9 +45,7 @@ public class FragmentA extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        data_t = (TextView)
-                view.findViewById(R.id.tvName1);
-        data_t.setText("Page" + frag_num);
+
     }
 
     @Override

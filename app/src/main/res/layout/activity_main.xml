@@ -8,20 +8,24 @@
     tools:context=".MainActivity">
 
     <FrameLayout
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/frameSize">
+        android:layout_height="250dp">
+
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/viewpager"
-            android:clipToPadding="false"
-            android:clipChildren="false"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/frameSize" />
+            android:layout_height="250dp"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
 
         <me.relex.circleindicator.CircleIndicator3
             android:id="@+id/indicator"
+            app:ci_drawable="@drawable/indicator_true"
+            app:ci_width="5pt"
+            app:ci_height="5pt"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="45dp"
             android:layout_gravity="bottom"/>
 
     </FrameLayout>

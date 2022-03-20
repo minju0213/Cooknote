@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ViewPager2 mPager;
     private FragmentStateAdapter pagerAdapter;
-    private int num_page = 4;
+    private int num_page = 3;
     private CircleIndicator3 mIndicator;
 
 
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         //ViewPager Setting
         mPager.setOrientation(ViewPager2.ORIENTATION_HORIZONTAL);
-        mPager.setCurrentItem(1000);
+        mPager.setCurrentItem(999);
         mPager.setOffscreenPageLimit(3);
 
         mPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
