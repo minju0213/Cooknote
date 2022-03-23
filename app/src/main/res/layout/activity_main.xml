@@ -17,7 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:clipChildren="false"
-            android:clipToPadding="false" />
+            android:clipToPadding="false" >
+        </androidx.viewpager2.widget.ViewPager2>
 
         <me.relex.circleindicator.CircleIndicator3
             android:id="@+id/indicator"
@@ -30,11 +31,17 @@
 
     </FrameLayout>
 
-    <TextView
-        android:id="@+id/text"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="뷰어 밑에 위치"
-        android:gravity="center"/>
+        android:orientation="vertical">
 
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/test_bt" />
+    </LinearLayout>
 </LinearLayout>
