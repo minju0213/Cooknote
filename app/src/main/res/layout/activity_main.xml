@@ -37,11 +37,13 @@
         android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/button3"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="150dp"
+            android:id="@+id/onButton"
+            android:onClick="onButton"
+            android:layout_width="267dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="90dp"
             android:background="@android:color/transparent"
-            android:src="@drawable/test_bt" />
+            android:scaleType="fitCenter"
+            android:src="@drawable/certificate_go" />
     </LinearLayout>
 </LinearLayout>
