@@ -9,12 +9,45 @@
 
 
     <ImageButton
+        android:id="@+id/DateGO_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_marginTop="105dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/date_go" />
+
+    <ImageButton
+        android:id="@+id/Recipe_Button"
+        android:layout_width="280dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/recipe"
+        android:layout_gravity="right"  />
+
+    <ImageButton
+        android:id="@+id/Question_Button"
+        android:layout_width="282dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/question" />
+
+    <ImageButton
         android:id="@+id/onButton"
-        android:layout_width="267dp"
-        android:layout_height="103dp"
-        android:layout_marginTop="90dp"
+        android:layout_width="284dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="50dp"
         android:background="@android:color/transparent"
         android:onClick="onButton"
         android:scaleType="fitCenter"
-        android:src="@drawable/certificate_go" />
+        android:src="@drawable/certificate_go"
+        android:layout_gravity="right"  />
+
 </LinearLayout>
+
+
+
