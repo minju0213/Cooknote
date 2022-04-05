@@ -22,5 +22,15 @@
         <activity android:name=".MainActivity">
         </activity>
 
+        <!--메인 버튼들-->
+        <activity android:name=".Date_go">
+        </activity>
+
+        <activity android:name=".Question">
+        </activity>
+
+        <activity android:name=".Recipe">
+        </activity>
+
     </application>
 </manifest>
