@@ -12,6 +12,14 @@
         android:layout_height="wrap_content">
 
         <ImageView
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/top_bar" ></ImageView>
+
+        <ImageView
             android:id="@+id/rogo"
             android:layout_width="match_parent"
             android:layout_height="56dp"
@@ -20,14 +28,6 @@
             android:padding="0sp"
             android:scaleType="centerCrop"
             android:src="@drawable/rogo" ></ImageView>
-
-        <ImageView
-            android:id="@+id/top_bar"
-            android:layout_width="match_parent"
-            android:layout_height="59dp"
-            android:padding="0sp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/top_bar" ></ImageView>
 
     </FrameLayout>
 
@@ -70,6 +70,7 @@
         android:onClick="onButton"
         android:src="@drawable/certificate_go"
         android:layout_gravity="right"  />
+
 
 </LinearLayout>
 
