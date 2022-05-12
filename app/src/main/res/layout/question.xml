@@ -32,9 +32,9 @@
 
     <ImageButton
         android:id="@+id/bread_bt"
-        android:layout_width="291dp"
-        android:layout_height="107dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="276dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="25dp"
         android:background="@android:color/transparent"
         android:padding="0sp"
         android:scaleType="centerCrop"
@@ -42,8 +42,8 @@
 
     <ImageButton
         android:id="@+id/cookie_bt"
-        android:layout_width="291dp"
-        android:layout_height="107dp"
+        android:layout_width="276dp"
+        android:layout_height="101dp"
         android:layout_gravity="right"
         android:layout_marginTop="15dp"
         android:background="@android:color/transparent"
@@ -52,8 +52,8 @@
 
     <ImageButton
         android:id="@+id/western_food_bt"
-        android:layout_width="291dp"
-        android:layout_height="107dp"
+        android:layout_width="276dp"
+        android:layout_height="101dp"
         android:layout_gravity="left"
         android:layout_marginTop="15dp"
         android:background="@android:color/transparent"
@@ -63,8 +63,8 @@
 
     <ImageButton
         android:id="@+id/korean_food_bt"
-        android:layout_width="291dp"
-        android:layout_height="107dp"
+        android:layout_width="276dp"
+        android:layout_height="101dp"
         android:layout_gravity="right"
         android:layout_marginTop="15dp"
         android:background="@android:color/transparent"
@@ -74,8 +74,8 @@
 
     <ImageButton
         android:id="@+id/drink_bt"
-        android:layout_width="291dp"
-        android:layout_height="104dp"
+        android:layout_width="276dp"
+        android:layout_height="101dp"
         android:layout_gravity="left"
         android:layout_marginTop="15dp"
         android:background="@android:color/transparent"

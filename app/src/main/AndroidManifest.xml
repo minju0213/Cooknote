@@ -32,7 +32,14 @@
         <activity android:name=".Recipe">
         </activity>
 
+        <!--퀘스챤 버튼들-->
         <activity android:name=".bread">
+        </activity>
+
+        <activity android:name=".Cookie">
+        </activity>
+
+        <activity android:name=".Korean_food">
         </activity>
 
     </application>
