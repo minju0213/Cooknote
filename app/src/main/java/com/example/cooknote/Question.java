@@ -45,5 +45,27 @@ public class Question extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //종목별 문제 풀기-양식 버튼을 누를 시 액티비티 전환
+        ImageButton western_food_bt = (ImageButton) findViewById(R.id.western_food_bt);
+
+        bread_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), western_food.class);
+                startActivity(intent);
+            }
+        });
+
+        //종목별 문제 풀기-조주 버튼을 누를 시 액티비티 전환
+        ImageButton drink_bt = (ImageButton) findViewById(R.id.drink_bt);
+
+        bread_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), drink.class);
+                startActivity(intent);
+            }
+        });
     }
 }

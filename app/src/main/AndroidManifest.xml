@@ -42,5 +42,11 @@
         <activity android:name=".Korean_food">
         </activity>
 
+        <activity android:name=".western_food">
+        </activity>
+
+        <activity android:name=".drink">
+        </activity>
+
     </application>
 </manifest>
