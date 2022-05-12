@@ -20,6 +20,10 @@ public class Question extends AppCompatActivity {
         ImageButton bread_bt = (ImageButton) findViewById(R.id.bread_bt);
         // 한식 버튼을 클릭시 제과 문제풀기 화면으로 이동
         ImageButton korean_food_bt = (ImageButton) findViewById(R.id.korean_food_bt);
+        //종목별 문제 풀기-양식 버튼을 누를 시 액티비티 전환
+        ImageButton western_food_bt = (ImageButton) findViewById(R.id.western_food_bt);
+        //종목별 문제 풀기-조주 버튼을 누를 시 액티비티 전환
+        ImageButton drink_bt = (ImageButton) findViewById(R.id.drink_bt);
 
 
         korean_food_bt.setOnClickListener(new View.OnClickListener() {
@@ -46,10 +50,8 @@ public class Question extends AppCompatActivity {
             }
         });
 
-        //종목별 문제 풀기-양식 버튼을 누를 시 액티비티 전환
-        ImageButton western_food_bt = (ImageButton) findViewById(R.id.western_food_bt);
 
-        bread_bt.setOnClickListener(new View.OnClickListener() {
+        western_food_bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), western_food.class);
@@ -57,10 +59,8 @@ public class Question extends AppCompatActivity {
             }
         });
 
-        //종목별 문제 풀기-조주 버튼을 누를 시 액티비티 전환
-        ImageButton drink_bt = (ImageButton) findViewById(R.id.drink_bt);
 
-        bread_bt.setOnClickListener(new View.OnClickListener() {
+        drink_bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), drink.class);
