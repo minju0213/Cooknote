@@ -1,13 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <TextView
+
+
+    <FrameLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="50dp"
-        android:text="종목별 문제 풀기 화면(종목 선택 창)"
-        android:textSize="20dp" />
+        android:layout_height="wrap_content">
+
+        <ImageView
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/top_bar" ></ImageView>
+
+        <ImageView
+        android:id="@+id/rogo"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rogo" ></ImageView>
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/bread"
+        android:layout_width="291dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bread" />
+
+    <ImageButton
+        android:id="@+id/cookie_bt"
+        android:layout_width="291dp"
+        android:layout_height="107dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cookie" />
+
+    <ImageButton
+        android:id="@+id/western_food_bt"
+        android:layout_width="291dp"
+        android:layout_height="107dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/western_food" />
+
+    <ImageButton
+        android:id="@+id/korean_food_bt"
+        android:layout_width="291dp"
+        android:layout_height="107dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/korean_food" />
+
+    <ImageButton
+        android:id="@+id/drink_bt"
+        android:layout_width="291dp"
+        android:layout_height="104dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/drink" />
+
 </LinearLayout>
