@@ -31,7 +31,7 @@
     </FrameLayout>
 
     <ImageButton
-        android:id="@+id/bread"
+        android:id="@+id/bread_bt"
         android:layout_width="291dp"
         android:layout_height="107dp"
         android:layout_marginTop="15dp"

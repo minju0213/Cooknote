@@ -32,5 +32,8 @@
         <activity android:name=".Recipe">
         </activity>
 
+        <activity android:name=".bread">
+        </activity>
+
     </application>
 </manifest>
