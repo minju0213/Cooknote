@@ -2,12 +2,40 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="양진선 바보"
-        android:textSize="30dp"/>
+    <ImageView
+        android:id="@+id/top_bar_cookie1"
+        android:layout_width="0dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="335dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/right_answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/top_bar_cookie2"
+        android:layout_width="0dp"
+        android:layout_height="106dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/right_answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar_cookie1"></ImageView>
+
+    <ImageView
+        android:id="@+id/top_bar_cookie3"
+        android:layout_width="0dp"
+        android:layout_height="106dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/right_answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar_cookie2"></ImageView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
