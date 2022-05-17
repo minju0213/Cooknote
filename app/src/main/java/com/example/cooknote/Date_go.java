@@ -19,15 +19,7 @@ public class Date_go extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.date_go);
 
-        CalendarView calendarView = (CalendarView)findViewById(R.id.calendarView);
 
-        calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
-            @Override
-            public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int datOfMonth) {
-
-                Toast.makeText(Date_go.this, "" + year + "/" + (month+1) + "/" + datOfMonth, 0).show();
-            }
-        });
 
 
     }
