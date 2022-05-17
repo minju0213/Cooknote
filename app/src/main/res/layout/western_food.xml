@@ -8,7 +8,7 @@
 
 
     <ImageView
-        android:id="@+id/western_food1"
+        android:id="@+id/western_food1_1"
         android:layout_width="0dp"
         android:layout_height="106dp"
         android:layout_marginTop="324dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/western_food2"
+        android:id="@+id/western_food1_2"
         android:layout_width="0dp"
         android:layout_height="106dp"
         android:scaleType="centerCrop"
@@ -28,10 +28,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/western_food1"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/western_food1_1"></ImageView>
 
     <ImageView
-        android:id="@+id/western_food3"
+        android:id="@+id/western_food1_3"
         android:layout_width="0dp"
         android:layout_height="106dp"
         android:scaleType="centerCrop"
@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/western_food2"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/western_food1_2"></ImageView>
 
 
 

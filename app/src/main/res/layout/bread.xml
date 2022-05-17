@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/bread1"
+        android:id="@+id/bread1_1"
         android:layout_width="0dp"
         android:layout_height="106dp"
         android:layout_marginTop="335dp"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/bread2"
+        android:id="@+id/bread1_2"
         android:layout_width="0dp"
         android:layout_height="106dp"
         android:scaleType="centerCrop"
@@ -26,10 +26,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bread1"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/bread1_1"></ImageView>
 
     <ImageView
-        android:id="@+id/bread3"
+        android:id="@+id/bread1_3"
         android:layout_width="0dp"
         android:layout_height="106dp"
         android:scaleType="centerCrop"
@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bread2"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/bread1_2"></ImageView>
 
 
 
