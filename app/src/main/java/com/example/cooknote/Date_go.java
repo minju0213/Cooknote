@@ -19,6 +19,7 @@ public class Date_go extends AppCompatActivity {
 
         calendarView = findViewById(R.id.calendarview);
 
+        calendarView.setSelectionMode(MaterialCalendarView.SELECTION_MODE_RANGE);
 
 
     }
