@@ -10,5 +10,7 @@ public class bread extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bread);
+
+        //양진선 뒤진다
     }
 }
