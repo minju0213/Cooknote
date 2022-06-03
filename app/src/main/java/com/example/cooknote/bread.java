@@ -1,15 +1,26 @@
 package com.example.cooknote;
 
+import androidx.appcompat.widget.AppCompatButton;
+
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import java.util.Random;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class bread extends AppCompatActivity {
+
+    TextView tv_original;
+    int category, correct;
+    AppCompatButton[] btn_option = new AppCompatButton[3];
+    String[][] arrayOptions = new String[3][10], arrayBreadQuestion = new String[3][10];
 
 
     @Override
@@ -17,19 +28,91 @@ public class bread extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bread);
 
-        //양진선 뒤진다
-        //해헷 죄송합니다
-
         setOptions();
         setBreadQuestion();
 
+
+    }
+
+    void chooseOption(int choose) {
+        if (choose == correct) { // 정답을 맞췄을 경우
+            btn_option[choose].setText("o");
+            btn_option[choose].setTextColor(Color.parseColor("#ffffff"));
+            btn_option[choose].setBackgroundResource(R.drawable.study_correct);
+
+            for (int i = 0; i < btn_option.length; i++) {
+                btn_option[i].setClickable(false);
+            }
+
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    setBreadQuestion();
+                }
+            }, 1500);
+        } else {
+            btn_option[choose].setText("x");
+            btn_option[choose].setTextColor(Color.parseColor("#ffffff"));
+            btn_option[choose].setBackgroundResource(R.drawable.study_wrong);
+        }
+    }
+
+    void setBreadQuestion() {
+        resetUi(); // ui 초기화
+
+        Random random = new Random();
+        int index = random.nextInt(46); // 일본어 index
+        correct = random.nextInt(4); // 정답 자리 index
+
+        tv_original.setText(arrayBreadQuestion[index]);
+        btn_option[correct].setText(arrayOptions[index]);
+
+        for (int i = 0; i < btn_option.length; i++) {
+            if (i != correct) {
+                btn_option[i].setText(arrayOptions[random.nextInt(46)]);
+            }
+        }
+    }
+
+    void resetUi() {
+        for (int i = 0; i < btn_option.length; i++) {
+            btn_option[i].setBackgroundResource(R.drawable.study_base);
+            btn_option[i].setText("");
+            btn_option[i].setTextColor(Color.parseColor("#B8E6E1"));
+            btn_option[i].setClickable(true);
+
+        }
+    }
+
+    void initActivity() {
+        tv_original = (TextView) findViewById(R.id.tv_original);
+        btn_option[0] = (AppCompatButton) findViewById(R.id.btn_option1);
+        btn_option[1] = (AppCompatButton) findViewById(R.id.btn_option2);
+        btn_option[2] = (AppCompatButton) findViewById(R.id.btn_option3);
+
+        Intent intent = getIntent();
+        category = intent.getIntExtra("category", 1);
+        if (category == 1) {
+            setOptions();
+        } else {
+            finish();
+        }
+
+        for (int i = 0; i < btn_option.length; i++) {
+            int finalI = i;
+            btn_option[i].setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    chooseOption(finalI);
+                }
+            });
+        }
     }
 
 
 
-    String[][] arrayOptions = new String[3][10], arrayBreadQuestion = new String[3][10];
 
-    void setBreadQuestion() {
+    void setArrayOptions() {
         arrayBreadQuestion[0][0] = "질문1";
         arrayBreadQuestion[0][1] = "질문2";
         arrayBreadQuestion[0][2] = "질문3";

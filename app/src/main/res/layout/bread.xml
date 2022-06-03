@@ -7,105 +7,83 @@
     android:orientation="vertical">
 
 
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="410dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="58dp"
+        android:layout_weight="4"
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="313dp"
-        android:layout_marginBottom="4dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/problem"
-        app:layout_constraintBottom_toTopOf="@+id/bread1_1"
+        android:background="@drawable/problem"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintVertical_bias="0.044">
 
+        <TextView
+            android:id="@+id/tv_original"
+            android:layout_width="386dp"
+            android:layout_height="241dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="문제"
+            android:textColor="#292929"
+            android:textSize="50dp" />
+    </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="민주는 오닥구일까요?"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514"></TextView>
-
-
-    <ImageView
-        android:id="@+id/bread1_1"
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="0dp"
-        android:layout_height="106dp"
-        android:layout_marginTop="332dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/right_answer"
+        android:layout_height="462dp"
+        android:layout_marginStart="2dp"
+
+
+        android:layout_marginEnd="2dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
-    <TextView
-        android:id="@+id/bread_text1_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="양진선 응꼬시로"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bread1_1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/bread1_1"
-        app:layout_constraintTop_toTopOf="@+id/bread1_1"></TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/right_answer"
+            android:elevation="5dp"
+            android:text="마"
+            android:textSize="30dp" />
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/right_answer"
+            android:elevation="5dp"
+            android:text="모"
+            android:textSize="30dp" />
 
-    <ImageView
-        android:id="@+id/bread1_2"
-        android:layout_width="0dp"
-        android:layout_height="106dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/right_answer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bread1_1"></ImageView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/right_answer"
+            android:elevation="5dp"
+            android:text="뭐"
+            android:textSize="30dp" />
 
-    <TextView
-        android:id="@+id/bread_text1_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="박민주 응꼬시로"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bread1_2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="@+id/bread1_2"
-        app:layout_constraintTop_toBottomOf="@+id/bread1_1"></TextView>
-
-
-    <ImageView
-        android:id="@+id/bread1_3"
-        android:layout_width="0dp"
-        android:layout_height="106dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/right_answer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bread1_2"></ImageView>
-
-    <TextView
-        android:id="@+id/bread_text1_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="잼민주 응꼬시로"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bread1_3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="@+id/bread1_3"
-        app:layout_constraintTop_toBottomOf="@+id/bread1_2"
-        app:layout_constraintVertical_bias="0.454"></TextView>
-
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
