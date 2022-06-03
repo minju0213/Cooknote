@@ -18,6 +18,8 @@ public class bread extends AppCompatActivity {
         setContentView(R.layout.bread);
 
         //양진선 뒤진다
+        //해헷 죄송합니다
+
         setOptions();
         setBreadQuestion();
 
