@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -19,16 +21,43 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.222" />
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="민주는 오닥구일까요?"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"></TextView>
+
+
     <ImageView
         android:id="@+id/bread1_1"
         android:layout_width="0dp"
         android:layout_height="106dp"
-        android:layout_marginTop="335dp"
+        android:layout_marginTop="332dp"
         android:scaleType="centerCrop"
         android:src="@drawable/right_answer"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/bread_text1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="양진선 응꼬시로"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bread1_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/bread1_1"
+        app:layout_constraintTop_toTopOf="@+id/bread1_1"></TextView>
+
 
     <ImageView
         android:id="@+id/bread1_2"
@@ -41,6 +70,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bread1_1"></ImageView>
 
+    <TextView
+        android:id="@+id/bread_text1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="박민주 응꼬시로"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bread1_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/bread1_2"
+        app:layout_constraintTop_toBottomOf="@+id/bread1_1"></TextView>
+
+
     <ImageView
         android:id="@+id/bread1_3"
         android:layout_width="0dp"
@@ -51,6 +93,19 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bread1_2"></ImageView>
+
+    <TextView
+        android:id="@+id/bread_text1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="잼민주 응꼬시로"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bread1_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/bread1_3"
+        app:layout_constraintTop_toBottomOf="@+id/bread1_2"
+        app:layout_constraintVertical_bias="0.454"></TextView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
