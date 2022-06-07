@@ -64,8 +64,8 @@ public class bread extends AppCompatActivity {
         int index = random.nextInt(46); // 일본어 index
         correct = random.nextInt(4); // 정답 자리 index
 
-        tv_original.setText(arrayBreadQuestion[index]);
-        btn_option[correct].setText(arrayOptions[index]);
+        tv_original.setText(arrayBreadQuestion[index][index]);
+        btn_option[correct].setText(arrayOptions[index][index]);
 
         for (int i = 0; i < btn_option.length; i++) {
             if (i != correct) {
