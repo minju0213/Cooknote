@@ -31,6 +31,7 @@ public class bread extends AppCompatActivity {
 
         setOptions();
         setBreadQuestion();
+        setNewQuestion();
 
 
     }
@@ -58,7 +59,7 @@ public class bread extends AppCompatActivity {
         }
     }
 
-    void setBreadQuestion() {
+    void setNewQuestion() {
         resetUi(); // ui 초기화
 
         Random random = new Random();
@@ -113,7 +114,7 @@ public class bread extends AppCompatActivity {
 
 
 
-    void setArrayOptions() {
+    void setBreadQuestion() {
         arrayBreadQuestion[0] = "질문1";
         arrayBreadQuestion[1] = "질문2";
         arrayBreadQuestion[2] = "질문3";
