@@ -20,7 +20,8 @@ public class bread extends AppCompatActivity {
     TextView tv_original;
     int category, correct;
     AppCompatButton[] btn_option = new AppCompatButton[3];
-    String[][] arrayOptions = new String[3][10], arrayBreadQuestion = new String[3][10];
+    String[][] arrayOptions = new String[3][10];
+    String[] arrayBreadQuestion = new String[10];
 
 
     @Override
@@ -61,15 +62,15 @@ public class bread extends AppCompatActivity {
         resetUi(); // ui 초기화
 
         Random random = new Random();
-        int index = random.nextInt(46); // 일본어 index
-        correct = random.nextInt(4); // 정답 자리 index
+        int index = random.nextInt(10); // 일본어 index
+        correct = random.nextInt(3); // 정답 자리 index
 
-        tv_original.setText(arrayBreadQuestion[index][index]);
+        tv_original.setText(arrayBreadQuestion[index]);
         btn_option[correct].setText(arrayOptions[index][index]);
 
         for (int i = 0; i < btn_option.length; i++) {
             if (i != correct) {
-                btn_option[i].setText(arrayOptions[random.nextInt(46)]);
+                btn_option[i].setText(arrayOptions[index][random.nextInt(10)]);
             }
         }
     }
@@ -113,16 +114,16 @@ public class bread extends AppCompatActivity {
 
 
     void setArrayOptions() {
-        arrayBreadQuestion[0][0] = "질문1";
-        arrayBreadQuestion[0][1] = "질문2";
-        arrayBreadQuestion[0][2] = "질문3";
-        arrayBreadQuestion[0][3] = "질문4";
-        arrayBreadQuestion[0][4] = "질문5";
-        arrayBreadQuestion[0][5] = "질문6";
-        arrayBreadQuestion[0][6] = "질문7";
-        arrayBreadQuestion[0][7] = "질문8";
-        arrayBreadQuestion[0][8] = "질문9";
-        arrayBreadQuestion[0][9] = "질문10";
+        arrayBreadQuestion[0] = "질문1";
+        arrayBreadQuestion[1] = "질문2";
+        arrayBreadQuestion[2] = "질문3";
+        arrayBreadQuestion[3] = "질문4";
+        arrayBreadQuestion[4] = "질문5";
+        arrayBreadQuestion[5] = "질문6";
+        arrayBreadQuestion[6] = "질문7";
+        arrayBreadQuestion[7] = "질문8";
+        arrayBreadQuestion[8] = "질문9";
+        arrayBreadQuestion[9] = "질문10";
 
 
     }
