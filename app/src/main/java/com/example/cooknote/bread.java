@@ -32,6 +32,7 @@ public class bread extends AppCompatActivity {
         setOptions();
         setBreadQuestion();
         setNewQuestion();
+        initActivity();
 
 
     }
@@ -63,7 +64,7 @@ public class bread extends AppCompatActivity {
         resetUi(); // ui 초기화
 
         Random random = new Random();
-        int index = random.nextInt(10); // 일본어 index
+        int index = random.nextInt(10); // 문제 index
         correct = random.nextInt(3); // 정답 자리 index
 
         tv_original.setText(arrayBreadQuestion[index]);
