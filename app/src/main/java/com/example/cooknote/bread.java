@@ -26,7 +26,7 @@ public class bread extends AppCompatActivity {
     int category, correct;
     AppCompatButton[] btn_option = new AppCompatButton[3];
 //    String[][] arrayOptions = new String[3][10];
-    String[][] arrayOptions = new String[10][3];
+    String[][] arrayOptions = new String[10][4];
     // 10개의 문제의 3개의 보기라서 10개의 방을 가진 3개의 배열이 아닌 3개의 방을 가진 10개의 배열로 선언
     String[] arrayBreadQuestion = new String[10];
 
@@ -39,6 +39,7 @@ public class bread extends AppCompatActivity {
         setOptions();
         setBreadQuestion();
         setNewQuestion();
+        initActivity();
 
 
 
@@ -74,11 +75,12 @@ public class bread extends AppCompatActivity {
 
         Random random = new Random();
         int index = random.nextInt(10); // 문제 index
-        correct = random.nextInt(3); // 정답 자리 index
+        // correct = random.nextInt(3); // 정답 자리 index
+        String correctReal = arrayOptions[0][3];
 
         tv_original.setText(arrayBreadQuestion[index]);
 //        btn_option[correct].setText(arrayOptions[index][index]);
-        btn_option[correct].setText(arrayOptions[index][correct]);
+        btn_option[Integer.parseInt(correctReal)].setText(arrayOptions[index][Integer.parseInt(correctReal)]);
         // 정답 보기 버튼을 index번 문제의 correct번 보기로 표시
 
         for (int i = 0; i < btn_option.length; i++) {
@@ -146,6 +148,7 @@ public class bread extends AppCompatActivity {
         arrayOptions[0][0] = "1-1 보기";
         arrayOptions[0][1] = "1-2 보기";
         arrayOptions[0][2] = "1-3 보기";
+        arrayOptions[0][3] = "정답보기 방번호";
 
         arrayOptions[1][0] = "2-1 보기";
         arrayOptions[1][1] = "2-2 보기";
