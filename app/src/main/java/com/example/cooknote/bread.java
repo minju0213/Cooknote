@@ -75,12 +75,11 @@ public class bread extends AppCompatActivity {
 
         Random random = new Random();
         int index = random.nextInt(10); // 문제 index
-        // correct = random.nextInt(3); // 정답 자리 index
-        String correctReal = arrayOptions[0][3];
+        correct = random.nextInt(3); // 정답 자리 index
 
         tv_original.setText(arrayBreadQuestion[index]);
 //        btn_option[correct].setText(arrayOptions[index][index]);
-        btn_option[Integer.parseInt(correctReal)].setText(arrayOptions[index][Integer.parseInt(correctReal)]);
+        btn_option[correct].setText(arrayOptions[index][correct]);
         // 정답 보기 버튼을 index번 문제의 correct번 보기로 표시
 
         for (int i = 0; i < btn_option.length; i++) {
