@@ -34,6 +34,7 @@
         <activity android:name=".Recipe">
         </activity>
 
+
         <!--퀘스챤 버튼들-->
         <activity android:name=".bread">
         </activity>
@@ -50,6 +51,7 @@
         <activity android:name=".drink">
         </activity>
 
+        <!--레시피-->
 
     </application>
 </manifest>

@@ -85,7 +85,7 @@ public class bread extends AppCompatActivity {
         for (int i = 0; i < btn_option.length; i++) {
             if (i != correct) {
 //                btn_option[i].setText(arrayOptions[index][random.nextInt(10)]);
-                btn_option[i].setText(arrayOptions[index][random.nextInt(3)]);
+                btn_option[i].setText(arrayOptions[index][i]);
                 // index번 문제의 1~3번 보기중 랜덤하게 표시되도록 변경
             }
         }
@@ -107,13 +107,13 @@ public class bread extends AppCompatActivity {
         btn_option[1] = (AppCompatButton) findViewById(R.id.btn_option2);
         btn_option[2] = (AppCompatButton) findViewById(R.id.btn_option3);
 
-        Intent intent = getIntent();
-        category = intent.getIntExtra("category", 1);
-        if (category == 1) {
-            setOptions();
-        } else {
-            finish();
-        }
+//        Intent intent = getIntent();
+//        category = intent.getIntExtra("category", 1);
+//        if (category == 1) {
+//            setOptions();
+//        } else {
+//            finish();
+//        }
 
         for (int i = 0; i < btn_option.length; i++) {
             int finalI = i;
@@ -130,7 +130,7 @@ public class bread extends AppCompatActivity {
 
 
     void setBreadQuestion() {
-        arrayBreadQuestion[0] = "질문1";
+        arrayBreadQuestion[0] = "초코쿠기의 반죽은?";
         arrayBreadQuestion[1] = "질문2";
         arrayBreadQuestion[2] = "질문3";
         arrayBreadQuestion[3] = "질문4";
@@ -144,12 +144,13 @@ public class bread extends AppCompatActivity {
 
     }
     void setOptions() {
-        arrayOptions[0][0] = "1-1 보기";
-        arrayOptions[0][1] = "1-2 보기";
-        arrayOptions[0][2] = "1-3 보기";
+        arrayOptions[0][0] = "양진선 바보";
+        arrayOptions[0][1] = "토마토 주스";
+        arrayOptions[0][2] = "밀가루";
+        arrayOptions[0][3] = "정답쓰";
         arrayOptions[0][3] = "정답보기 방번호";
 
-        arrayOptions[1][0] = "2-1 보기";
+        arrayOptions[1][0] = "ㅎㅎ";
         arrayOptions[1][1] = "2-2 보기";
         arrayOptions[1][2] = "2-3 보기";
 

@@ -4,12 +4,102 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="50dp"
-        android:text="종목별 레시피보기(종목 선택 창)"
-        android:textSize="20dp" />
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="0.5"
+            android:background="#00ff0000"
+            android:text="제빵"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01"
+            android:background="@drawable/bg_custom_button"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:background="#00ff0000"
+            android:textColor="#000000"
+            android:text="제과" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01"
+            android:background="@drawable/bg_custom_button"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:background="#00ff0000"
+            android:textColor="#000000"
+            android:text="양식" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01"
+            android:background="@drawable/bg_custom_button"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:background="#00ff0000"
+            android:textColor="#000000"
+            android:text="한식" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01"
+            android:background="@drawable/bg_custom_button"
+            android:orientation="vertical"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:background="#00ff0000"
+            android:textColor="#000000"
+            android:text="조주" />
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
 
 </LinearLayout>
