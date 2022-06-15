@@ -45,7 +45,7 @@ public class Question extends AppCompatActivity {
         bread_bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), bread.class);
+                Intent intent = new Intent(getApplicationContext(), Bread.class);
                 startActivity(intent);
             }
         });
@@ -54,7 +54,7 @@ public class Question extends AppCompatActivity {
         western_food_bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), western_food.class);
+                Intent intent = new Intent(getApplicationContext(), Western_food.class);
                 startActivity(intent);
             }
         });
@@ -63,7 +63,7 @@ public class Question extends AppCompatActivity {
         drink_bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), drink.class);
+                Intent intent = new Intent(getApplicationContext(), Drink.class);
                 startActivity(intent);
             }
         });

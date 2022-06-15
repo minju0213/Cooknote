@@ -36,7 +36,7 @@
 
 
         <!--퀘스챤 버튼들-->
-        <activity android:name=".bread">
+        <activity android:name=".Bread">
         </activity>
 
         <activity android:name=".Cookie">
@@ -45,10 +45,10 @@
         <activity android:name=".Korean_food">
         </activity>
 
-        <activity android:name=".western_food">
+        <activity android:name=".Western_food">
         </activity>
 
-        <activity android:name=".drink">
+        <activity android:name=".Drink">
         </activity>
 
         <!--레시피-->

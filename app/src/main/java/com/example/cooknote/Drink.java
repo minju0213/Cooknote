@@ -1,48 +1,38 @@
 package com.example.cooknote;
 
-import androidx.appcompat.widget.AppCompatButton;
-
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.TextView;
-
-import java.util.Random;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
-public class Bread extends AppCompatActivity {
+import java.util.Random;
 
-    /*
-    * 내꺼 코드 베이스로 문제 개수랑 보기개수에 맞게 잘 다듬었네 굿굿
-    * 2차원 배열 작은 실수 제외하면 논리적으로는 문제 없게 잘 고쳤어
-    * */
+public class Drink extends AppCompatActivity {
 
     TextView tv_original;
     int category, correct;
     AppCompatButton[] btn_option = new AppCompatButton[3];
-//    String[][] arrayOptions = new String[3][10];
+    //    String[][] arrayOptions = new String[3][10];
     String[][] arrayOptions = new String[10][4];
     // 10개의 문제의 3개의 보기라서 10개의 방을 가진 3개의 배열이 아닌 3개의 방을 가진 10개의 배열로 선언
     String[] arrayBreadQuestion = new String[10];
     int[] arrayCorrectIndex = new int[10];
 
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.bread);
+        setContentView(R.layout.drink);
         initActivity();
         setOptions();
         setBreadQuestion();
         setCorrectIndex();
         setNewQuestion();
-
-    }
+        }
 
     void chooseOption(int choose) {
         if (choose == correct) { // 정답을 맞췄을 경우
@@ -191,4 +181,3 @@ public class Bread extends AppCompatActivity {
     }
 
 }
-
