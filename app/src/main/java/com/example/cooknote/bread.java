@@ -29,6 +29,7 @@ public class bread extends AppCompatActivity {
     String[][] arrayOptions = new String[10][4];
     // 10개의 문제의 3개의 보기라서 10개의 방을 가진 3개의 배열이 아닌 3개의 방을 가진 10개의 배열로 선언
     String[] arrayBreadQuestion = new String[10];
+    int[] arrayCorrectIndex = new int[10];
 
 
     @Override
@@ -40,7 +41,7 @@ public class bread extends AppCompatActivity {
         setBreadQuestion();
         setNewQuestion();
         initActivity();
-
+        setCorrectIndex();
 
 
     }
@@ -75,7 +76,7 @@ public class bread extends AppCompatActivity {
 
         Random random = new Random();
         int index = random.nextInt(10); // 문제 index
-        correct = random.nextInt(3); // 정답 자리 index
+        correct = arrayCorrectIndex[index]; // 정답 자리 index
 
         tv_original.setText(arrayBreadQuestion[index]);
 //        btn_option[correct].setText(arrayOptions[index][index]);
@@ -147,8 +148,6 @@ public class bread extends AppCompatActivity {
         arrayOptions[0][0] = "양진선 바보";
         arrayOptions[0][1] = "토마토 주스";
         arrayOptions[0][2] = "밀가루";
-        arrayOptions[0][3] = "정답쓰";
-        arrayOptions[0][3] = "정답보기 방번호";
 
         arrayOptions[1][0] = "ㅎㅎ";
         arrayOptions[1][1] = "2-2 보기";
@@ -186,6 +185,20 @@ public class bread extends AppCompatActivity {
         arrayOptions[9][1] = "10-2 보기";
         arrayOptions[9][2] = "10-3 보기";
         // [~2][~10] -> [~10][~2] 로 변경
+    }
+
+    void setCorrectIndex() {
+        arrayCorrectIndex[0] = 1;
+        arrayCorrectIndex[1] = 0;
+        arrayCorrectIndex[2] = 2;
+        arrayCorrectIndex[3] = 0;
+        arrayCorrectIndex[4] = 1;
+        arrayCorrectIndex[5] = 2;
+        arrayCorrectIndex[6] = 1;
+        arrayCorrectIndex[7] = 1;
+        arrayCorrectIndex[8] = 0;
+        arrayCorrectIndex[9] = 2;
+
     }
 
 }
