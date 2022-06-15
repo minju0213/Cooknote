@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,43 +9,33 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="410dp"
-        android:layout_height="260dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="58dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_weight="4"
-
-        android:background="@drawable/problem"
         android:elevation="8dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tv_original"
-            android:layout_width="386dp"
-            android:layout_height="241dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
             android:gravity="center"
             android:includeFontPadding="false"
             android:text="문제"
             android:textColor="#292929"
-            android:textSize="50dp" />
+            android:textSize="30dp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="0dp"
-        android:layout_height="462dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginStart="2dp"
 
 
         android:layout_marginEnd="2dp"
-        android:layout_weight="3"
+        android:layout_weight="1.9"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,4 +76,4 @@
 
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

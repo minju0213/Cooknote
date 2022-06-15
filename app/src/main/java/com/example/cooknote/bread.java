@@ -39,10 +39,8 @@ public class bread extends AppCompatActivity {
         initActivity();
         setOptions();
         setBreadQuestion();
-        setNewQuestion();
-        initActivity();
         setCorrectIndex();
-
+        setNewQuestion();
 
     }
 
@@ -59,7 +57,6 @@ public class bread extends AppCompatActivity {
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
-//                    setBreadQuestion();
                     setNewQuestion();
                     // setBreadQuestion();은 배열에 값 넣어주는 메소드라 새로운 문제 내주는 코드로 수정
                 }
@@ -79,13 +76,11 @@ public class bread extends AppCompatActivity {
         correct = arrayCorrectIndex[index]; // 정답 자리 index
 
         tv_original.setText(arrayBreadQuestion[index]);
-//        btn_option[correct].setText(arrayOptions[index][index]);
         btn_option[correct].setText(arrayOptions[index][correct]);
         // 정답 보기 버튼을 index번 문제의 correct번 보기로 표시
 
         for (int i = 0; i < btn_option.length; i++) {
             if (i != correct) {
-//                btn_option[i].setText(arrayOptions[index][random.nextInt(10)]);
                 btn_option[i].setText(arrayOptions[index][i]);
                 // index번 문제의 1~3번 보기중 랜덤하게 표시되도록 변경
             }
@@ -96,7 +91,7 @@ public class bread extends AppCompatActivity {
         for (int i = 0; i < btn_option.length; i++) {
             btn_option[i].setBackgroundResource(R.drawable.study_base);
             btn_option[i].setText("");
-            btn_option[i].setTextColor(Color.parseColor("#B8E6E1"));
+            btn_option[i].setTextColor(Color.parseColor("#FD9F28"));
             btn_option[i].setClickable(true);
 
         }
@@ -108,13 +103,7 @@ public class bread extends AppCompatActivity {
         btn_option[1] = (AppCompatButton) findViewById(R.id.btn_option2);
         btn_option[2] = (AppCompatButton) findViewById(R.id.btn_option3);
 
-//        Intent intent = getIntent();
-//        category = intent.getIntExtra("category", 1);
-//        if (category == 1) {
-//            setOptions();
-//        } else {
-//            finish();
-//        }
+
 
         for (int i = 0; i < btn_option.length; i++) {
             int finalI = i;
