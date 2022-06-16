@@ -45,7 +45,7 @@
         <activity android:name=".Korean_food">
         </activity>
 
-        <activity android:name=".Western_food">
+        <activity android:name=".western_food">
         </activity>
 
         <activity android:name=".Drink">

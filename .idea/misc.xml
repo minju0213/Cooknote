@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/bg_custom_button.xml" value="0.1055" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/calendar_selector.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/recipe_btn_ripple_effect.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/study_base.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/study_correct.xml" value="0.15" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/study_wrong.xml" value="0.1" />
@@ -27,6 +28,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/recipe.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/recipe_cookie.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/western_food.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/wls_recipe.xml" value="0.1" />
         <entry key="..\:/Users/art10/StudioProjects/Cooknote/app/src/main/res/layout/activitiy_splash.xml" value="0.1" />
         <entry key="..\:/Users/art10/StudioProjects/Cooknote/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/art10/StudioProjects/Cooknote/app/src/main/res/layout/bread.xml" value="0.1" />

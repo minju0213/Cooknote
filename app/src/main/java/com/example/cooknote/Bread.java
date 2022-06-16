@@ -15,7 +15,7 @@ import java.util.Random;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class bread extends AppCompatActivity {
+public class Bread extends AppCompatActivity {
 
     /*
     * 내꺼 코드 베이스로 문제 개수랑 보기개수에 맞게 잘 다듬었네 굿굿

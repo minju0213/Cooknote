@@ -10,12 +10,12 @@
         android:orientation="horizontal">
 
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn1"
             android:layout_width="0dp"
             android:layout_height="58dp"
             android:layout_weight="0.5"
-            android:background="#00ff0000"
+            android:background="@drawable/recipe_btn_ripple_effect"
             android:text="제빵"
             android:textColor="#000000"
             android:textStyle="bold" />
@@ -28,13 +28,13 @@
             android:orientation="vertical">
         </LinearLayout>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn2"
             android:layout_width="0dp"
             android:layout_height="58dp"
             android:layout_weight="0.5"
             android:textStyle="bold"
-            android:background="#00ff0000"
+            android:background="@drawable/recipe_btn_ripple_effect"
             android:textColor="#000000"
             android:text="제과" />
 
@@ -46,13 +46,13 @@
             android:orientation="vertical">
         </LinearLayout>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn3"
             android:layout_width="0dp"
             android:layout_height="58dp"
             android:layout_weight="0.5"
             android:textStyle="bold"
-            android:background="#00ff0000"
+            android:background="@drawable/recipe_btn_ripple_effect"
             android:textColor="#000000"
             android:text="양식" />
 
@@ -64,13 +64,13 @@
             android:orientation="vertical">
         </LinearLayout>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn4"
             android:layout_width="0dp"
             android:layout_height="58dp"
             android:layout_weight="0.5"
             android:textStyle="bold"
-            android:background="#00ff0000"
+            android:background="@drawable/recipe_btn_ripple_effect"
             android:textColor="#000000"
             android:text="한식" />
 
@@ -81,13 +81,13 @@
             android:background="@drawable/bg_custom_button"
             android:orientation="vertical"></LinearLayout>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn5"
             android:layout_width="0dp"
             android:layout_height="58dp"
             android:layout_weight="0.5"
             android:textStyle="bold"
-            android:background="#00ff0000"
+            android:background="@drawable/recipe_btn_ripple_effect"
             android:textColor="#000000"
             android:text="조주" />
 
@@ -99,7 +99,14 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/homirfan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></ImageButton>
+
+    </FrameLayout>
 
 
 </LinearLayout>
