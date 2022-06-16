@@ -16,6 +16,7 @@
             android:layout_height="58dp"
             android:layout_weight="0.5"
 
+
             android:background="@drawable/recipe_btn_ripple_effect"
             android:text="제빵"
             android:textColor="#000000"

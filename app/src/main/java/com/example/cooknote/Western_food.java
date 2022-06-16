@@ -22,6 +22,7 @@ public class Western_food extends AppCompatActivity {
      * 2차원 배열 작은 실수 제외하면 논리적으로는 문제 없게 잘 고쳤어
      * */
 
+
     TextView tv_original;
     int category, correct;
     AppCompatButton[] btn_option = new AppCompatButton[3];
