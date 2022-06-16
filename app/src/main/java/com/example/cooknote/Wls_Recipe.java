@@ -1,4 +1,6 @@
 package com.example.cooknote;
 
-public class Wls_Recipe {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Wls_Recipe extends AppCompatActivity {
 }
