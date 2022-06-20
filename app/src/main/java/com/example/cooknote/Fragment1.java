@@ -16,9 +16,47 @@ public class Fragment1 extends Fragment {
     }
 
     @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
-
+//        setBtn();
     }
+/*
+    //    카테고리
+//    1 = 히라가나, 2 = 가타카나
+    void setBtn() {
+        rye_bread_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startStudyActivity(1);
+            }
+        });
+        btn_hiragana_test.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startTestActivity(1);
+            }
+        });
+        btn_gatakana_study.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startStudyActivity(2);
+            }
+        });
+        btn_gatakana_test.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startTestActivity(2);
+            }
+        });
+        btn_daara.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startChatBotActivity();
+            }
+        });
+    }
+
+ */
+
 }
