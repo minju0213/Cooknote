@@ -134,59 +134,59 @@ public class Bread extends AppCompatActivity {
 
     }
     void setOptions() {
-        arrayOptions[0][0] = "양진선 바보";
-        arrayOptions[0][1] = "토마토 주스";
-        arrayOptions[0][2] = "밀가루";
+        arrayOptions[0][0] = "호밀빵";
+        arrayOptions[0][1] = "풀먼식빵";
+        arrayOptions[0][2] = "단팥빵";
 
-        arrayOptions[1][0] = "ㅎㅎ";
-        arrayOptions[1][1] = "2-2 보기";
-        arrayOptions[1][2] = "2-3 보기";
+        arrayOptions[1][0] = "160~175℃";
+        arrayOptions[1][1] = "175~185℃";
+        arrayOptions[1][2] = "185~195℃";
 
-        arrayOptions[2][0] = "3-1 보기";
-        arrayOptions[2][1] = "3-2 보기";
-        arrayOptions[2][2] = "3-3 보기";
+        arrayOptions[2][0] = "소보루 < 밤식빵 < 모카빵";
+        arrayOptions[2][1] = "모카빵 < 밤식빵 < 소보루";
+        arrayOptions[2][2] = "소보루 < 모카빵 < 밤식빵";
 
-        arrayOptions[3][0] = "4-1 보기";
-        arrayOptions[3][1] = "4-2 보기";
-        arrayOptions[3][2] = "4-3 보기";
+        arrayOptions[3][0] = "발전 단계";
+        arrayOptions[3][1] = "최종 단계";
+        arrayOptions[3][2] = "렛다운 단계";
 
-        arrayOptions[4][0] = "5-1 보기";
-        arrayOptions[4][1] = "5-2 보기";
-        arrayOptions[4][2] = "5-3 보기";
+        arrayOptions[4][0] = "앙금을 분할 후 맨손으로 둥글리기 해선 안된다.";
+        arrayOptions[4][1] = "팽이 사용 후 물로 설거지해야 한다.";
+        arrayOptions[4][2] = "앙금이 묻은 헤라를 작업대에 내려놓으면 안 된다.";
 
-        arrayOptions[5][0] = "6-1 보기";
-        arrayOptions[5][1] = "6-2 보기";
-        arrayOptions[5][2] = "6-3 보기";
+        arrayOptions[5][0] = "풀먼식빵";
+        arrayOptions[5][1] = "밤식빵";
+        arrayOptions[5][2] = "우유식빵";
 
-        arrayOptions[6][0] = "7-1 보기";
-        arrayOptions[6][1] = "7-2 보기";
-        arrayOptions[6][2] = "7-3 보기";
+        arrayOptions[6][0] = "비상식빵";
+        arrayOptions[6][1] = "스위트롤";
+        arrayOptions[6][2] = "그리시니";
 
-        arrayOptions[7][0] = "8-1 보기";
-        arrayOptions[7][1] = "8-2 보기";
-        arrayOptions[7][2] = "8-3 보기";
+        arrayOptions[7][0] = "25-30cm";
+        arrayOptions[7][1] = "35-40cm";
+        arrayOptions[7][2] = "45-50cm";
 
-        arrayOptions[8][0] = "9-1 보기";
-        arrayOptions[8][1] = "9-2 보기";
-        arrayOptions[8][2] = "9-3 보기";
+        arrayOptions[8][0] = "반죽의 부피가 약 2배 정도 늘어나고 망사 그물 구조(거미줄)가 생겼는지 확인한다.";
+        arrayOptions[8][1] = "핑거 테스트를 진행한다.";
+        arrayOptions[8][2] = "반죽의 향과 색감을 보고 확인한다.";
 
-        arrayOptions[9][0] = "10-1 보기";
-        arrayOptions[9][1] = "10-2 보기";
-        arrayOptions[9][2] = "10-3 보기";
+        arrayOptions[9][0] = "빵도넛";
+        arrayOptions[9][1] = "베이글";
+        arrayOptions[9][2] = "더치빵";
         // [~2][~10] -> [~10][~2] 로 변경
     }
 
     void setCorrectIndex() {
-        arrayCorrectIndex[0] = 1;
-        arrayCorrectIndex[1] = 0;
+        arrayCorrectIndex[0] = 0;
+        arrayCorrectIndex[1] = 1;
         arrayCorrectIndex[2] = 2;
         arrayCorrectIndex[3] = 0;
-        arrayCorrectIndex[4] = 1;
+        arrayCorrectIndex[4] = 2;
         arrayCorrectIndex[5] = 2;
-        arrayCorrectIndex[6] = 1;
+        arrayCorrectIndex[6] = 0;
         arrayCorrectIndex[7] = 1;
-        arrayCorrectIndex[8] = 0;
-        arrayCorrectIndex[9] = 2;
+        arrayCorrectIndex[8] = 2;
+        arrayCorrectIndex[9] = 1;
 
     }
 
