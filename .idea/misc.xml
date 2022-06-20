@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/bg_custom_button.xml" value="0.1055" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/calendar_selector.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/recipe_btn_custom.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/recipe_btn_ripple_effect.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/study_base.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/study_correct.xml" value="0.15" />
@@ -18,7 +19,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/drink.xml" value="0.2246376811594203" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/fragment1.xml" value="0.12310030395136778" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/fragment2.xml" value="0.12259371833839919" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/fragment_1.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/fragment_1.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/fragment_2.xml" value="0.2105978260869565" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/fragment_3.xml" value="0.2105978260869565" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/fragment_4.xml" value="0.15881147540983606" />

@@ -15,8 +15,6 @@
             android:layout_width="0dp"
             android:layout_height="58dp"
             android:layout_weight="0.5"
-
-
             android:background="@drawable/recipe_btn_ripple_effect"
             android:text="제빵"
             android:textColor="#000000"
@@ -101,12 +99,9 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" >
+        android:layout_weight="1">
 
-        <ImageButton
-            android:id="@+id/homirfan"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"></ImageButton>
+
 
     </FrameLayout>
 
