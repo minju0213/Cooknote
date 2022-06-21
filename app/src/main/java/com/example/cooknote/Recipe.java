@@ -96,22 +96,21 @@ public class Recipe extends AppCompatActivity {
         btn_western_food = findViewById(R.id.btn3);
         btn_korean_food = findViewById(R.id.btn4);
         btn_drink = findViewById(R.id.btn5);
-        btn[0] = findViewById(R.id.rye_bread_btn);
-        btn[1] = findViewById(R.id.rye_bread_btn1);
-        btn[2] = findViewById(R.id.rye_bread_btn2);
-        btn[3] = findViewById(R.id.rye_bread_btn3);
-        btn[4] = findViewById(R.id.rye_bread_btn4);
-        btn[5] = findViewById(R.id.rye_bread_btn5);
-        btn[6] = findViewById(R.id.rye_bread_btn6);
-        btn[7] = findViewById(R.id.rye_bread_btn7);
-        btn[8] = findViewById(R.id.rye_bread_btn8);
-        btn[9] = findViewById(R.id.rye_bread_btn9);
+        btn[0] = findViewById(R.id.bread_recipe_btn1);
+        btn[1] = findViewById(R.id.bread_recipe_btn2);
+        btn[2] = findViewById(R.id.bread_recipe_btn3);
+        btn[3] = findViewById(R.id.bread_recipe_btn4);
+        btn[4] = findViewById(R.id.bread_recipe_btn5);
+        btn[5] = findViewById(R.id.bread_recipe_btn6);
+        btn[6] = findViewById(R.id.bread_recipe_btn7);
+        btn[7] = findViewById(R.id.bread_recipe_btn8);
+        btn[8] = findViewById(R.id.bread_recipe_btn9);
+        btn[9] = findViewById(R.id.bread_recipe_btn10);
     }
     void set_make_bread () {
         for (int i = 0; i < 10; i++){
             final int a = i;
-            Log.d("TAG", "set_make_bread: ");
-            if (i >= 0 && i <= 1){
+            if (i >= 0 && i <= 9){
                 btn[a].setVisibility(View.VISIBLE);
 
             } else {
@@ -124,7 +123,7 @@ public class Recipe extends AppCompatActivity {
 
     void set_make_cookie () {
         for (int i = 0; i < 10; i++){
-            if (i >= 2 && i <= 3){
+            if (i >= 10 && i <= 19){
                 btn[i].setVisibility(View.VISIBLE);
 
             } else {
@@ -137,7 +136,7 @@ public class Recipe extends AppCompatActivity {
 
     void set_make_western_food () {
         for (int i = 0; i < 10; i++){
-            if (i >= 4 && i <= 5){
+            if (i >= 20 && i <= 29){
                 btn[i].setVisibility(View.VISIBLE);
 
             } else {
@@ -150,7 +149,7 @@ public class Recipe extends AppCompatActivity {
 
     void set_make_korean_food () {
         for (int i = 0; i < 10; i++){
-            if (i >= 6 && i <= 7){
+            if (i >= 30 && i <= 39){
                 btn[i].setVisibility(View.VISIBLE);
 
             } else {
@@ -163,7 +162,7 @@ public class Recipe extends AppCompatActivity {
 
     void set_make_drink () {
         for (int i = 0; i < 10; i++){
-            if (i >= 8 && i <= 9){
+            if (i >= 40 && i <= 49){
                 btn[i].setVisibility(View.VISIBLE);
 
             } else {

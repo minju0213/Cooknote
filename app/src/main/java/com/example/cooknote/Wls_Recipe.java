@@ -24,16 +24,14 @@ public class Wls_Recipe extends AppCompatActivity {
         test.setText(tittle);
 
 
-
     }
 
     void initActivity() {
         Intent intent = getIntent();
-        category =intent.getStringExtra("category");
-        Log.d("TAG",category);
-        if (category.equals("호밀빵") ) {
+        category = intent.getStringExtra("category");
+        if (category.equals("호밀빵")) {
             set_rye_bread();
-        } else if(category.equals("제과")) {
+        } else if (category.equals("제과")) {
             setCookieRecipe();
         } else {
             finish();
@@ -42,13 +40,12 @@ public class Wls_Recipe extends AppCompatActivity {
     }
 
     void set_rye_bread() {
-       tittle = "호밀빵";
+        tittle = "호밀빵";
     }
 
     void setCookieRecipe() {
 
     }
-
 
 
 }
