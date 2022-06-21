@@ -25,54 +25,51 @@
             android:layout_height="match_parent"
             android:layout_weight="0.01"
             android:background="@drawable/bg_custom_button"
-            android:orientation="vertical">
-        </LinearLayout>
+            android:orientation="vertical"></LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn2"
             android:layout_width="0dp"
             android:layout_height="58dp"
             android:layout_weight="0.5"
-            android:textStyle="bold"
             android:background="@drawable/recipe_btn_ripple_effect"
+            android:text="제과"
             android:textColor="#000000"
-            android:text="제과" />
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="0.01"
             android:background="@drawable/bg_custom_button"
-            android:orientation="vertical">
-        </LinearLayout>
+            android:orientation="vertical"></LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn3"
             android:layout_width="0dp"
             android:layout_height="58dp"
             android:layout_weight="0.5"
-            android:textStyle="bold"
             android:background="@drawable/recipe_btn_ripple_effect"
+            android:text="양식"
             android:textColor="#000000"
-            android:text="양식" />
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="0.01"
             android:background="@drawable/bg_custom_button"
-            android:orientation="vertical">
-        </LinearLayout>
+            android:orientation="vertical"></LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn4"
             android:layout_width="0dp"
             android:layout_height="58dp"
             android:layout_weight="0.5"
-            android:textStyle="bold"
             android:background="@drawable/recipe_btn_ripple_effect"
+            android:text="한식"
             android:textColor="#000000"
-            android:text="한식" />
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -86,24 +83,154 @@
             android:layout_width="0dp"
             android:layout_height="58dp"
             android:layout_weight="0.5"
-            android:textStyle="bold"
             android:background="@drawable/recipe_btn_ripple_effect"
+            android:text="조주"
             android:textColor="#000000"
-            android:text="조주" />
+            android:textStyle="bold" />
 
 
     </LinearLayout>
 
-
-    <FrameLayout
-        android:id="@+id/fragment_container"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_height="wrap_content">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
+            <Button
+                android:id="@+id/rye_bread_btn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/recipe_btn_arrow"
+                android:drawablePadding="30dp"
+                android:gravity="left|center_vertical"
+                android:text="빵도넛"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
 
-    </FrameLayout>
+            <Button
+                android:id="@+id/rye_bread_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/recipe_btn_arrow"
+                android:drawablePadding="30dp"
+                android:gravity="left|center_vertical"
+                android:text="옹졸쓰 호밀빵"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
 
+            <Button
+                android:id="@+id/rye_bread_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/recipe_btn_arrow"
+                android:drawablePadding="30dp"
+                android:gravity="left|center_vertical"
+                android:text="제과"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rye_bread_btn3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/recipe_btn_arrow"
+                android:drawablePadding="30dp"
+                android:gravity="left|center_vertical"
+                android:text="옹졸쓰 호밀빵"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rye_bread_btn4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/recipe_btn_arrow"
+                android:drawablePadding="30dp"
+                android:gravity="left|center_vertical"
+                android:text="양식"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rye_bread_btn5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/recipe_btn_arrow"
+                android:drawablePadding="30dp"
+                android:gravity="left|center_vertical"
+                android:text="옹졸쓰 호밀빵"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rye_bread_btn6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/recipe_btn_arrow"
+                android:drawablePadding="30dp"
+                android:gravity="left|center_vertical"
+                android:text="한식"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rye_bread_btn7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/recipe_btn_arrow"
+                android:drawablePadding="30dp"
+                android:gravity="left|center_vertical"
+                android:text="옹졸쓰 호밀빵"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rye_bread_btn8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/recipe_btn_arrow"
+                android:drawablePadding="30dp"
+                android:gravity="left|center_vertical"
+                android:text="조주"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rye_bread_btn9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/recipe_btn_arrow"
+                android:drawablePadding="30dp"
+                android:gravity="left|center_vertical"
+                android:text="옹졸쓰 호밀빵"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

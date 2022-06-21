@@ -1,6 +1,8 @@
 package com.example.cooknote;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,111 +19,164 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
 public class Recipe extends AppCompatActivity {
-    private final int Fragment_1 = 1;
-    private final int Fragment_2 = 2;
-    private final int Fragment_3 = 3;
-    private final int Fragment_4 = 4;
-    private final int Fragment_5 = 5;
+
+    Button btn[] = new Button[10];
+    Button btn_bread,btn_cookie,btn_western_food,btn_drink,btn_korean_food;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recipe);
+        init();
+        set_make_bread();
+        setBtn();
 
 // Fragment1
-        findViewById(R.id.btn1).setOnClickListener(new View.OnClickListener() {
+        btn_bread.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                set_make_bread();
 
-                FragmentView(Fragment_1);
+
 
             }
         });
 
 // Fragment2
-        findViewById(R.id.btn2).setOnClickListener(new View.OnClickListener() {
+        btn_cookie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FragmentView(Fragment_2);
+                set_make_cookie();
 
 
             }
         });
 // Fragment3
-        findViewById(R.id.btn3).setOnClickListener(new View.OnClickListener() {
+        btn_western_food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FragmentView(Fragment_3);
+               set_make_western_food();
 
 
             }
         });
 // Fragment4
-        findViewById(R.id.btn4).setOnClickListener(new View.OnClickListener() {
+        btn_korean_food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FragmentView(Fragment_4);
+               set_make_korean_food();
 
 
             }
         });
 // Fragment5
-        findViewById(R.id.btn5).setOnClickListener(new View.OnClickListener() {
+       btn_drink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FragmentView(Fragment_5);
+                set_make_drink();
 
 
             }
         });
 
-        FragmentView(Fragment_1);
+
+    }
+    void setBtn() {
+        btn[0].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("호밀빵");
+            }
+        });
     }
 
-    private void FragmentView(int fragment){
+    void init () {
+        btn_bread = findViewById(R.id.btn1);
+        btn_cookie = findViewById(R.id.btn2);
+        btn_western_food = findViewById(R.id.btn3);
+        btn_korean_food = findViewById(R.id.btn4);
+        btn_drink = findViewById(R.id.btn5);
+        btn[0] = findViewById(R.id.rye_bread_btn);
+        btn[1] = findViewById(R.id.rye_bread_btn1);
+        btn[2] = findViewById(R.id.rye_bread_btn2);
+        btn[3] = findViewById(R.id.rye_bread_btn3);
+        btn[4] = findViewById(R.id.rye_bread_btn4);
+        btn[5] = findViewById(R.id.rye_bread_btn5);
+        btn[6] = findViewById(R.id.rye_bread_btn6);
+        btn[7] = findViewById(R.id.rye_bread_btn7);
+        btn[8] = findViewById(R.id.rye_bread_btn8);
+        btn[9] = findViewById(R.id.rye_bread_btn9);
+    }
+    void set_make_bread () {
+        for (int i = 0; i < 10; i++){
+            final int a = i;
+            Log.d("TAG", "set_make_bread: ");
+            if (i >= 0 && i <= 1){
+                btn[a].setVisibility(View.VISIBLE);
 
-        //FragmentTransactiom를 이용해 프래그먼트를 사용합니다.
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-
-        switch (fragment){
-            case 1:
-                // 첫번 째 프래그먼트 호출
-                Fragment1 fragment1 = new Fragment1();
-                transaction.replace(R.id.fragment_container, fragment1);
-                transaction.commit();
-                break;
-
-            case 2:
-                // 두번 째 프래그먼트 호출
-                Fragment2 fragment2 = new Fragment2();
-                transaction.replace(R.id.fragment_container, fragment2);
-                transaction.commit();
-                break;
-
-            case 3:
-                // 세번 째 프래그먼트 호출
-                Fragment3 fragment3 = new Fragment3();
-                transaction.replace(R.id.fragment_container, fragment3);
-                transaction.commit();
-                break;
-
-            case 4:
-                // 세번 째 프래그먼트 호출
-                Fragment4 fragment4 = new Fragment4();
-                transaction.replace(R.id.fragment_container, fragment4);
-                transaction.commit();
-                break;
-
-            case 5:
-                // 세번 째 프래그먼트 호출
-                Fragment5 fragment5 = new Fragment5();
-                transaction.replace(R.id.fragment_container, fragment5);
-                transaction.commit();
-                break;
-
-
+            } else {
+                btn[a].setVisibility(View.GONE);
+            }
         }
 
+    }
+
+
+    void set_make_cookie () {
+        for (int i = 0; i < 10; i++){
+            if (i >= 2 && i <= 3){
+                btn[i].setVisibility(View.VISIBLE);
+
+            } else {
+                btn[i].setVisibility(View.GONE);
+            }
+        }
+
+    }
+
+
+    void set_make_western_food () {
+        for (int i = 0; i < 10; i++){
+            if (i >= 4 && i <= 5){
+                btn[i].setVisibility(View.VISIBLE);
+
+            } else {
+                btn[i].setVisibility(View.GONE);
+            }
+        }
+
+    }
+
+
+    void set_make_korean_food () {
+        for (int i = 0; i < 10; i++){
+            if (i >= 6 && i <= 7){
+                btn[i].setVisibility(View.VISIBLE);
+
+            } else {
+                btn[i].setVisibility(View.GONE);
+            }
+        }
+
+    }
+
+
+    void set_make_drink () {
+        for (int i = 0; i < 10; i++){
+            if (i >= 8 && i <= 9){
+                btn[i].setVisibility(View.VISIBLE);
+
+            } else {
+                btn[i].setVisibility(View.GONE);
+            }
+        }
+
+    }
+
+    void Wls_Recipe(String category) {
+        Intent intent = new Intent(Recipe.this, Wls_Recipe.class);
+        intent.putExtra("category",category);
+        startActivity(intent);
     }
 }
 

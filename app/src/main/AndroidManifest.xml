@@ -45,13 +45,14 @@
         <activity android:name=".Korean_food">
         </activity>
 
-        <activity android:name=".western_food">
+        <activity android:name=".Western_food">
         </activity>
 
         <activity android:name=".Drink">
         </activity>
 
         <!--레시피-->
-
+        <activity android:name=".Wls_Recipe">
+        </activity>
     </application>
 </manifest>
