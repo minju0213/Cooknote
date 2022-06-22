@@ -20,7 +20,7 @@ import androidx.viewpager2.widget.ViewPager2;
 
 public class Recipe extends AppCompatActivity {
 
-    Button btn[] = new Button[20];
+    Button btn[] = new Button[21];
     Button btn_bread,btn_cookie,btn_western_food,btn_drink,btn_korean_food;
 
     @Override
@@ -29,7 +29,6 @@ public class Recipe extends AppCompatActivity {
         setContentView(R.layout.recipe);
         init();
         set_make_bread();
-        set_make_cookie();
         setBtn();
 
 // Bread
@@ -47,7 +46,7 @@ public class Recipe extends AppCompatActivity {
         btn_cookie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                set_make_cookie();
+               set_make_cookie();
 
 
             }
@@ -110,28 +109,34 @@ public class Recipe extends AppCompatActivity {
 
         btn[10] = findViewById(R.id.cookie_recipe_btn1);
         btn[11] = findViewById(R.id.cookie_recipe_btn2);
+        btn[12] = findViewById(R.id.cookie_recipe_btn3);
     }
     void set_make_bread () {
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 13; i++){
             if (i >= 0 && i <= 9){
+//                btn[10].setVisibility(View.GONE);
+//                btn[11].setVisibility(View.GONE);
                 btn[i].setVisibility(View.VISIBLE);
+
 
             } else {
                 btn[i].setVisibility(View.GONE);
             }
+
         }
 
     }
 
 
     void set_make_cookie () {
-        for (int i = 0; i < 10; i++){
-            if (i >= 10 && i <= 19){
+        for (int i = 10; i < 13; i++){
+            if (i >= 10 && i <= 12){
                 btn[i].setVisibility(View.VISIBLE);
 
             } else {
                 btn[i].setVisibility(View.GONE);
             }
+
         }
 
     }
