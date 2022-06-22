@@ -29,6 +29,7 @@ public class Recipe extends AppCompatActivity {
         setContentView(R.layout.recipe);
         init();
         set_make_bread();
+        set_make_cookie();
         setBtn();
 
 // Bread
@@ -107,7 +108,8 @@ public class Recipe extends AppCompatActivity {
         btn[8] = findViewById(R.id.bread_recipe_btn9);
         btn[9] = findViewById(R.id.bread_recipe_btn10);
 
-        btn[10] = findViewById(R.id.cookie_recipe_btn11);
+        btn[10] = findViewById(R.id.cookie_recipe_btn1);
+        btn[11] = findViewById(R.id.cookie_recipe_btn2);
     }
     void set_make_bread () {
         for (int i = 0; i < 10; i++){

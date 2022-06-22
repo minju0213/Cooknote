@@ -16,26 +16,10 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <!--1번줄 -->
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-            <Button
-                android:fontFamily="@font/blackhansans_regular"
-                android:paddingLeft="25dp"
-                android:paddingTop="8dp"
-                android:id="@+id/cookie_recipe_btn11"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginTop="20dp"
-                android:layout_weight="2"
-                android:background="#ABFF9800"
-                android:drawableRight="@drawable/recipe_btn_arrow"
-                android:gravity="left|center_vertical"
-                android:text="초코머핀"
-                android:textColor="@color/white"
-                android:textSize="28dp" />
-
-
 
             <Button
                 android:fontFamily="@font/blackhansans_regular"
@@ -45,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:background="#ABFF9800"
                 android:drawableRight="@drawable/recipe_btn_arrow"
                 android:gravity="left|center_vertical"
@@ -53,7 +37,29 @@
                 android:textColor="@color/white"
                 android:textSize="28dp" />
 
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/cookie_recipe_btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="초코머핀"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
             </FrameLayout>
+
+            <!--2번줄 -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
             <Button
                 android:fontFamily="@font/blackhansans_regular"
                 android:paddingLeft="25dp"
@@ -69,6 +75,24 @@
                 android:text="소시지빵"
                 android:textColor="@color/white"
                 android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/cookie_recipe_btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="버터스펀지 케이크"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+            </FrameLayout>
 
             <Button
                 android:fontFamily="@font/blackhansans_regular"
