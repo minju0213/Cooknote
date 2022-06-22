@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
     // id:onButton 눌렀을 때 자격증 사이트로 연결
     public void DateGO_bt(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://engineering-mino.tistory.com/44"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.q-net.or.kr/crf021.do?id=crf02101&gSite=Q&gId=&tabGb=sang"));
         startActivity(intent);
     }
 

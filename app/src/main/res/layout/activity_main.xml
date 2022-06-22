@@ -33,13 +33,15 @@
 
     <ImageButton
         android:id="@+id/DateGO_bt"
+        android:onClick="DateGO_bt"
         android:layout_width="291dp"
         android:layout_height="107dp"
         android:layout_marginTop="45dp"
         android:background="@android:color/transparent"
         android:padding="0sp"
         android:scaleType="centerCrop"
-        android:src="@drawable/date_go" />
+        android:src="@drawable/date_go"
+        tools:ignore="OnClick" />
 
     <ImageButton
         android:id="@+id/Recipe_bt"

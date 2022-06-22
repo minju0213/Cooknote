@@ -20,7 +20,7 @@ import androidx.viewpager2.widget.ViewPager2;
 
 public class Recipe extends AppCompatActivity {
 
-    Button btn[] = new Button[10];
+    Button btn[] = new Button[20];
     Button btn_bread,btn_cookie,btn_western_food,btn_drink,btn_korean_food;
 
     @Override
@@ -31,7 +31,7 @@ public class Recipe extends AppCompatActivity {
         set_make_bread();
         setBtn();
 
-// Fragment1
+// Bread
         btn_bread.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,7 +42,7 @@ public class Recipe extends AppCompatActivity {
             }
         });
 
-// Fragment2
+// Cookie
         btn_cookie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -51,7 +51,7 @@ public class Recipe extends AppCompatActivity {
 
             }
         });
-// Fragment3
+// Western_food
         btn_western_food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -60,7 +60,7 @@ public class Recipe extends AppCompatActivity {
 
             }
         });
-// Fragment4
+// Korean_food
         btn_korean_food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -69,7 +69,7 @@ public class Recipe extends AppCompatActivity {
 
             }
         });
-// Fragment5
+// Drink
        btn_drink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -106,15 +106,16 @@ public class Recipe extends AppCompatActivity {
         btn[7] = findViewById(R.id.bread_recipe_btn8);
         btn[8] = findViewById(R.id.bread_recipe_btn9);
         btn[9] = findViewById(R.id.bread_recipe_btn10);
+
+        btn[10] = findViewById(R.id.cookie_recipe_btn11);
     }
     void set_make_bread () {
         for (int i = 0; i < 10; i++){
-            final int a = i;
             if (i >= 0 && i <= 9){
-                btn[a].setVisibility(View.VISIBLE);
+                btn[i].setVisibility(View.VISIBLE);
 
             } else {
-                btn[a].setVisibility(View.GONE);
+                btn[i].setVisibility(View.GONE);
             }
         }
 
