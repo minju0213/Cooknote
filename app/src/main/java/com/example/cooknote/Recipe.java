@@ -110,12 +110,17 @@ public class Recipe extends AppCompatActivity {
         btn[10] = findViewById(R.id.cookie_recipe_btn1);
         btn[11] = findViewById(R.id.cookie_recipe_btn2);
         btn[12] = findViewById(R.id.cookie_recipe_btn3);
+        btn[13] = findViewById(R.id.cookie_recipe_btn4);
+        btn[14] = findViewById(R.id.cookie_recipe_btn5);
+        btn[15] = findViewById(R.id.cookie_recipe_btn6);
+        btn[16] = findViewById(R.id.cookie_recipe_btn7);
+        btn[17] = findViewById(R.id.cookie_recipe_btn8);
+        btn[18] = findViewById(R.id.cookie_recipe_btn9);
+        btn[19] = findViewById(R.id.cookie_recipe_btn10);
     }
     void set_make_bread () {
-        for (int i = 0; i < 13; i++){
+        for (int i = 0; i < 19; i++){
             if (i >= 0 && i <= 9){
-//                btn[10].setVisibility(View.GONE);
-//                btn[11].setVisibility(View.GONE);
                 btn[i].setVisibility(View.VISIBLE);
 
 
@@ -129,8 +134,8 @@ public class Recipe extends AppCompatActivity {
 
 
     void set_make_cookie () {
-        for (int i = 10; i < 13; i++){
-            if (i >= 10 && i <= 12){
+        for (int i = 10; i < 19; i++){
+            if (i >= 10 && i <= 19){
                 btn[i].setVisibility(View.VISIBLE);
 
             } else {
