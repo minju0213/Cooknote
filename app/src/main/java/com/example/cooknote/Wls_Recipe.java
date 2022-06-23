@@ -12,16 +12,16 @@ public class Wls_Recipe extends AppCompatActivity {
 
     String category;
     String tittle;
-    TextView test;
+    TextView recipe_text1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.wls_recipe);
-        test = findViewById(R.id.testasd);
+        recipe_text1 = findViewById(R.id.recipe_text1);
         initActivity();
 
-        test.setText(tittle);
+        recipe_text1.setText(tittle);
 
 
     }
@@ -29,8 +29,8 @@ public class Wls_Recipe extends AppCompatActivity {
     void initActivity() {
         Intent intent = getIntent();
         category = intent.getStringExtra("category");
-        if (category.equals("호밀빵")) {
-            set_rye_bread();
+        if (category.equals("빵도넛")) {
+            bread_recipe_1();
         } else if (category.equals("제과")) {
             setCookieRecipe();
         } else {
@@ -39,13 +39,11 @@ public class Wls_Recipe extends AppCompatActivity {
 
     }
 
-    void set_rye_bread() {
-        tittle = "호밀빵";
+    void bread_recipe_1() {
+        tittle = "빵도넛입니다";
     }
 
-    void setCookieRecipe() {
-
-    }
+    void setCookieRecipe() { tittle = "초코머핀"; }
 
 
 }

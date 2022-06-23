@@ -20,7 +20,7 @@ import androidx.viewpager2.widget.ViewPager2;
 
 public class Recipe extends AppCompatActivity {
 
-    Button btn[] = new Button[21];
+    Button btn[] = new Button[51];
     Button btn_bread,btn_cookie,btn_western_food,btn_drink,btn_korean_food;
 
     @Override
@@ -85,7 +85,7 @@ public class Recipe extends AppCompatActivity {
         btn[0].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("호밀빵");
+                Wls_Recipe("빵도넛");
             }
         });
     }
@@ -117,9 +117,42 @@ public class Recipe extends AppCompatActivity {
         btn[17] = findViewById(R.id.cookie_recipe_btn8);
         btn[18] = findViewById(R.id.cookie_recipe_btn9);
         btn[19] = findViewById(R.id.cookie_recipe_btn10);
+
+        btn[20] = findViewById(R.id.western_food_recipe_btn1);
+        btn[21] = findViewById(R.id.western_food_recipe_btn2);
+        btn[22] = findViewById(R.id.western_food_recipe_btn3);
+        btn[23] = findViewById(R.id.western_food_recipe_btn4);
+        btn[24] = findViewById(R.id.western_food_recipe_btn5);
+        btn[25] = findViewById(R.id.western_food_recipe_btn6);
+        btn[26] = findViewById(R.id.western_food_recipe_btn7);
+        btn[27] = findViewById(R.id.western_food_recipe_btn8);
+        btn[28] = findViewById(R.id.western_food_recipe_btn9);
+        btn[29] = findViewById(R.id.western_food_recipe_btn10);
+
+        btn[30] = findViewById(R.id.korean_food_recipe_btn1);
+        btn[31] = findViewById(R.id.korean_food_recipe_btn2);
+        btn[32] = findViewById(R.id.korean_food_recipe_btn3);
+        btn[33] = findViewById(R.id.korean_food_recipe_btn4);
+        btn[34] = findViewById(R.id.korean_food_recipe_btn5);
+        btn[35] = findViewById(R.id.korean_food_recipe_btn6);
+        btn[36] = findViewById(R.id.korean_food_recipe_btn7);
+        btn[37] = findViewById(R.id.korean_food_recipe_btn8);
+        btn[38] = findViewById(R.id.korean_food_recipe_btn9);
+        btn[39] = findViewById(R.id.korean_food_recipe_btn10);
+
+        btn[40] = findViewById(R.id.drink_food_recipe_btn1);
+        btn[41] = findViewById(R.id.drink_food_recipe_btn2);
+        btn[42] = findViewById(R.id.drink_food_recipe_btn3);
+        btn[43] = findViewById(R.id.drink_food_recipe_btn4);
+        btn[44] = findViewById(R.id.drink_food_recipe_btn5);
+        btn[45] = findViewById(R.id.drink_food_recipe_btn6);
+        btn[46] = findViewById(R.id.drink_food_recipe_btn7);
+        btn[47] = findViewById(R.id.drink_food_recipe_btn8);
+        btn[48] = findViewById(R.id.drink_food_recipe_btn9);
+        btn[49] = findViewById(R.id.drink_food_recipe_btn10);
     }
     void set_make_bread () {
-        for (int i = 0; i < 19; i++){
+        for (int i = 0; i < 50; i++){
             if (i >= 0 && i <= 9){
                 btn[i].setVisibility(View.VISIBLE);
 
@@ -134,7 +167,7 @@ public class Recipe extends AppCompatActivity {
 
 
     void set_make_cookie () {
-        for (int i = 10; i < 19; i++){
+        for (int i = 0; i < 50; i++){
             if (i >= 10 && i <= 19){
                 btn[i].setVisibility(View.VISIBLE);
 
@@ -148,7 +181,7 @@ public class Recipe extends AppCompatActivity {
 
 
     void set_make_western_food () {
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 50; i++){
             if (i >= 20 && i <= 29){
                 btn[i].setVisibility(View.VISIBLE);
 
@@ -161,7 +194,7 @@ public class Recipe extends AppCompatActivity {
 
 
     void set_make_korean_food () {
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 50; i++){
             if (i >= 30 && i <= 39){
                 btn[i].setVisibility(View.VISIBLE);
 
@@ -174,7 +207,7 @@ public class Recipe extends AppCompatActivity {
 
 
     void set_make_drink () {
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 50; i++){
             if (i >= 40 && i <= 49){
                 btn[i].setVisibility(View.VISIBLE);
 

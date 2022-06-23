@@ -53,6 +53,54 @@
                     android:textColor="@color/white"
                     android:textSize="28dp" />
 
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/western_food_recipe_btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="쉬림프 카나페"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/korean_food_recipe_btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="비빔밥"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/drink_food_recipe_btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="푸스카페"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
             </FrameLayout>
 
             <!--2번줄 -->
@@ -89,6 +137,54 @@
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
                     android:text="버터스펀지 케이크"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/western_food_recipe_btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="스페니쉬 오믈렛"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/korean_food_recipe_btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="콩나물밥"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/drink_food_recipe_btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="맨하탄"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
 
@@ -130,6 +226,54 @@
                     android:textColor="@color/white"
                     android:textSize="28dp" />
 
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/western_food_recipe_btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="치즈 오믈렛"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/korean_food_recipe_btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="장국죽"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/drink_food_recipe_btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="드라이 마티니"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
             </FrameLayout>
 
             <!--4번줄 -->
@@ -165,6 +309,54 @@
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
                     android:text="마드레느"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/western_food_recipe_btn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="월도프샐러드"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/korean_food_recipe_btn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="완자탕"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/drink_food_recipe_btn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="올드 패션드"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
 
@@ -205,6 +397,54 @@
                     android:text="쇼트브레드 쿠키"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/western_food_recipe_btn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="포테이토샐러드"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/korean_food_recipe_btn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="생선찌개"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/drink_food_recipe_btn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="브랜디 알렉산더"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
             </FrameLayout>
 
             <FrameLayout
@@ -239,6 +479,54 @@
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
                     android:text="슈"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/western_food_recipe_btn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="BLT샌드위치"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/korean_food_recipe_btn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="두부젓국찌개"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/drink_food_recipe_btn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="싱가폴 슬링"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
             </FrameLayout>
@@ -277,6 +565,54 @@
                     android:text="브라우니"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/western_food_recipe_btn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="햄버거샌드위치"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/korean_food_recipe_btn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="제육구이"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/drink_food_recipe_btn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="블랙 러시안"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
             </FrameLayout>
 
             <FrameLayout
@@ -311,6 +647,54 @@
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
                     android:text="과일 케이크"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/western_food_recipe_btn8"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="브라운스톡"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/korean_food_recipe_btn8"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="너비아니구이"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/drink_food_recipe_btn8"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="마가리타"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
             </FrameLayout>
@@ -349,6 +733,54 @@
                     android:text="파운드 케이크"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/western_food_recipe_btn9"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="이탈리안미트소스"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/korean_food_recipe_btn9"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="더덕구이"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/drink_food_recipe_btn9"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="러스티 네일"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
             </FrameLayout>
 
             <FrameLayout
@@ -383,6 +815,54 @@
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
                     android:text="다쿠와즈"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/western_food_recipe_btn10"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="홀렌다이즈소스"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/korean_food_recipe_btn10"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="생선양념구이"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+                <Button
+                    android:fontFamily="@font/blackhansans_regular"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="8dp"
+                    android:id="@+id/drink_food_recipe_btn10"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ABFF9800"
+                    android:drawableRight="@drawable/recipe_btn_arrow"
+                    android:gravity="left|center_vertical"
+                    android:text="위스키 사워"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
             </FrameLayout>
