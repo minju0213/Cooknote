@@ -29,7 +29,9 @@ public class Recipe extends AppCompatActivity {
         setContentView(R.layout.recipe);
         init();
         set_make_bread();
-        setBtn();
+        setBtn1();
+        setBtn2();
+        setBtn3();
 
 // Bread
         btn_bread.setOnClickListener(new View.OnClickListener() {
@@ -81,11 +83,29 @@ public class Recipe extends AppCompatActivity {
 
 
     }
-    void setBtn() {
+    void setBtn1() {
         btn[0].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Wls_Recipe("빵도넛");
+            }
+        });
+    }
+
+    void setBtn2() {
+        btn[1].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("소세지빵");
+            }
+        });
+    }
+
+    void setBtn3() {
+        btn[2].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("식빵");
             }
         });
     }

@@ -31,19 +31,20 @@ public class Wls_Recipe extends AppCompatActivity {
         category = intent.getStringExtra("category");
         if (category.equals("빵도넛")) {
             bread_recipe_1();
-        } else if (category.equals("제과")) {
-            setCookieRecipe();
+        } else if (category.equals("소세지빵")) {
+            bread_recipe_2();
+        } else if (category.equals("식빵")){
+           bread_recipe_3();
         } else {
-            finish();
+        finish();
         }
-
     }
 
-    void bread_recipe_1() {
-        tittle = "빵도넛입니다";
-    }
+    void bread_recipe_1() { tittle = "빵도넛입니다";}
 
-    void setCookieRecipe() { tittle = "초코머핀"; }
+    void bread_recipe_2() { tittle = "소세지빵입니다"; }
+
+    void bread_recipe_3() { tittle = "소세지빵입니다"; }
 
 
 }
