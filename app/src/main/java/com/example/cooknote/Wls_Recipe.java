@@ -93,7 +93,8 @@ public class Wls_Recipe extends AppCompatActivity {
             recipe_29();
         } else if (category.equals("홀렌다이즈소스")){
             recipe_30();
-        //한식
+
+            //한식
         } else if (category.equals("비빔밥")) {
             recipe_31();
         } else if (category.equals("콩나물밥")) {
@@ -114,10 +115,34 @@ public class Wls_Recipe extends AppCompatActivity {
             recipe_39();
         } else if (category.equals("생선양념구이")){
             recipe_40();
+
+            //조주
+        } else if (category.equals("푸스카페")) {
+            recipe_41();
+        } else if (category.equals("맨하탄")) {
+            recipe_42();
+        } else if (category.equals("드라이 마티니")){
+            recipe_43();
+        } else if (category.equals("올드 패션드")){
+            recipe_44();
+        } else if (category.equals("브랜디 알렉산더")) {
+            recipe_45();
+        } else if (category.equals("싱가폴 슬링")){
+            recipe_46();
+        } else if (category.equals("블랙 러시안")){
+            recipe_47();
+        } else if (category.equals("마가리타")) {
+            recipe_48();
+        } else if (category.equals("러스티 네일")){
+            recipe_49();
+        } else if (category.equals("위스키 사워")){
+            recipe_50();
         } else {
         finish();
         }
-    }
+
+}
+
 
     // 제빵
     void recipe_1() { tittle = "빵도넛입니다";}
@@ -166,6 +191,18 @@ public class Wls_Recipe extends AppCompatActivity {
     void recipe_38() { tittle = "입니다"; }
     void recipe_39() { tittle = "소세지빵입니다"; }
     void recipe_40() { tittle = "입니다"; }
+
+
+    void recipe_41() { tittle = "빵도넛입니다";}
+    void recipe_42() { tittle = "소세지빵입니다"; }
+    void recipe_43() { tittle = "소세지빵입니다"; }
+    void recipe_44() { tittle = "입니다"; }
+    void recipe_45() { tittle = "빵도넛입니다";}
+    void recipe_46() { tittle = "소세지빵입니다"; }
+    void recipe_47() { tittle = "소세지빵입니다"; }
+    void recipe_48() { tittle = "입니다"; }
+    void recipe_49() { tittle = "소세지빵입니다"; }
+    void recipe_50() { tittle = "입니다"; }
 
 
 }

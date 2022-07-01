@@ -488,6 +488,98 @@ public class Recipe extends AppCompatActivity {
         });
     }
 
+
+    //조주
+    void setBtn41() {
+        btn[40].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("푸스카페");
+            }
+        });
+    }
+
+    void setBtn42() {
+        btn[41].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("맨하탄");
+            }
+        });
+    }
+
+    void setBtn43() {
+        btn[42].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("드라이 마티니");
+            }
+        });
+    }
+
+    void setBtn44() {
+        btn[43].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("올드 패션드");
+            }
+        });
+    }
+
+    void setBtn45() {
+        btn[44].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("브랜디 알렉산더");
+            }
+        });
+    }
+
+    void setBtn46() {
+        btn[45].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("싱가폴 슬링");
+            }
+        });
+    }
+
+    void setBtn47() {
+        btn[46].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("블랙 러시안");
+            }
+        });
+    }
+
+    void setBtn48() {
+        btn[47].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("마가리타");
+            }
+        });
+    }
+
+    void setBtn49() {
+        btn[48].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("러스티 네일");
+            }
+        });
+    }
+
+    void setBtn50() {
+        btn[49].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("위스키 사워");
+            }
+        });
+    }
+
     void init () {
         btn_bread = findViewById(R.id.btn1);
         btn_cookie = findViewById(R.id.btn2);
