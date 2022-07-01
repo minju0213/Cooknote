@@ -72,7 +72,7 @@ public class Wls_Recipe extends AppCompatActivity {
         } else if (category.equals("다쿠와즈")){
             recipe_20();
 
-            //양식
+        //양식
         } else if (category.equals("쉬림프 카나페")) {
             recipe_21();
         } else if (category.equals("스페니쉬 오믈렛")) {
@@ -93,72 +93,79 @@ public class Wls_Recipe extends AppCompatActivity {
             recipe_29();
         } else if (category.equals("홀렌다이즈소스")){
             recipe_30();
+        //한식
+        } else if (category.equals("비빔밥")) {
+            recipe_31();
+        } else if (category.equals("콩나물밥")) {
+            recipe_32();
+        } else if (category.equals("장국죽")){
+            recipe_33();
+        } else if (category.equals("완자탕")){
+            recipe_34();
+        } else if (category.equals("생선찌개")) {
+            recipe_35();
+        } else if (category.equals("두부젓국찌개")){
+            recipe_36();
+        } else if (category.equals("제육구이")){
+            recipe_37();
+        } else if (category.equals("너비아니구이")) {
+            recipe_38();
+        } else if (category.equals("더덕구이")){
+            recipe_39();
+        } else if (category.equals("생선양념구이")){
+            recipe_40();
         } else {
         finish();
         }
     }
 
+    // 제빵
     void recipe_1() { tittle = "빵도넛입니다";}
-
     void recipe_2() { tittle = "소세지빵입니다"; }
-
     void recipe_3() { tittle = "소세지빵입니다"; }
-
     void recipe_4() { tittle = "입니다"; }
-
     void recipe_5() { tittle = "빵도넛입니다";}
-
     void recipe_6() { tittle = "소세지빵입니다"; }
-
     void recipe_7() { tittle = "소세지빵입니다"; }
-
     void recipe_8() { tittle = "입니다"; }
-
     void recipe_9() { tittle = "소세지빵입니다"; }
-
     void recipe_10() { tittle = "입니다"; }
 
-
+    // 제과
     void recipe_11() { tittle = "빵도넛입니다";}
-
     void recipe_12() { tittle = "소세지빵입니다"; }
-
     void recipe_13() { tittle = "소세지빵입니다"; }
-
     void recipe_14() { tittle = "입니다"; }
-
     void recipe_15() { tittle = "빵도넛입니다";}
-
     void recipe_16() { tittle = "소세지빵입니다"; }
-
     void recipe_17() { tittle = "소세지빵입니다"; }
-
     void recipe_18() { tittle = "입니다"; }
-
     void recipe_19() { tittle = "소세지빵입니다"; }
-
     void recipe_20() { tittle = "입니다"; }
 
-
+    // 양식
     void recipe_21() { tittle = "빵도넛입니다";}
-
     void recipe_22() { tittle = "소세지빵입니다"; }
-
     void recipe_23() { tittle = "소세지빵입니다"; }
-
     void recipe_24() { tittle = "입니다"; }
-
     void recipe_25() { tittle = "빵도넛입니다";}
-
     void recipe_26() { tittle = "소세지빵입니다"; }
-
     void recipe_27() { tittle = "소세지빵입니다"; }
-
     void recipe_28() { tittle = "입니다"; }
-
     void recipe_29() { tittle = "소세지빵입니다"; }
-
     void recipe_30() { tittle = "입니다"; }
+
+    // 한식
+    void recipe_31() { tittle = "빵도넛입니다";}
+    void recipe_32() { tittle = "소세지빵입니다"; }
+    void recipe_33() { tittle = "소세지빵입니다"; }
+    void recipe_34() { tittle = "입니다"; }
+    void recipe_35() { tittle = "빵도넛입니다";}
+    void recipe_36() { tittle = "소세지빵입니다"; }
+    void recipe_37() { tittle = "소세지빵입니다"; }
+    void recipe_38() { tittle = "입니다"; }
+    void recipe_39() { tittle = "소세지빵입니다"; }
+    void recipe_40() { tittle = "입니다"; }
 
 
 }

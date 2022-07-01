@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-<TextView
-    android:id="@+id/recipe_text1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="값" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0DCA1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recipe_title"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:fontFamily="@font/blackhansans_regular"
+            android:text="Recipe"
+            android:paddingTop="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:background="@color/white"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recipe_text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/blackhansans_regular"
+            android:text="1."
+            android:textColor="@color/black"
+            android:textSize="25dp"></TextView>
+    </LinearLayout>
+
+
 
 </LinearLayout>
