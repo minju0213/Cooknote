@@ -51,6 +51,17 @@ public class Recipe extends AppCompatActivity {
         setBtn19();
         setBtn20();
 
+        setBtn21();
+        setBtn22();
+        setBtn23();
+        setBtn24();
+        setBtn25();
+        setBtn26();
+        setBtn27();
+        setBtn28();
+        setBtn29();
+        setBtn30();
+
 
 // Bread
         btn_bread.setOnClickListener(new View.OnClickListener() {
@@ -280,6 +291,97 @@ public class Recipe extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Wls_Recipe("다쿠와즈");
+            }
+        });
+    }
+
+    //양식
+    void setBtn21() {
+        btn[20].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("쉬림프 카나페");
+            }
+        });
+    }
+
+    void setBtn22() {
+        btn[21].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("스페니쉬 오믈렛");
+            }
+        });
+    }
+
+    void setBtn23() {
+        btn[22].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("치즈 오믈렛");
+            }
+        });
+    }
+
+    void setBtn24() {
+        btn[23].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("월도프샐러드");
+            }
+        });
+    }
+
+    void setBtn25() {
+        btn[24].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("포테이토샐러드");
+            }
+        });
+    }
+
+    void setBtn26() {
+        btn[25].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("BLT샌드위치");
+            }
+        });
+    }
+
+    void setBtn27() {
+        btn[26].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("햄버거샌드위치");
+            }
+        });
+    }
+
+    void setBtn28() {
+        btn[27].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("브라운스톡");
+            }
+        });
+    }
+
+    void setBtn29() {
+        btn[28].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("이탈리안미트소스");
+            }
+        });
+    }
+
+    void setBtn30() {
+        btn[29].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Wls_Recipe("홀렌다이즈소스");
             }
         });
     }
