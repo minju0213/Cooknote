@@ -110,59 +110,59 @@ public class Korean_food extends AppCompatActivity {
 
 
     void setBreadQuestion() {
-        arrayBreadQuestion[0] = "초코쿠기의 반죽은?";
-        arrayBreadQuestion[1] = "질문2";
-        arrayBreadQuestion[2] = "질문3";
-        arrayBreadQuestion[3] = "질문4";
-        arrayBreadQuestion[4] = "질문5";
-        arrayBreadQuestion[5] = "질문6";
-        arrayBreadQuestion[6] = "질문7";
-        arrayBreadQuestion[7] = "질문8";
-        arrayBreadQuestion[8] = "질문9";
-        arrayBreadQuestion[9] = "질문10";
+        arrayBreadQuestion[0] = "‘장국죽’ 계량 시 쌀과 물의 비율은 무엇인가?";
+        arrayBreadQuestion[1] = "‘풋고추전’ 조리 시 주의해야할 점으로 틀린 것은 무엇인가?";
+        arrayBreadQuestion[2] = "‘무생채’ 조리 시 주의해야할 점으로 옳은 것은 무엇인가?";
+        arrayBreadQuestion[3] = "‘두부젓국찌개’ 조리 방법으로 옳은 것은 무엇인가?";
+        arrayBreadQuestion[4] = "다음 중 ‘생선양념구이’의 생선 손질법으로 틀린 것은 무엇인가?";
+        arrayBreadQuestion[5] = "‘무생채’ 양념장 재료로 옳지 않은 것은 무엇인가?";
+        arrayBreadQuestion[6] = "‘콩나물밥’ 조리 과정으로 옳지 않은 것은 무엇인가?";
+        arrayBreadQuestion[7] = "‘오징어볶음’ 조리 과정으로 옳은 것은?";
+        arrayBreadQuestion[8] = "완자탕 조리 시 부위별 소고기 사용 용도로 옳은 것은 무엇인가?";
+        arrayBreadQuestion[9] = "재료썰기 시 당근 골패썰기 길이로 알맞은 것은 무엇인가?";
 
 
     }
     void setOptions() {
-        arrayOptions[0][0] = "양진선 바보";
-        arrayOptions[0][1] = "토마토 주스";
-        arrayOptions[0][2] = "밀가루";
+        arrayOptions[0][0] = "쌀 1 : 물 2";
+        arrayOptions[0][1] = "쌀 1 : 물 6";
+        arrayOptions[0][2] = "쌀 1 : 물 3";
 
-        arrayOptions[1][0] = "ㅎㅎ";
-        arrayOptions[1][1] = "2-2 보기";
-        arrayOptions[1][2] = "2-3 보기";
+        arrayOptions[1][0] = "고추 안에 밀가루 -> 고기 -> 달걀물 -> 밀가루 순으로 성형 후 굽는다.";
+        arrayOptions[1][1] = "고추의 머리부분과 꼬리부분이 잘려선 안 된다.";
+        arrayOptions[1][2] = "고추 길이는 5cm로 맞춘다.";
 
-        arrayOptions[2][0] = "3-1 보기";
-        arrayOptions[2][1] = "3-2 보기";
-        arrayOptions[2][2] = "3-3 보기";
+        arrayOptions[2][0] = "색은 고추장으로 조절한다.";
+        arrayOptions[2][1] = "진한 빨간색이 나오게 해야한다.";
+        arrayOptions[2][2] = "버무리고 나면 삼투압 작용으로 물이 생기므로 버무리기 전 무에 있는 물기를 제거한 후 버무려야 한다.";
 
-        arrayOptions[3][0] = "4-1 보기";
-        arrayOptions[3][1] = "4-2 보기";
-        arrayOptions[3][2] = "4-3 보기";
+        arrayOptions[3][0] = "두부 크기는 3 X 2 X 1cm 이다.";
+        arrayOptions[3][1] = "굴을 설탕물에 넣고 해감 한다.";
+        arrayOptions[3][2] = "새우젓을 다져 그대로 사용한다.";
 
-        arrayOptions[4][0] = "5-1 보기";
-        arrayOptions[4][1] = "5-2 보기";
-        arrayOptions[4][2] = "5-3 보기";
+        arrayOptions[4][0] = "지느러미와 아가미를 제거한다.";
+        arrayOptions[4][1] = "칼 팁으로 비늘을 제거한다.";
+        arrayOptions[4][2] = "일정한 간격으로 3~4번 어슷하게 칼집을 넣는다.";
 
-        arrayOptions[5][0] = "6-1 보기";
-        arrayOptions[5][1] = "6-2 보기";
-        arrayOptions[5][2] = "6-3 보기";
+        arrayOptions[5][0] = "생강";
+        arrayOptions[5][1] = "깨소금";
+        arrayOptions[5][2] = "고추장";
 
-        arrayOptions[6][0] = "7-1 보기";
-        arrayOptions[6][1] = "7-2 보기";
-        arrayOptions[6][2] = "7-3 보기";
+        arrayOptions[6][0] = "고기는 얇게 채썬다.";
+        arrayOptions[6][1] = "콩나물은 거두절미한다.";
+        arrayOptions[6][2] = "불린 쌀과 동량의 물을 부어 익힌다.";
 
-        arrayOptions[7][0] = "8-1 보기";
-        arrayOptions[7][1] = "8-2 보기";
-        arrayOptions[7][2] = "8-3 보기";
+        arrayOptions[7][0] = "오징어는 손질 후 몸통에 세로로 칼집을 넣어준다.";
+        arrayOptions[7][1] = "양념장은 미리 제조한다.";
+        arrayOptions[7][2] = "오징어는 부위별로 6cm로 잘라준다.";
 
-        arrayOptions[8][0] = "9-1 보기";
-        arrayOptions[8][1] = "9-2 보기";
-        arrayOptions[8][2] = "9-3 보기";
+        arrayOptions[8][0] = "사태 – 육수용 / 살코기 – 완자용";
+        arrayOptions[8][1] = "사태 – 완자용 / 살코기 – 육수용";
+        arrayOptions[8][2] = "사태 – 고명용 / 살코기 – 육수, 완자용";
 
-        arrayOptions[9][0] = "10-1 보기";
-        arrayOptions[9][1] = "10-2 보기";
-        arrayOptions[9][2] = "10-3 보기";
+        arrayOptions[9][0] = "5 X 1 X 0.2cm";
+        arrayOptions[9][1] = "5 X 1.5 X 0.5cm";
+        arrayOptions[9][2] = "5 X 1.5 X 0.2cm";
         // [~2][~10] -> [~10][~2] 로 변경
     }
 

@@ -121,59 +121,59 @@ public class Western_food extends AppCompatActivity {
 
 
     void setBreadQuestion() {
-        arrayBreadQuestion[0] = "초코쿠기의 반죽은?";
-        arrayBreadQuestion[1] = "질문2";
-        arrayBreadQuestion[2] = "질문3";
-        arrayBreadQuestion[3] = "질문4";
-        arrayBreadQuestion[4] = "질문5";
-        arrayBreadQuestion[5] = "질문6";
-        arrayBreadQuestion[6] = "질문7";
-        arrayBreadQuestion[7] = "질문8";
-        arrayBreadQuestion[8] = "질문9";
-        arrayBreadQuestion[9] = "질문10";
+        arrayBreadQuestion[0] = "‘스파게티 까르보나라’의 농후제로 적절한 것은 무엇인가?";
+        arrayBreadQuestion[1] = "‘포테이토 샐러드’ 공정에 대한 설명으로 옳지 않은 것은 무엇인가?";
+        arrayBreadQuestion[2] = "다음 중 ‘바베큐 폭찹’의 지급 재료로 옳은 것은 무엇인가?";
+        arrayBreadQuestion[3] = "다음 중 ‘살리스버리 스테이크’에 곁들여내는 당근 모양의 명칭은 무엇인가?";
+        arrayBreadQuestion[4] = "‘프렌치 어니언 스프’에 사용되는 양파의 조리 형태로 옳은 것은 무엇인가?";
+        arrayBreadQuestion[5] = "‘치킨커틀렛’ 조리 과정으로 옳지 않은 것은 무엇인가?";
+        arrayBreadQuestion[6] = "‘홀렌다이즈 소스’의 재료로 옳지 않은 것은 무엇인가?";
+        arrayBreadQuestion[7] = "다음 중 머랭의 청정 작용을 이용하여 맑게 끓여낸 스프는 무엇인가?";
+        arrayBreadQuestion[8] = "다음 중 루를 이용하여 조리하는 품목은 무엇인가?";
+        arrayBreadQuestion[9] = "다음 중 ‘치즈 오믈렛’ 조리 과정으로 옳은 것은 무엇인가?";
 
 
     }
     void setOptions() {
-        arrayOptions[0][0] = "양진선 바보";
-        arrayOptions[0][1] = "토마토 주스";
-        arrayOptions[0][2] = "밀가루";
+        arrayOptions[0][0] = "루";
+        arrayOptions[0][1] = "노른자";
+        arrayOptions[0][2] = "식용유";
 
-        arrayOptions[1][0] = "ㅎㅎ";
-        arrayOptions[1][1] = "2-2 보기";
-        arrayOptions[1][2] = "2-3 보기";
+        arrayOptions[1][0] = "마요네즈는 감자가 충분히 식었을 때 버무린다.";
+        arrayOptions[1][1] = "감자는 사방 1cm 크기의 정육면체로 잘라 익힌다.";
+        arrayOptions[1][2] = "양파는 채썰어 소금물에 담가 매운 맛을 제거한다.";
 
-        arrayOptions[2][0] = "3-1 보기";
-        arrayOptions[2][1] = "3-2 보기";
-        arrayOptions[2][2] = "3-3 보기";
+        arrayOptions[2][0] = "백설탕";
+        arrayOptions[2][1] = "당근";
+        arrayOptions[2][2] = "우스터소스";
 
-        arrayOptions[3][0] = "4-1 보기";
-        arrayOptions[3][1] = "4-2 보기";
-        arrayOptions[3][2] = "4-3 보기";
+        arrayOptions[3][0] = "vichy";
+        arrayOptions[3][1] = "concase";
+        arrayOptions[3][2] = "batonnet";
 
-        arrayOptions[4][0] = "5-1 보기";
-        arrayOptions[4][1] = "5-2 보기";
-        arrayOptions[4][2] = "5-3 보기";
+        arrayOptions[4][0] = "마리네이드";
+        arrayOptions[4][1] = "브루리";
+        arrayOptions[4][2] = "콩피";
 
-        arrayOptions[5][0] = "6-1 보기";
-        arrayOptions[5][1] = "6-2 보기";
-        arrayOptions[5][2] = "6-3 보기";
+        arrayOptions[5][0] = "닭고기를 일정한 두께로 저며 펴준 후에 칼등으로 두드려 준다.";
+        arrayOptions[5][1] = "딥팻후라이로 조리한다.";
+        arrayOptions[5][2] = "닭고기에 붙어있는 껍질은 제거한다.";
 
-        arrayOptions[6][0] = "7-1 보기";
-        arrayOptions[6][1] = "7-2 보기";
-        arrayOptions[6][2] = "7-3 보기";
+        arrayOptions[6][0] = "정제버터";
+        arrayOptions[6][1] = "밀가루";
+        arrayOptions[6][2] = "양파";
 
-        arrayOptions[7][0] = "8-1 보기";
-        arrayOptions[7][1] = "8-2 보기";
-        arrayOptions[7][2] = "8-3 보기";
+        arrayOptions[7][0] = "프렌치 어니언 스프";
+        arrayOptions[7][1] = "비프콘소매";
+        arrayOptions[7][2] = "미네스트로니 스프";
 
-        arrayOptions[8][0] = "9-1 보기";
-        arrayOptions[8][1] = "9-2 보기";
-        arrayOptions[8][2] = "9-3 보기";
+        arrayOptions[8][0] = "치킨 알라킹";
+        arrayOptions[8][1] = "홀렌다이즈 소스";
+        arrayOptions[8][2] = "포테이토 크림 스프";
 
-        arrayOptions[9][0] = "10-1 보기";
-        arrayOptions[9][1] = "10-2 보기";
-        arrayOptions[9][2] = "10-3 보기";
+        arrayOptions[9][0] = "달걀은 잘 풀어 체에 내려준 후 소금을 섞는다.";
+        arrayOptions[9][1] = "내부가 완벽하게 익을 수 있도록 충분히 시간을 들인다.";
+        arrayOptions[9][2] = "치즈는 반죽과 내부에 나눠 넣는다.";
         // [~2][~10] -> [~10][~2] 로 변경
     }
 
