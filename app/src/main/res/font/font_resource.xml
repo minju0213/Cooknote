@@ -3,4 +3,7 @@
     <font
         android:font="@font/blackhansans_regular" />
 
+    <font
+        android:font="@font/nanumgothiccoding_regular" />
+
 </font-family>

@@ -120,16 +120,16 @@ public class Bread extends AppCompatActivity {
 
 
     void setBreadQuestion() {
-        arrayBreadQuestion[0] = "다음 중 굽기 전 물을 분무해야 하는 품목은 무엇인가?";
-        arrayBreadQuestion[1] = "빵도넛의 튀김 기름 온도는 몇 도가 적절한가?";
-        arrayBreadQuestion[2] = "다음 중 토핑물 제조에서 크림법 거품 정도의 순서로 알맞은 것은 무엇인가?";
-        arrayBreadQuestion[3] = "호밀빵의 반죽 혼합 완료 단계로 알맞은 것은?";
-        arrayBreadQuestion[4] = "단팥빵 제조 공정에서 위생상 주의해야 할 부분은 무엇인가?";
-        arrayBreadQuestion[5] = "다음 식빵 품목 중 틀 밑에서 2차 발효를 완료해야 하는 품목이 아닌 것은 무엇인가?";
-        arrayBreadQuestion[6] = "다음 품목 중 최종 단계 후기에서 반죽 제조를 마무리하는 제품은 무엇인가?";
-        arrayBreadQuestion[7] = "그리시니 성형 길이로 올바른 것은 무엇인가?";
-        arrayBreadQuestion[8] = "다음 중 1차 발효 완료점을 확인하는 방법으로 올바르지 않은 것은?";
-        arrayBreadQuestion[9] = "다음 품목 중 2차 발효 후 물에 데치는 공정을 진행해야 하는 품목은 무엇인가?";
+        arrayBreadQuestion[0] = "다음 중 굽기 전 물을 분무해야 \n 하는 품목은 무엇인가?";
+        arrayBreadQuestion[1] = "빵도넛의 튀김 기름 온도는 \n 몇 도가 적절한가?";
+        arrayBreadQuestion[2] = "다음 중 토핑물 제조에서 \n 크림법 거품 정도의 순서로 \n 알맞은 것은 무엇인가?";
+        arrayBreadQuestion[3] = "호밀빵의 반죽 혼합 \n 완료 단계로 알맞은 것은?";
+        arrayBreadQuestion[4] = "단팥빵 제조 공정에서 \n 위생상 주의해야 할 부분은 \n 무엇인가?";
+        arrayBreadQuestion[5] = "다음 식빵 품목 중 틀 밑에서 \n 2차 발효를 완료해야 하는 \n품목이 아닌 것은 무엇인가?";
+        arrayBreadQuestion[6] = "다음 품목 중 최종 단계 후기에서 \n 반죽 제조를 마무리하는 제품은 무엇인가?";
+        arrayBreadQuestion[7] = "그리시니 성형 길이로 \n 올바른 것은 무엇인가?";
+        arrayBreadQuestion[8] = "다음 중 1차 발효 완료점을 \n 확인하는 방법으로 올바르지 \n않은 것은?";
+        arrayBreadQuestion[9] = "다음 품목 중 2차 발효 후 물에 \n 데치는 공정을 진행해야 하는 \n 품목은 무엇인가?";
 
 
     }

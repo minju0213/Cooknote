@@ -2,6 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Wls_Recipe"
     android:orientation="vertical">
 
 
@@ -16,35 +18,259 @@
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:fontFamily="@font/blackhansans_regular"
-            android:text="Recipe"
             android:paddingTop="12dp"
+            android:text="Recipe"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="25dp"></TextView>
     </LinearLayout>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="28dp"
-        android:background="@color/white"
-        android:orientation="vertical"></LinearLayout>
+        android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/recipe_text1"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:fontFamily="@font/blackhansans_regular"
-            android:text="1."
-            android:textColor="@color/black"
-            android:textSize="25dp"></TextView>
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text="유지 제외한 모든 재료 넣어 저속으로 혼합한다."
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text="유지 제외한 모든 재료 넣어 저속으로 혼합한다."
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text="유지 제외한 모든 재료 넣어 저속으로 혼합한다."
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text="유지 제외한 모든 재료 넣어 저속으로 혼합한다."
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text="유지 제외한 모든 재료 넣어 저속으로 혼합한다."
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text="유지 제외한 모든 재료 넣어 저속으로 혼합한다."
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text="유지 제외한 모든 재료 넣어 저속으로 혼합한다."
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text="유지 제외한 모든 재료 넣어 저속으로 혼합한다."
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text="유지 제외한 모든 재료 넣어 저속으로 혼합한다."
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+        </LinearLayout>
 
 
-
+    </ScrollView>
 </LinearLayout>
