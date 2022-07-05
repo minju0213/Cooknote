@@ -269,6 +269,32 @@
                     android:textSize="20dp"/>
             </LinearLayout>
             <!--     끝       -->
+
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
         </LinearLayout>
 
 

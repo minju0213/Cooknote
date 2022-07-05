@@ -11,9 +11,9 @@ import android.widget.TextView;
 public class Wls_Recipe extends AppCompatActivity {
 
     String category;
-    TextView recipe_text1,recipe_text2,recipe_text3,recipe_text4,recipe_text5,recipe_text6,recipe_text7,recipe_text8,recipe_text9,recipe_text10;
+    TextView recipe_text1,recipe_text2,recipe_text3,recipe_text4,recipe_text5,recipe_text6,recipe_text7,recipe_text8,recipe_text9,recipe_text10,recipe_text11;
 
-    TextView number_text_1,number_text_2,number_text_3,number_text_4,number_text_5,number_text_6,number_text_7,number_text_8,number_text_9,number_text_10;
+    TextView number_text_1,number_text_2,number_text_3,number_text_4,number_text_5,number_text_6,number_text_7,number_text_8,number_text_9,number_text_10,number_text_11;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +34,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text8 = findViewById(R.id.recipe_text8);
         recipe_text9 = findViewById(R.id.recipe_text9);
         recipe_text10 = findViewById(R.id.recipe_text10);
+        recipe_text11 = findViewById(R.id.recipe_text11);
 
         number_text_1 = findViewById(R.id.number_text_1);
         number_text_2 = findViewById(R.id.number_text_2);
@@ -45,6 +46,7 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8 = findViewById(R.id.number_text_8);
         number_text_9 = findViewById(R.id.number_text_9);
         number_text_10 = findViewById(R.id.number_text_10);
+        number_text_11 = findViewById(R.id.number_text_11);
 
     }
 
@@ -188,7 +190,7 @@ public class Wls_Recipe extends AppCompatActivity {
 
 
     // 제빵
-    void recipe_1()
+    void recipe_1()//빵도넛
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -209,7 +211,49 @@ public class Wls_Recipe extends AppCompatActivity {
     recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
     recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
     recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_2()
+    void recipe_2()//소시지빵
+    {
+        number_text_1.setText("1. ");
+        number_text_2.setText("2. ");
+        number_text_3.setText("3. ");
+        number_text_4.setText("4. ");
+        number_text_5.setText("5. ");
+        number_text_6.setText("6. ");
+        number_text_7.setText("7. ");
+        number_text_8.setText("8. ");
+        number_text_9.setText("9. ");
+
+        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
+        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 \n 혼합하고 최종단계까지 믹싱한다.");
+        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
+        recipe_text4.setText("1차발효동안 양파를 찹하고, 케찹과 \n 마요네즈, 피자치즈를 준비한다.");
+        recipe_text5.setText("70g씩 분할하고 둥글리기 후 약 10분간 중간발효한다.");
+        recipe_text6.setText("가스 빼듯 눌러준 후 뒤집어 소시지를 감싸고 6개씩 2판에 총 12개 팬닝한다. (남은 반죽 제출)");
+        recipe_text7.setText("낙엽모양은 가위를 기울여서 7번 또는 \n 9번(홀수) 깊이 가위집 내 성형하고, \n 꽃잎모양은 가위를 세워서 6번 또는 \n 8번(짝수) 깊이 가위집 내 성형한다.");
+        recipe_text8.setText("반죽 위에 양파 찹한 것을 평평하게 \n 올리고 피자치즈를 올린 후 마요네즈와 \n 케찹을 반죽 위까지만 뿌려준다. \n (철판에 소스가 닿으면 탐)");
+        recipe_text9.setText("190/160℃에 약 15~20분 굽는다.");}
+    void recipe_3()//식빵
+    {
+        number_text_1.setText("1. ");
+        number_text_2.setText("2. ");
+        number_text_3.setText("3. ");
+        number_text_4.setText("4. ");
+        number_text_5.setText("5. ");
+        number_text_6.setText("6. ");
+        number_text_7.setText("7. ");
+        number_text_8.setText("8. ");
+        number_text_9.setText("9. ");
+
+        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
+        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 \n 혼합하고 최종단계까지 믹싱한다.");
+        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
+        recipe_text4.setText("170g씩 분할하고 둥글리기 후 \n 약 10분간 중간발효한다.");
+        recipe_text5.setText("밀어펴기 -> 뒤집어 3겹접기 -> \n 누르기 -> 빈공간 없이 꼼꼼하게 말아 이음매 \n 일자로 봉합하기 순으로 성형한다.");
+        recipe_text6.setText("한 팬에 세 덩이씩 총 4팬 팬닝 후 \n 펀칭한다. (처음 성형한 반죽을 가운데 두고 팬닝)");
+        recipe_text7.setText("발효실에 넣고 틀 밑 1cm까지 \n 2차발효한다.");
+        recipe_text8.setText("160/180℃에 약 30분 굽는다. \n (옆 색 확인)");
+        recipe_text9.setText("작업대 위에 펀칭하고 \n 즉시 틀 제거한다.");}
+    void recipe_4()//단팥빵
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -224,13 +268,33 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
         recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
         recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_3()
+        recipe_text4.setText("1차발효동안 팥앙금 개량 후 40g씩 분할해 준비한다. ");
+        recipe_text5.setText("50g씩 분할하고 둥글리기 후 약 10분간 중간발효한다.");
+        recipe_text6.setText("가스 빼듯 눌러준 후 헤라 이용하여 앙금을 포앙하고 지름 7~8cm 크기로 성형한다. (헤라 절대 내려놓지 않기)");
+        recipe_text7.setText("12개씩 3판 팬닝한다.");
+        recipe_text8.setText("발효실에 넣고 약 30분간 2차발효한다.");
+        recipe_text9.setText("190/150℃에 10~15분 굽는다.");}
+    void recipe_5() //그리시니
+    {
+        number_text_1.setText("1. ");
+        number_text_2.setText("2. ");
+        number_text_3.setText("3. ");
+        number_text_4.setText("4. ");
+        number_text_5.setText("5. ");
+        number_text_6.setText("6. ");
+        number_text_7.setText("7. ");
+        number_text_8.setText("8. ");
+
+
+        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
+        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
+        recipe_text3.setText("발효실에 넣고 약 30분간 1차발효한다.");
+        recipe_text4.setText("30g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
+        recipe_text5.setText("길이 35~40cm로 2~3회에 나누어 길이 일정하게 밀어편다.");
+        recipe_text6.setText("10~11개씩 4판 팬닝한다.");
+        recipe_text7.setText("발효실에 넣고 약 15분간 2차발효한다. (시험장 오븐에는 3판씩만 들어갈 수 있으므로 한 판은 미리 꺼내 실온발효 해야 함)");
+        recipe_text8.setText("210/180℃에 15~20분 굽는다.");}
+    void recipe_6()//밤식빵
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -241,17 +305,21 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_7.setText("7. ");
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
+        number_text_10.setText("10. ");
+        number_text_11.setText("11. ");
 
         recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
         recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
         recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_4()
+        recipe_text4.setText("1차발효동안 밤을 개량하고 토핑물을 제조한다.\n : 유지 포마드화 -> 감미료 크림화 (거품 많이 내기) -> 달걀 크림화 -> 체 친 가루 가르듯이 혼합 -> 깍지 끼운 짤주머니에 담아 준비");
+        recipe_text5.setText("450g씩 분할하고 둥글리기 후 중간발효한다.");
+        recipe_text6.setText("밀어펴기 -> 밤 올리기 -> 위에서부터 가볍게 끌어와 말아주기(원루프형) -> 이음매 일자로 봉합하기 순으로 성형한다.");
+        recipe_text7.setText("한 팬에 한 덩이씩 4팬 팬닝 후 살짝 펀칭한다.");
+        recipe_text8.setText("발효실에 넣고 틀 밑 2cm까지 2차발효한다.");
+        recipe_text9.setText("윗면에 4~5줄 토핑 짜고 아몬드 슬라이스 올려준다.");
+        recipe_text10.setText("160/180℃에 30분 굽는다. (옆 색 확인)");
+        recipe_text11.setText("작업대 위에 펀칭하고 즉시 틀 제거한다.");}
+    void recipe_7() //베이글
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -262,17 +330,22 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_7.setText("7. ");
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
+        number_text_10.setText("10. ");
+        number_text_11.setText("11. ");
+
 
         recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
         recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
         recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_5()
+        recipe_text4.setText("1차발효동안 유산지 재단한다.");
+        recipe_text5.setText("80g씩 분할하고 둥글리기 후 약 10분간 중간발효한다.");
+        recipe_text6.setText("약 25cm로 밀어펴기 -> 뒤집어 세로로 3겹접기 -> 말기 -> 이음매 일자로 봉합하기 -> \n 한 쪽 끝은 얇게 밀고, 한 쪽 끝은 밀대로 넓게 밀어펴 넓은 쪽이 얇은 쪽을 감싸 봉합하기 (속지름 4cm 이상) -> \n 이음매가 아래로 가게 해서 유산지 붙여 팬닝하기 순으로 성형한다.");
+        recipe_text7.setText("8개씩 2판에 총 16개 팬닝한다.");
+        recipe_text8.setText("발효실에 넣고 약 20분간 2차발효한다.");
+        recipe_text9.setText("2차발효동안 버너 가져와 물 끓여 준비한다.");
+        recipe_text10.setText("팔팔 끓는 물에 한 면 당 10초정도 데친다. (이 때 유산지 떼기)");
+        recipe_text11.setText("210/180℃에 15~20분 굽는다.");}
+    void recipe_8() //스위트롤
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -283,79 +356,20 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_7.setText("7. ");
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
+        number_text_10.setText("10. ");
+        number_text_11.setText("11. ");
 
         recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
         recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
         recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_6()
-    {
-        number_text_1.setText("1. ");
-        number_text_2.setText("2. ");
-        number_text_3.setText("3. ");
-        number_text_4.setText("4. ");
-        number_text_5.setText("5. ");
-        number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
-
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_7()
-    {
-        number_text_1.setText("1. ");
-        number_text_2.setText("2. ");
-        number_text_3.setText("3. ");
-        number_text_4.setText("4. ");
-        number_text_5.setText("5. ");
-        number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
-
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_8()
-    {
-        number_text_1.setText("1. ");
-        number_text_2.setText("2. ");
-        number_text_3.setText("3. ");
-        number_text_4.setText("4. ");
-        number_text_5.setText("5. ");
-        number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
-
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text4.setText("1차발효동안 물(또는 용해버터)과 계피설탕을 준비한다.");
+        recipe_text5.setText("두 덩이(한 덩이로 해도 됨)로 나눠 둥글리기 후 약 10분간 중간발효한다.");
+        recipe_text6.setText("세로 30~35cm, 두께 0.5cm 직사각형으로 밀어편다.");
+        recipe_text7.setText("봉합 부분 1cm를 제외한 반죽 전체에 붓으로 물 또는 용해버터를 바르고 계피설탕을 골고루 펼친다.");
+        recipe_text8.setText("꼼꼼하게 말아올려 봉합한다.");
+        recipe_text9.setText("스크래퍼를 이용해 두꼐 1.5cm로 2번 잘라 트리플리프형과 1번 잘라 야자잎형 모양으로 성형한다.");
+        recipe_text10.setText("야자잎형 12개 1판, 트리플리프형 9개 1판 팬닝한다. (남은 반죽 제출)");
+        recipe_text11.setText("발효실에 넣고 약 30분간 2차발효한다.");}
     void recipe_9()
     {
         number_text_1.setText("1. ");
