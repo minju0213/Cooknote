@@ -585,6 +585,7 @@
                     android:text=""
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
+
                 <TextView
                     android:id="@+id/recipe_text23"
                     android:layout_width="match_parent"

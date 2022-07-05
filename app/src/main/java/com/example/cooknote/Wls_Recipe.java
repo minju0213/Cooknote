@@ -930,6 +930,7 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_6.setText("6. ");
         number_text_7.setText("7. ");
 
+
         recipe_text1.setText("재료를 전처리한다.\n" +
                 ": 쌀 (물에 불려 보관) / 소고기 / 그 외 재료 등으로 구분");
         recipe_text2.setText("대파, 마늘을 다진다.");
