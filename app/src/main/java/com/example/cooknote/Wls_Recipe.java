@@ -11,9 +11,12 @@ import android.widget.TextView;
 public class Wls_Recipe extends AppCompatActivity {
 
     String category;
-    TextView recipe_text1,recipe_text2,recipe_text3,recipe_text4,recipe_text5,recipe_text6,recipe_text7,recipe_text8,recipe_text9,recipe_text10,recipe_text11;
+    TextView recipe_text1, recipe_text2, recipe_text3, recipe_text4, recipe_text5, recipe_text6, recipe_text7, recipe_text8, recipe_text9, recipe_text10, recipe_text11;
+    TextView recipe_text12, recipe_text13, recipe_text14, recipe_text15, recipe_text16, recipe_text17, recipe_text18, recipe_text19, recipe_text20, recipe_text21, recipe_text22, recipe_text23;
 
-    TextView number_text_1,number_text_2,number_text_3,number_text_4,number_text_5,number_text_6,number_text_7,number_text_8,number_text_9,number_text_10,number_text_11;
+
+    TextView number_text_1, number_text_2, number_text_3, number_text_4, number_text_5, number_text_6, number_text_7, number_text_8, number_text_9, number_text_10, number_text_11;
+    TextView number_text_12, number_text_13, number_text_14, number_text_15, number_text_16, number_text_17, number_text_18, number_text_19, number_text_20, number_text_21, number_text_22, number_text_23;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +51,19 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_10 = findViewById(R.id.number_text_10);
         number_text_11 = findViewById(R.id.number_text_11);
 
+        number_text_12 = findViewById(R.id.number_text_12);
+        number_text_13 = findViewById(R.id.number_text_13);
+        number_text_14 = findViewById(R.id.number_text_14);
+        number_text_15 = findViewById(R.id.number_text_15);
+        number_text_16 = findViewById(R.id.number_text_16);
+        number_text_17 = findViewById(R.id.number_text_17);
+        number_text_18 = findViewById(R.id.number_text_18);
+        number_text_19 = findViewById(R.id.number_text_19);
+        number_text_20 = findViewById(R.id.number_text_20);
+        number_text_21 = findViewById(R.id.number_text_21);
+        number_text_22 = findViewById(R.id.number_text_22);
+        number_text_23 = findViewById(R.id.number_text_23);
+
     }
 
     void initActivity() {
@@ -61,6 +77,21 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_7.setText("");
         number_text_8.setText("");
         number_text_9.setText("");
+        number_text_10.setText("");
+        number_text_11.setText("");
+        number_text_12.setText("");
+        number_text_13.setText("");
+        number_text_14.setText("");
+        number_text_15.setText("");
+        number_text_16.setText("");
+        number_text_17.setText("");
+        number_text_18.setText("");
+        number_text_19.setText("");
+        number_text_20.setText("");
+        number_text_21.setText("");
+        number_text_22.setText("");
+        number_text_23.setText("");
+
 
         recipe_text1.setText("");
         recipe_text2.setText("");
@@ -849,17 +880,66 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_7.setText("7. ");
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
+        number_text_10.setText("10. ");
+        number_text_11.setText("11. ");
+        number_text_12.setText("12. ");
+        number_text_13.setText("13. ");
+        number_text_14.setText("14. ");
+        number_text_15.setText("15. ");
+        number_text_16.setText("16. ");
+        number_text_17.setText("17. ");
+        number_text_18.setText("18. ");
+        number_text_19.setText("19. ");
+        number_text_20.setText("20. ");
+        number_text_21.setText("21. ");
+        number_text_22.setText("22. ");
+        number_text_23.setText("23. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("재료를 전처리한다.\n" +
+                ": 쌀 (물에 불려 보관) / 소고기 / 달걀 / 건다시마 / 그 외 재료 등으로 구분");
+        recipe_text2.setText("물을 끓인다.");
+        recipe_text3.setText("대파, 마늘을 다진다.");
+        recipe_text4.setText("청포묵 껍질을 제거하고 5 X 0.5 X 0.5cm 크기로 잘라준다.");
+        recipe_text5.setText("끓는 물에 소금을 넣고 청포묵이 투명해질 때까지 데치고 찬물에 헹군 후 소금 1/6t, 참기름 1/3t 넣고 간을 한다.");
+        recipe_text6.setText("밥을 짓는다.\n" +
+                ": 불려둔 쌀 씻기 -> 냄비에 쌀 1C, 물 1C 계량해 밥 앉히기 -> 강불에 2~3분 끓이기 -> 끓으면 중불에 5~6분 두기 -> 타닥타닥 소리 나면 약불에 1~2분 뜸 들이기 -> 불 끄고 5분 뜸 들이기");
+        recipe_text7.setText("애호박을 돌려깎아 5 X 0.3 X 0.3cm 크기로 채 썰고 소금에 절인다.");
+        recipe_text8.setText("도라지를 5cm 길이로 자르고 두꺼운 부분은 2~3등분 하여 소금에 절인다.");
+        recipe_text9.setText("고사리를 5cm 길이로 자른다.");
+        recipe_text10.setText("간장 2t, 설탕 1t, 대파, 마늘, 깨 (부숴서) 조금, 후추가루 조금, 참기름 1/3t 섞어 양념을 만든다.");
+        recipe_text11.setText("고사리를 양념 소량에 버무린다.");
+        recipe_text12.setText("소고기 5 X 0.3 X 0.3cm 크기로 채 썰고 남은 고기는 다진다.");
+        recipe_text13.setText("채 썬 고기는 양념에 버무린다.");
+        recipe_text14.setText("달걀 황/백을 분리하고 각각 소금 간을 한다.");
+        recipe_text15.setText("소금에 절여진 애호박, 도라지를 면보에 감싸 찬물에 충분히 헹군 후 수분을 제거한다.");
+        recipe_text16.setText("팬에 식용유 1T 넣고 다시마를 튀긴다. (사용한 기름 버리지 말고 애호박 볶을 때 다시 사용하기)");
+        recipe_text17.setText("식용유 1t 제외한 기름을 걷어내고 팬을 코팅한 후 황/백 지단을 부친다.");
+        recipe_text18.setText("팬에 식용유 1T 넣고 애호박, 도라지, 고사리, 소고기를 볶는다.");
+        recipe_text19.setText("약불에 식용유 1t, 다진 소고기를 볶은 후 고추장 2T, 설탕 1t, 물 1t, 참기름 1/3t 넣고 볶아 약고추장을 만든다.");
+        recipe_text20.setText("황/백 지단을 5 X 0.3 X 0.3cm 크기로 채 썰어준다.");
+        recipe_text21.setText("다시마를 키친타올로 감싸 부순다.");
+        recipe_text22.setText("완성 그릇에 그릇에 밥을 담고 흰(무)색 재료와 유색 재료를 번갈아가며 다른 재료들과 섞이지 않게 방향을 맞춰 가지런히 담아준다.");
+        recipe_text23.setText("가운데 고추장을 얹고 고추장 위에 다시마를 올려 제출한다.");}
     void recipe_32()
+    {
+        number_text_1.setText("1. ");
+        number_text_2.setText("2. ");
+        number_text_3.setText("3. ");
+        number_text_4.setText("4. ");
+        number_text_5.setText("5. ");
+        number_text_6.setText("6. ");
+        number_text_7.setText("7. ");
+
+        recipe_text1.setText("재료를 전처리한다.\n" +
+                ": 쌀 (물에 불려 보관) / 소고기 / 그 외 재료 등으로 구분");
+        recipe_text2.setText("대파, 마늘을 다진다.");
+        recipe_text3.setText("콩나물 꼬리를 제거한 후 길이가 너무 길면(약 10cm 이상) 반으로 잘라 사용하고 너무 짧으면(약 2~3cm) 폐기한다.");
+        recipe_text4.setText("소고기 6~7cm 길이로 얇게 채 썰어준다.");
+        recipe_text5.setText("채 썬 고기에 대파, 마늘, 간장 1/2t, 참기름 1/3t 넣고 양념한다.");
+        recipe_text6.setText("밥을 짓는다.\n" +
+                ": 불려둔 쌀 씻기 -> 냄비에 쌀 1C, 물 1C 계량하고 콩나물, 소고기 넣어 밥 앉히기 (소고기 최대한 한 서로 붙지 않게 넣기) -> 강불에 2~3분 끓이기 -> 김 올라오면 중불에 5~6분 두기 -> 타닥타닥 소리 나면 약불에 1~2분 뜸 들이기 -> 불 끄고 5분 뜸 들이기");
+        recipe_text7.setText("플레이팅 후 제출한다.");}
+    void recipe_33()
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -870,26 +950,23 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_7.setText("7. ");
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
+        number_text_10.setText("10. ");
+        number_text_11.setText("11. ");
+        number_text_12.setText("12. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_33()
-    {   recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("재료를 전처리한다.\n" +
+                ": 쌀 (물에 불려 보관) / 소고기 / 그 외 재료 등으로 구분");
+        recipe_text2.setText("대파, 마늘을 다진다.");
+        recipe_text3.setText("표고버섯 밑둥을 제거해 3cm 길이로 채 썰어준 후 간장 1/3t, 참기름 1/6t 넣고 간을 한다.");
+        recipe_text4.setText("소고기 기름 부분을 제거하고 다져준 후 대파, 마늘, 간장 1t, 깨 (부숴서) 조금, 후추가루 조금, 참기름 1/3t 넣고 간을 한다.");
+        recipe_text5.setText("불려둔 쌀을 씻은 후 쌀 1/2C 계량하고 면보에 감싸 밀대로 빻는다.");
+        recipe_text6.setText("계량컵으로 물 3C (쌀 6배) 따로 계량한다.");
+        recipe_text7.setText("냄비에 참기름 1/3t 넣고 표고버섯, 소고기를 볶는다.");
+        recipe_text8.setText("소고기가 반 정도 익으면 쌀을 넣고 함께 볶는다.");
+        recipe_text9.setText("물을 조금씩 넣어가며 볶고, 어느정도 죽의 형태가 잡히면 남은 물의 반을 넣고 중간중간 올라오는 거품을 제거해가며 끓인다.");
+        recipe_text10.setText("다시 죽의 형태가 나올 정도로 졸아들면 남은 물을 모두 넣고 중약불로 끓인다.");
+        recipe_text11.setText("쌀알이 잘 퍼졌을 때 국간장 1t 넣고 간을 한다.");
+        recipe_text12.setText("표고버섯이 위에 잘 보이게 올려 플레이팅 후 제출한다.");}
     void recipe_34()
     {
         number_text_1.setText("1. ");
@@ -902,15 +979,15 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("");
+        recipe_text2.setText("");
+        recipe_text3.setText("");
+        recipe_text4.setText("");
+        recipe_text5.setText("");
+        recipe_text6.setText("");
+        recipe_text7.setText("");
+        recipe_text8.setText("");
+        recipe_text9.setText("");}
     void recipe_35()
     {
         number_text_1.setText("1. ");
@@ -923,15 +1000,15 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("");
+        recipe_text2.setText("");
+        recipe_text3.setText("");
+        recipe_text4.setText("");
+        recipe_text5.setText("");
+        recipe_text6.setText("");
+        recipe_text7.setText("");
+        recipe_text8.setText("");
+        recipe_text9.setText("");}
     void recipe_36()
     {
         number_text_1.setText("1. ");
@@ -944,15 +1021,15 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("");
+        recipe_text2.setText("");
+        recipe_text3.setText("");
+        recipe_text4.setText("");
+        recipe_text5.setText("");
+        recipe_text6.setText("");
+        recipe_text7.setText("");
+        recipe_text8.setText("");
+        recipe_text9.setText("");}
     void recipe_37()
     {
         number_text_1.setText("1. ");
@@ -965,15 +1042,15 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("");
+        recipe_text2.setText("");
+        recipe_text3.setText("");
+        recipe_text4.setText("");
+        recipe_text5.setText("");
+        recipe_text6.setText("");
+        recipe_text7.setText("");
+        recipe_text8.setText("");
+        recipe_text9.setText("");}
     void recipe_38()
     {
         number_text_1.setText("1. ");
@@ -986,15 +1063,15 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("");
+        recipe_text2.setText("");
+        recipe_text3.setText("");
+        recipe_text4.setText("");
+        recipe_text5.setText("");
+        recipe_text6.setText("");
+        recipe_text7.setText("");
+        recipe_text8.setText("");
+        recipe_text9.setText("");}
     void recipe_39()
     {
         number_text_1.setText("1. ");
@@ -1007,15 +1084,15 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("");
+        recipe_text2.setText("");
+        recipe_text3.setText("");
+        recipe_text4.setText("");
+        recipe_text5.setText("");
+        recipe_text6.setText("");
+        recipe_text7.setText("");
+        recipe_text8.setText("");
+        recipe_text9.setText("");}
     void recipe_40()
     {
         number_text_1.setText("1. ");
@@ -1028,15 +1105,15 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("");
+        recipe_text2.setText("");
+        recipe_text3.setText("");
+        recipe_text4.setText("");
+        recipe_text5.setText("");
+        recipe_text6.setText("");
+        recipe_text7.setText("");
+        recipe_text8.setText("");
+        recipe_text9.setText("");}
 
     //조주(동민)
     void recipe_41()
@@ -1044,22 +1121,11 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
         number_text_3.setText("3. ");
-        number_text_4.setText("4. ");
-        number_text_5.setText("5. ");
-        number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("잔에 그라나딘 시럽 1/2oz 따른다.");
+        recipe_text2.setText("크림 드 민트 1/2oz 바스푼 이용해 그라나딘 시럽 위에 띄운다.");
+        recipe_text3.setText(" 브랜디 1/2oz 바스푼 이용해 크림 드 민트 위에 띄운다.");
+    }
     void recipe_42()
     {
         number_text_1.setText("1. ");
@@ -1068,19 +1134,14 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_4.setText("4. ");
         number_text_5.setText("5. ");
         number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("잔에 얼음 가득 넣고 칠링한다.");
+        recipe_text2.setText("믹싱글라스에 얼음 8~10개 넣는다.");
+        recipe_text3.setText("믹싱글라스에 버번 위스키 1 1/2oz(1.5oz), 스윗 버무스 3/4oz, 앙고스투라 비터스 1dash 넣는다.");
+        recipe_text4.setText("바스푼으로 8~10회 젓는다.");
+        recipe_text5.setText("잔에 있는 칠링용 얼음을 버리고 믹싱 글라스에 스트레이너를 끼워 칵테일을 따른다.");
+        recipe_text6.setText("체리를 픽에 꽂아 넣는다.");
+       }
     void recipe_43()
     {
         number_text_1.setText("1. ");
@@ -1089,19 +1150,14 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_4.setText("4. ");
         number_text_5.setText("5. ");
         number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("잔에 얼음 가득 넣고 칠링한다.");
+        recipe_text2.setText("믹싱글라스에 얼음 8~10개 넣는다.");
+        recipe_text3.setText("믹싱글라스에 드라이 진 2oz, 드라이 버무스 1/3oz 넣는다.");
+        recipe_text4.setText("바스푼으로 8~10회 젓는다.");
+        recipe_text5.setText("잔에 있는 칠링용 얼음을 버리고 믹싱 글라스에 스트레이너를 끼워 칵테일을 따른다.");
+        recipe_text6.setText("그린 올리브를 픽에 꽂아 넣는다.");
+       }
     void recipe_44()
     {
         number_text_1.setText("1. ");
@@ -1111,18 +1167,14 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_5.setText("5. ");
         number_text_6.setText("6. ");
         number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("올드 패션드 글라스에 각설탕 1개를 넣는다.");
+        recipe_text2.setText("잔에 앙고스투라 비터스 1dash, 탄산수 1/2oz 넣는다.");
+        recipe_text3.setText("바스푼으로 각설탕을 으깨고 휘저어 녹인다.");
+        recipe_text4.setText("잔에 얼음 80% 넣는다.");
+        recipe_text5.setText("잔에 버번위스키 1 1/2oz(1.5oz) 넣는다.");
+        recipe_text6.setText("바스푼으로 8~10회 젓는다.");
+        recipe_text7.setText("오렌지 슬라이스와 체리를 픽에 꽂아 잔에 꽂는다.");}
     void recipe_45()
     {
         number_text_1.setText("1. ");
@@ -1131,30 +1183,16 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_4.setText("4. ");
         number_text_5.setText("5. ");
         number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+
+        recipe_text1.setText("잔에 얼음 가득 넣고 칠링한다.");
+        recipe_text2.setText("쉐이커에 얼음을 8~10개 넣는다.");
+        recipe_text3.setText("쉐이커에 브랜디 3/4oz, 크렘드 카카오 B 3/4oz, 우유 3/4oz 넣는다.");
+        recipe_text4.setText("스트레이너, 캡 순으로 닫고 8~10회 흔든다.");
+        recipe_text5.setText("잔에 있는 칠링용 얼음을 버리고 칵테일을 따른다.");
+        recipe_text6.setText("넛메그 파우더를 뿌려준다.");}
+
     void recipe_46()
-    {   recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_47()
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1166,15 +1204,24 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("잔에 얼음 80% 넣는다.");
+        recipe_text2.setText("쉐이커에 얼음을 8~10개 넣는다.");
+        recipe_text3.setText("쉐이커에 드라이 진 1 1/2oz(1.5oz), 레몬주스 1/2oz, 설탕 1t 넣는다.");
+        recipe_text4.setText("스트레이너, 캡 순으로 닫고 8~10회 흔든다.");
+        recipe_text5.setText("잔에 칵테일을 따른다.");
+        recipe_text6.setText("잔의 90%까지 탄산수로 채워준다.");
+        recipe_text7.setText("바스푼으로 8~10회 젓는다.");
+        recipe_text8.setText("체리 브랜디 1/2oz 바스푼 이용해 넣어준다.");
+        recipe_text9.setText("오렌지 슬라이스와 체리를 픽에 꽂아 잔에 꽂는다.");}
+    void recipe_47()
+    {
+        number_text_1.setText("1. ");
+        number_text_2.setText("2. ");
+        number_text_3.setText("3. ");
+
+        recipe_text1.setText("잔에 얼음 80% 넣는다.");
+        recipe_text2.setText("잔에 보드카 1oz, 커피리큐르(깔루아) 1/2oz 넣는다.");
+        recipe_text3.setText("바스푼으로 8~10회 젓는다.");}
     void recipe_48()
     {
         number_text_1.setText("1. ");
@@ -1184,39 +1231,23 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_5.setText("5. ");
         number_text_6.setText("6. ");
         number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("잔에 얼음 가득 넣고 칠링한다.");
+        recipe_text2.setText("쉐이커에 얼음을 8~10개 넣는다.");
+        recipe_text3.setText("쉐이커에 데킬라 1 1/2oz(1.5oz), 트리플 섹 1/2oz, 라임주스 1/2oz 넣는다.");
+        recipe_text4.setText("스트레이너, 캡 순으로 닫고 8~10회 흔든다.");
+        recipe_text5.setText("잔에 있는 칠링용 얼음을 버리고 칵테일을 따른다.");
+        recipe_text6.setText("잔 림에 레몬즙을 바르고 소금을 묻힌다.");
+        recipe_text7.setText("잔에 칵테일을 따른다.");}
     void recipe_49()
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
         number_text_3.setText("3. ");
-        number_text_4.setText("4. ");
-        number_text_5.setText("5. ");
-        number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("잔에 얼음 80% 넣는다.");
+        recipe_text2.setText("잔에 스카치 위스키 1oz, 드람뷰이 1/2oz 넣는다.");
+        recipe_text3.setText("바스푼으로 8~10회 젓는다.");}
     void recipe_50()
     {
         number_text_1.setText("1. ");
@@ -1227,16 +1258,14 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_6.setText("6. ");
         number_text_7.setText("7. ");
         number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("잔에 얼음 가득 넣고 칠링한다.");
+        recipe_text2.setText("쉐이커에 얼음을 8~10개 넣는다.");
+        recipe_text3.setText("쉐이커에 버번 위스키 1 1/2oz(1.5oz), 레몬주스 1/2oz, 설탕 1t 넣는다.");
+        recipe_text4.setText("스트레이너, 캡 순으로 닫고 8~10회 흔든다.");
+        recipe_text5.setText("잔에 있는 칠링용 얼음을 버리고 칵테일을 따른다.");
+        recipe_text6.setText("탄산수 1oz 넣는다.");
+        recipe_text7.setText("바스푼으로 8~10회 저어준다.");
+        recipe_text8.setText("레몬 슬리이스와 체리를 픽에 꽂아 잔에 올린다.");}
 
 }

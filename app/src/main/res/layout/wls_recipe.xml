@@ -295,6 +295,306 @@
                     android:textSize="20dp"/>
             </LinearLayout>
             <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
+            <!--     시작       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="start">
+                <TextView
+                    android:id="@+id/number_text_23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:id="@+id/recipe_text23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgothiccoding_regular"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <!--     끝       -->
         </LinearLayout>
 
 
