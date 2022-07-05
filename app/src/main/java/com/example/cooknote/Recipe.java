@@ -73,6 +73,17 @@ public class Recipe extends AppCompatActivity {
         setBtn39();
         setBtn40();
 
+        setBtn41();
+        setBtn42();
+        setBtn43();
+        setBtn44();
+        setBtn45();
+        setBtn46();
+        setBtn47();
+        setBtn48();
+        setBtn49();
+        setBtn50();
+
 
 // Bread
         btn_bread.setOnClickListener(new View.OnClickListener() {

@@ -264,7 +264,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="유지 제외한 모든 재료 넣어 저속으로 혼합한다."
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>
@@ -290,7 +290,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>
@@ -315,7 +315,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>
@@ -340,7 +340,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>
@@ -365,7 +365,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>
@@ -390,7 +390,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>
@@ -415,7 +415,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>
@@ -440,7 +440,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>
@@ -465,7 +465,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>
@@ -482,7 +482,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
                 <TextView
@@ -507,7 +507,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
                 <TextView
@@ -540,7 +540,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>
@@ -565,7 +565,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>
@@ -591,7 +591,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nanumgothiccoding_regular"
-                    android:text=""
+                    android:text="없"
                     android:textColor="@color/black"
                     android:textSize="20dp"/>
             </LinearLayout>

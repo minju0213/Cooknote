@@ -798,7 +798,7 @@
                 android:background="#ABFF9800"
                 android:drawableRight="@drawable/recipe_btn_arrow"
                 android:gravity="left|center_vertical"
-                android:text="크림빵"
+                android:text="트위스트형"
                 android:textColor="@color/white"
                 android:textSize="28dp" />
 
