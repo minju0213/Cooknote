@@ -308,7 +308,7 @@
                     android:background="#ABFF9800"
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
-                    android:text="마드레느"
+                    android:text="소프트롤 케이크"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
 
@@ -394,7 +394,7 @@
                     android:background="#ABFF9800"
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
-                    android:text="쇼트브레드 쿠키"
+                    android:text="마드레느"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
 
@@ -478,7 +478,7 @@
                     android:background="#ABFF9800"
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
-                    android:text="슈"
+                    android:text="쇼트브레드 쿠키"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
 
@@ -562,7 +562,7 @@
                     android:background="#ABFF9800"
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
-                    android:text="브라우니"
+                    android:text="슈"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
 
@@ -646,7 +646,7 @@
                     android:background="#ABFF9800"
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
-                    android:text="과일 케이크"
+                    android:text="브라우니"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
 
@@ -730,7 +730,7 @@
                     android:background="#ABFF9800"
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
-                    android:text="파운드 케이크"
+                    android:text="과일 케이크"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
 
@@ -814,7 +814,7 @@
                     android:background="#ABFF9800"
                     android:drawableRight="@drawable/recipe_btn_arrow"
                     android:gravity="left|center_vertical"
-                    android:text="다쿠와즈"
+                    android:text="파운드 케이크"
                     android:textColor="@color/white"
                     android:textSize="28dp" />
 

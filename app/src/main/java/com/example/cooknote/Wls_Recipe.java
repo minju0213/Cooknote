@@ -474,7 +474,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text8.setText("190/150℃에 10~15분 굽는다.");}
 
     // 제과
-    void recipe_11()
+    void recipe_11() //초코머핀
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -486,16 +486,16 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_12()
+        recipe_text1.setText("버터를 부드럽게 풀어준다.");
+        recipe_text2.setText("설탕, 소금을 넣어 크림상태로 만든다.");
+        recipe_text3.setText("달걀을 한 알 또는 두 알씩 넣어 100% 용해 된 부드러운 크림을 만든다.");
+        recipe_text4.setText("믹싱 도중 벽에 붙어 있는 반죽들도 잘 섞일 수 있도록 벽면을 자주 긁어주며(스크래핑) 매끄러운 크림 상태로 만든다.");
+        recipe_text5.setText("채 친 가루를 넣어 고무주걱으로 위에서 아래로 털어내듯 혼합한다.");
+        recipe_text6.setText("가루 80% 혼합 시, 물을 혼합한다.");
+        recipe_text7.setText("초코칩을 혼합한다.");
+        recipe_text8.setText("머핀컵 속에 속지를 깔고 깍지 없는 \n짤주머니에 반죽을 넣어 70% 팬닝한다.");
+        recipe_text9.setText("윗불 180℃, 아랫불 160℃에서 25분 전후로 굽기를 한다. 손으로 두드려 봤을 때 탄력이 느껴지면 굽기 완료이다.");}
+    void recipe_12() //버터 스펀지 케이크
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -507,16 +507,157 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_13()
+        recipe_text1.setText("노른자를 거품기로 풀어준 후, 설탕A, 소금을 넣고 믹싱한다.");
+        recipe_text2.setText("흰자는 믹서 볼에 넣어 60% 휘핑 후, \n설탕B를 3회 가량 나누어 투입하며 \n중간 피크상태의 머랭(80~90%)을 \n제조한다.");
+        recipe_text3.setText("머랭 1/2~1/3을 노른자 반죽에 넣어 주걱으로 위 아래로 저어주며 80% 혼합한다.");
+        recipe_text4.setText("체질한 가루 재료를 넣고, 고무주걱을 이용하여 위에서 아래로 털어주듯 혼합한다.");
+        recipe_text5.setText("일부 반죽을 중탕한 버터에 넣어 혼합한 수, 다시 본반죽에 넣어 혼합한다.");
+        recipe_text6.setText("나머지 머랭을 넣어 가볍게 혼합한다.");
+        recipe_text7.setText("3호 원형팬 4개에 50~60% 팬닝한다.");
+        recipe_text8.setText("고무주걱으로 윗면을 평평하게 정리한 후, 펀칭하여 일정한 기포를 형성하게 한다.");
+        recipe_text9.setText("윗불 180℃, 아랫불 160℃에서 30분 전후로 굽기를 한다.");}
+    void recipe_13() //젤리롤 케이크
+    {
+        number_text_1.setText("1. ");
+        number_text_2.setText("2. ");
+        number_text_3.setText("3. ");
+        number_text_4.setText("4. ");
+        number_text_5.setText("5. ");
+        number_text_6.setText("6. ");
+        number_text_7.setText("7. ");
+        number_text_8.setText("8. ");
+        number_text_9.setText("9. ");
+        number_text_10.setText("10. ");
+        number_text_11.setText("11. ");
+        number_text_12.setText("12. ");
+        number_text_13.setText("13. ");
+        number_text_14.setText("14. ");
+        number_text_15.setText("15. ");
+        number_text_16.setText("16. ");
+        number_text_17.setText("17. ");
+
+        recipe_text1.setText("스텐볼에 달걀을 풀어준 후, 설탕과 소금을 넣고 거품기로 혼합하여 따뜻한 \n물을 받쳐 중탕으로 설탕을 녹인다.");
+        recipe_text2.setText("믹서볼에 옮겨 고속으로 휘핑한다.");
+        recipe_text3.setText("저속으로 30초 정도 돌려 기공을 안정화 시킨다.");
+        recipe_text4.setText("작업대로 가져와 체질한 가루 재료를 \n넣고, 손 또는 스크래퍼 및 고무주걱을 이용하여 위에서 아래로 털어주듯 혼합한다.");
+        recipe_text5.setText("우유를 가볍게 혼합한다.");
+        recipe_text6.setText("비중 측정한 반죽은 작은 스텐볼에 옮겨 캐러멜 색소를 넣어 진한 갈색을 만든다.");
+        recipe_text7.setText("비중을 맞춘 반죽은 평철판에 부어 고무주걱 및 스크래퍼로 윗면을 평평하게 정리한 후, 작업대 위에서 펀칭을 하여 일정한 기포를 형성하게 한다.");
+        recipe_text8.setText("비닐 짤주머니 또는 위생지로 만든 짤주머니에 무늬 반죽을 담아 앞 부분을 0.5cm로 자른 후, 3cm 간격으로 짜준다.");
+        recipe_text9.setText("젓가락레 또는 온도계 끝을 이용하여 4cm간격을 만든다.");
+        recipe_text10.setText("윗불 180℃, 아랫불 160℃에서 25분 전후로 굽기를 한다.");
+        recipe_text11.setText("굽는 동안, 물에 적신 면포 또는 기름칠한 유산지, 긴 밀대, 잼과 스크래퍼, 분무기를 준비한다.");
+        recipe_text12.setText("다 구워진 반죽은 펀칭하여 수분을 날린 후, 틀에서 즉시 제거하여 냉각팬으로 옮겨 살짝 식혀준다.");
+        recipe_text13.setText("반죽을 뒤집어 물분무를 하여 유산지를 제거하고, 말기 시작하는 앞부분에 말기 편할 수 있도록 스크래퍼로 두 줄 정도 1cm간격으로 눌러준다.");
+        recipe_text14.setText("잼을 올려 고무주걱 또는 스크래퍼 및 스패튤라로 스크래퍼 두 줄 낸 자리를 제외하고 골고루 바른다.");
+        recipe_text15.setText("긴 밀대를 이용하여 앞부분을 살짝 눌러준 후 말기를 하고, 말기가 끝나면 잠시 동안 고정해 둔다.");
+        recipe_text16.setText("면보 또는 유산지를 제거한다.");
+        recipe_text17.setText("냉각팬에 위생지를 깔고, 제출한다.");}
+
+    void recipe_14() //소프트롤 케이크
+    {
+        number_text_1.setText("1. ");
+        number_text_2.setText("2. ");
+        number_text_3.setText("3. ");
+        number_text_4.setText("4. ");
+        number_text_5.setText("5. ");
+        number_text_6.setText("6. ");
+        number_text_7.setText("7. ");
+        number_text_8.setText("8. ");
+        number_text_9.setText("9. ");
+        number_text_10.setText("10. ");
+        number_text_11.setText("11. ");
+        number_text_12.setText("12. ");
+        number_text_13.setText("13. ");
+        number_text_14.setText("14. ");
+        number_text_15.setText("15. ");
+        number_text_16.setText("16. ");
+        number_text_17.setText("17. ");
+
+
+        recipe_text1.setText("노른자를 거품기로 풀어준 후, 설탕A, 소금, 물엿을 넣고 믹싱한다. 마지막으로 물을 혼합한다.");
+        recipe_text2.setText("흰자는 믹서 볼에 넣어 60% 휘핑 후, 설탕B를 3회 가량 나누어 투입하여 중간 피크 상태의 머랭(80~90%)을 제조한다.");
+        recipe_text3.setText("머랭 1/2~1/3을 노른자 반죽에 넣어 주걱으로 위 아래로 저어주며 80% 혼합한다.");
+        recipe_text4.setText("체질한 가루 재료를 넣고, 고무주걱을 이요하여 위에서 아래로 털어주듯 혼합한다.");
+        recipe_text5.setText("일부 반죽을 식용유에 넣어 혼합한 후, 다시 본반죽에 넣어 혼합한다.");
+        recipe_text6.setText("나머지 머랭을 넣어 가볍게 혼합한다.");
+        recipe_text7.setText("비중 측정한 반죽은 작은 스텐볼에 옮겨 캐러멜 색소를 넣어 진한 갈색을 만든다.");
+        recipe_text8.setText("비중을 맞춘 반죽은 평철판에 부어 고무주걱으로 윗면을 평평하게 정리한 후, 펀칭 하여 일정한 기포를 형성하게 한다.");
+        recipe_text9.setText("비닐 짤주머니 또는 위생지로 만든 짤주머니에 무늬 반죽을 담아 앞 부분을 0.5cm로 자른 후, 3cm 간격으로 짜준다.");
+        recipe_text10.setText("젓가락 또는 온도계 끝을 이용하여 4cm간격을 만든다.");
+        recipe_text11.setText("윗불 180℃, 아랫불 160℃에서 25분 전후로 굽기를 한다.");
+        recipe_text12.setText("굽는 동안, 물에 적신 면포 또는 기름칠한 유산지, 긴 밀대, 잼과 스크래퍼, 분무기를 준비한다.");
+        recipe_text13.setText("다 구워진 반죽은 펀칭하여 수분을 날린 후, 틀에서 즉시 제거하여 냉각팬으로 옮겨 살짝 식혀준다.");
+        recipe_text14.setText("반죽을 뒤집어 물분무를 하여 유산지를 제거하고, 말기 시작하는 앞부분에 말기 편할 수 있도록 스크래퍼로 두 줄 정도 1cm간격으로 눌러준다.");
+        recipe_text15.setText("잼을 올려 고무주걱 또는 스크래퍼 및 스패튤라로 스크래퍼 두 줄 낸 자리를 제외하고 골고루 바른다.");
+        recipe_text16.setText("긴 밀대를 이용하여 앞부분을 살짝 눌러준 후 말기를 하고, 말기가 끝나면 잠시 동안 고정해 둔다.");
+        recipe_text17.setText("면보 또는 유산지를 제거한다 18.냉각팬에 위생지를 깔고, 제출한다.");}
+    void recipe_15() //마드레느
+    {
+        number_text_1.setText("1. ");
+        number_text_2.setText("2. ");
+        number_text_3.setText("3. ");
+        number_text_4.setText("4. ");
+        number_text_5.setText("5. ");
+        number_text_6.setText("6. ");
+        number_text_7.setText("7. ");
+        number_text_8.setText("8. ");
+
+
+        recipe_text1.setText("체 친 가루재료에 설탕, 소금을 넣고 거품기로 혼합한다.");
+        recipe_text2.setText("달걀은 거품이 생기지 않도록 풀어준 후, 가루재료에 투입하여 매끈해질 때까지 혼합한다.");
+        recipe_text3.setText("다진 레몬껍질을 넣고 섞어준다.");
+        recipe_text4.setText("미리 중탕한 버터를 넣는다.");
+        recipe_text5.setText("반죽을 비닐 또는 랩을 씌워 실온에서 30분 전후로 휴지시킨다.");
+        recipe_text6.setText("휴지시키는 동안, 마드레느 팬에 녹인 쇼트닝 또는 버터를 붓으로 바른다.");
+        recipe_text7.setText("휴지가 다 된 반죽은 농도가 되직해지며, 주걱으로 한 번 저어준 후, 짤주머니에 담아 팬닝한다.");
+        recipe_text8.setText("윗불 180℃, 아랫불 160℃ 15분 전후로 굽기를 한다 9.냉각팬에 위생지를 깔고 구운 제품을 털어 조개 모양이 앞으로 보이게 하여 제출한다.");}
+
+    void recipe_16() //쇼트브레드 쿠키
+    {
+        number_text_1.setText("1. ");
+        number_text_2.setText("2. ");
+        number_text_3.setText("3. ");
+        number_text_4.setText("4. ");
+        number_text_5.setText("5. ");
+        number_text_6.setText("6. ");
+        number_text_7.setText("7. ");
+        number_text_8.setText("8. ");
+        number_text_9.setText("9. ");
+        number_text_10.setText("10. ");
+        number_text_11.setText("11. ");
+
+        recipe_text1.setText("마가린과 쇼트닝을 부드럽게 풀어준다.");
+        recipe_text2.setText("설탕, 소금, 물엿을 넣어 크림상태로 만든다.");
+        recipe_text3.setText("달걀과 노른자는 합친 후, 풀어주고 일정한 양을 투입하고 믹싱하여 설탕 입자가 60% 용해된 부드러운 크림을 만든다.");
+        recipe_text4.setText("믹싱 도중에 벽에 붙어있는 반죽들도 잘 섞일 수 있ㄷ록 벽면을 자주 긁어주며(스크래핑) 매끄러운 크림 상태로 만든다.");
+        recipe_text5.setText("체 친 가루를 넣어 주걱으로 자르듯이 일자 혼합한다.");
+        recipe_text6.setText("한 덩이가 된 반죽은 비닐에 감싸 납작하게 만들어 냉장고에서 20~30분 휴지시킨다.");
+        recipe_text7.setText("덧가루 없이 치대어 밀어펴기 좋은 상태로 만든 후, 두께 0.7~0.8cm로 밀어펴고, 지급된 원형 커터로 자투리를 최소화하여 찍어낸 후, 일정한 간격에 맞추어 팬닝한다.");
+        recipe_text8.setText("알끈을 제거한 노른자를 준비하여 붓으로 한 번 바르고, 살짝 마르면 한 번 더 발라 선명한 노란색을 만든다.");
+        recipe_text9.setText("노른자가 너무 많으면 살짝 말린 후, 포크 무늬를 낸다.");
+        recipe_text10.setText("윗불 200℃, 아랫불 150℃에서 10분 전후로 굽기를 한다.");
+        recipe_text11.setText("냉각팬 위에 위생지를 깔고, 제출한다.");}
+    void recipe_17() //슈
+    {
+        number_text_1.setText("1. ");
+        number_text_2.setText("2. ");
+        number_text_3.setText("3. ");
+        number_text_4.setText("4. ");
+        number_text_5.setText("5. ");
+        number_text_6.setText("6. ");
+        number_text_7.setText("7. ");
+        number_text_8.setText("8. ");
+
+        recipe_text1.setText("스텐볼에 버터, 물, 소금을 넣고 팔팔 끓인다.");
+        recipe_text2.setText("불을 끈 상태에서 체 친 중력분을 넣고 거품기로 저어 혼합한 후, 다시 불 위에서 호화시킨다.");
+        recipe_text3.setText("처음엔 되직한 느낌이 들다가 물고구마처럼 살짝 부드러워진 느낌이 들면 호화는 끝난다.");
+        recipe_text4.setText("달걀을 나누어 투입하여 농도를 조절한다.");
+        recipe_text5.setText("1cm 원형 깍지를 끼운 짤주머니에 반죽을 담아 두께 1cm, 직경 3cm의 원형으로 간격을 잘 맞추어 팬닝한다.");
+        recipe_text6.setText("분무기를 이용하여 물을 충분히 뿌려준다.");
+        recipe_text7.setText("윗불 160℃, 아랫불 180℃에서 굽다가 8~12분쯤에 윗면에 수분이 날아가고, 촉촉한 느낌이 사라지면 윗불 180℃, 아랫불 160℃로 바꾸어 총 30분 전후로 굽기를 한다.");
+        recipe_text8.setText("냉각 후, 슈의 아랫면에 나무젓가락으로 지금 0.5cm로 구멍을 낸다. 9.0.5cm 원형 깍지를 끼운 짤주머니에 커스터드 크림을 담아 구멍낸 부분으로 넣는다.");}
+    void recipe_18() //브라우니
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -528,16 +669,16 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_14()
+        recipe_text1.setText("호두분태는 평철판에 펼쳐 예열된 오븐에 8분 전후로 굽기를 한다.");
+        recipe_text2.setText("버터와 다크초콜릿은 함께 중탕한다(50℃ 이하, 30~35℃까지 식히기).");
+        recipe_text3.setText("달걀은 스텐볼에 넣고 풀어준 후, 설탕과 소금을 넣고 거품기로 혼합하여 중탕시키며 설탕을 녹여준다.");
+        recipe_text4.setText("달걀 볼에 버터와 함께 용해한 초콜릿을 서서히 부으며 거품기로 혼합한다.");
+        recipe_text5.setText("체 친 가루재료를 넣고 주걱 및 거품기로 가볍게 혼합한다.");
+        recipe_text6.setText("미리 구워 놓은 호두 분태 1/2를 혼합한다.");
+        recipe_text7.setText("원형 팬 2개에 일정하게 팬닝하여 고무주걱으로 윗면을 평평하게 만든 후, 남은 호두 분태를 골고루 뿌려준다.");
+        recipe_text8.setText("윗불 170℃, 아랫불 160℃에서 30분 전후로 굽기를 한다.");
+        recipe_text9.setText("냉각팬 위에 위생지를 깔고 제출한다.");}
+    void recipe_19() //과일 케이크
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -548,122 +689,19 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_7.setText("7. ");
         number_text_8.setText("8. ");
         number_text_9.setText("9. ");
+        number_text_10.setText("10. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_15()
-    {
-        number_text_1.setText("1. ");
-        number_text_2.setText("2. ");
-        number_text_3.setText("3. ");
-        number_text_4.setText("4. ");
-        number_text_5.setText("5. ");
-        number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
-
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_16()
-    {
-        number_text_1.setText("1. ");
-        number_text_2.setText("2. ");
-        number_text_3.setText("3. ");
-        number_text_4.setText("4. ");
-        number_text_5.setText("5. ");
-        number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
-
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_17()
-    {
-        number_text_1.setText("1. ");
-        number_text_2.setText("2. ");
-        number_text_3.setText("3. ");
-        number_text_4.setText("4. ");
-        number_text_5.setText("5. ");
-        number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
-
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_18()
-    {
-        number_text_1.setText("1. ");
-        number_text_2.setText("2. ");
-        number_text_3.setText("3. ");
-        number_text_4.setText("4. ");
-        number_text_5.setText("5. ");
-        number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
-
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_19()
-    {
-        number_text_1.setText("1. ");
-        number_text_2.setText("2. ");
-        number_text_3.setText("3. ");
-        number_text_4.setText("4. ");
-        number_text_5.setText("5. ");
-        number_text_6.setText("6. ");
-        number_text_7.setText("7. ");
-        number_text_8.setText("8. ");
-        number_text_9.setText("9. ");
-
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
-    void recipe_20()
+        recipe_text1.setText("마가린을 부드럽게 풀어준다.");
+        recipe_text2.setText("설탕(50%), 소금을 넣어 크림상태로 만든다.");
+        recipe_text3.setText("노른자를 2~3회 나누어 투입하여 100% 용해 된 부드러운 크림을 만든다.");
+        recipe_text4.setText("흰자는 60% 휘핑 후, 설탕(50%)를 3회 가량 나누어 투입하여 중간피크(80~90%)상태의 머랭을 제조한다.");
+        recipe_text5.setText("머랭 1/2~1/3을 노른자 반죽에 넣어 주걱으로 80% 혼합한다.");
+        recipe_text6.setText("체 친 가루재료를 넣어 고무주걱으로 위아래로 저으며 혼합하고, 80% 혼합 되었을 때, 우유를 넣고 혼합한다.");
+        recipe_text7.setText("전처리한 과일들과 럼주를 모두 넣어 혼합하고, 나머지 머랭을 다 넣고 혼합하여 마무리 한다.");
+        recipe_text8.setText("틀에 70% 팬닝한다.");
+        recipe_text9.setText("파운드 틀일 경우에는 고무주걱으로 가운데 U자모양을 만들어 준다.");
+        recipe_text10.setText("윗불 180℃, 아랫불 160℃에서 35분 전후로 굽기를 한다.");}
+    void recipe_20() //파운드 케이크
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -689,15 +727,15 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_22.setText("22. ");
         number_text_23.setText("23. ");
 
-        recipe_text1.setText("유지 제외한 모든 재료 넣어 저속으로 혼합한다.");
-        recipe_text2.setText("클린업 단계에서 유지 넣어 중속으로 혼합하고 최종단계까지 믹싱한다.");
-        recipe_text3.setText("발효실에 넣고 약 40분간 1차발효한다.");
-        recipe_text4.setText("46g씩 분할하고 둥글리기 후 스틱모양으로 예비정형해 약 10분간 중간발효한다.");
-        recipe_text5.setText("8자형은 25cm 밀어편 후 8자 모양 잡고, 꽈배기는 30~33cm 밀어편 후 양쪽 끝을 얇게하여 꼬아서 성형한다.");
-        recipe_text6.setText("11~12개씩 4판 팬닝한다.");
-        recipe_text7.setText("발효실에 넣고 약 30분간 2차발효한다.");
-        recipe_text8.setText("2차발효동안 튀김기름을 준비한다.");
-        recipe_text9.setText("튀김기름 175~185℃가 되었을 때 반죽을 넣고 한 면당 약 1분씩 화이트라인이 나오게 튀겨준다.");}
+        recipe_text1.setText("버터를 부드럽게 풀어준다.");
+        recipe_text2.setText("설탕, 소금, 유화제를 넣어 크림상태로 만든다.");
+        recipe_text3.setText("달걀을 한 알 또는 두 알씩 넣어 100% 용해 된 부드러운 크림을 만든다.");
+        recipe_text4.setText("믹싱 도중 벽에 붙어 있는 반죽들도 잘 섞일 수 있도록 벽면을 자주 긁어주며(스크래핑) 매끄러운 크림 상태로 만든다.");
+        recipe_text5.setText("체 친 가루를 넣어 고무주걱으로 위에서 아래로 털어내듯 혼합한다.");
+        recipe_text6.setText("주걱 두 개를 사용하여 팬닝하거나, 짤주머니에 반죽을 담아 70% 팬닝한다.");
+        recipe_text7.setText("고무주걱을 이용하여 가운데 U자 모양을 만든다.");
+        recipe_text8.setText("윗불 190℃, 아랫불 170℃에서 윗면이 연갈색이 날 때까지 구운 후, 조심스럽게 꺼내어 윗면에 스패튤라를 이용하여 가운데를 일자로 톱질하듯이 자르고, 윗불 170℃, 아랫불 170℃로 바꾸어 총 35~40분간 굽는다.");
+        recipe_text9.setText("펀칭하여 수분을 날린 후 틀에서 즉시 제거하고, 냉각팬 위에 유산지를 깔고 제출한다.");}
 
     // 양식
     void recipe_21()

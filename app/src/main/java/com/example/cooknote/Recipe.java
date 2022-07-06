@@ -258,7 +258,7 @@ public class Recipe extends AppCompatActivity {
         btn[13].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("마드레느");
+                Wls_Recipe("소프트롤 케이크");
             }
         });
     }
@@ -267,7 +267,7 @@ public class Recipe extends AppCompatActivity {
         btn[14].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("쇼트브레드 쿠키");
+                Wls_Recipe("마드레느");
             }
         });
     }
@@ -276,7 +276,7 @@ public class Recipe extends AppCompatActivity {
         btn[15].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("슈");
+                Wls_Recipe("쇼트브레드 쿠키");
             }
         });
     }
@@ -285,7 +285,7 @@ public class Recipe extends AppCompatActivity {
         btn[16].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("브라우니");
+                Wls_Recipe("슈");
             }
         });
     }
@@ -294,7 +294,7 @@ public class Recipe extends AppCompatActivity {
         btn[17].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("과일케이크");
+                Wls_Recipe("브라우니");
             }
         });
     }
@@ -303,7 +303,7 @@ public class Recipe extends AppCompatActivity {
         btn[18].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("파운드케이크");
+                Wls_Recipe("과일케이크");
             }
         });
     }
@@ -312,7 +312,7 @@ public class Recipe extends AppCompatActivity {
         btn[19].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("다쿠와즈");
+                Wls_Recipe("파운드 케이크");
             }
         });
     }
