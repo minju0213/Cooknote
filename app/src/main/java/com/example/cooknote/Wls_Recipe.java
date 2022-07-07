@@ -738,7 +738,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text9.setText("펀칭하여 수분을 날린 후 틀에서 즉시 제거하고, 냉각팬 위에 유산지를 깔고 제출한다.");}
 
     // 양식
-    void recipe_21()
+    void recipe_21() //쉬림프카나페
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -778,7 +778,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text16.setText("새우 양 끝 1cm씩 남기고 등쪽부터 칼집 넣어주고 양쪽으로 벌려 세울 수 있게 모양 잡아준다.");
         recipe_text17.setText("빵 한면에 버터를 발라주고, 그 위에 계란, 새우, 케찹, 파슬리 순으로 올려준다.");
         recipe_text18.setText("플레이팅 후 제출한다.");}
-    void recipe_22()
+    void recipe_22() //스페니쉬오믈렛
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -822,7 +822,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text18.setText("최대한 약불에서 팬을 기울여가며 타원형 모양의 오믈렛을 완성한다.");
         recipe_text19.setText("모양을 잡으면 뒤집고 달걀 아랫면을 익혀준다.");
         recipe_text20.setText("플레이팅 후 제출한다.");}
-    void recipe_23()
+    void recipe_23() //치즈오믈렛
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -850,7 +850,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text10.setText("최대한 약불에서 팬을 기울여가며 타원형 모양의 오믈렛을 완성한다.");
         recipe_text11.setText("모양을 잡으면 뒤집고 달걀 아랫면을 익혀준다.");
         recipe_text12.setText("플레이팅 후 제출한다.");}
-    void recipe_24()
+    void recipe_24() //월도프샐러드
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -876,7 +876,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text9.setText("볼에 사과, 샐러리, 호두알을 넣은 뒤 소스를 조금씩 넣어가며 버무린다.");
         recipe_text10.setText("양상추 수분 제거 후 완성 접시에 깔아준 뒤 샐러드를 담아준다.");
         recipe_text11.setText("완성 그릇에 월도프샐러드 담고 위에 다진 호두를 장식하여 플레이팅 후 제출한다.");}
-    void recipe_25()
+    void recipe_25() //포테이토샐러드
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -896,7 +896,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text6.setText("감자가 익으면 체에 걸러 식혀준다.");
         recipe_text7.setText("양파를 면보에 감싸 물로 헹군 후 수분을 제거한다.");
         recipe_text8.setText("삶은 감자, 다진 양파, 파슬리 1/3t, 마요네즈 1T, 소금 1/6t, 흰후추가루 조금 넣고 버무려 플레이팅 후 제출한다.");}
-    void recipe_26()
+    void recipe_26() //BLT샌드위치
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -922,7 +922,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text9.setText("빵 - 양상추 - 베이컨 - 빵 - 양상추 - 토마토 - 빵 순으로 쌓는다.");
         recipe_text10.setText("빵 모서리를 잘라내고, 삼각형으로 4등분 낸다.");
         recipe_text11.setText("플레이팅 후 제출한다.");}
-    void recipe_27()
+    void recipe_27() //햄버거샌드위치
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -962,7 +962,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text16.setText("양상추 수분을 제거한 후 햄버거 번 크기에 맞춰 손으로 뜯어준다.");
         recipe_text17.setText("빵 - 양상추 - 패티 - 양파 - 토마토 - 빵 순으로 쌓는다.");
         recipe_text18.setText("플레이팅 후 제출한다.");}
-    void recipe_28()
+    void recipe_28() //브라운스톡
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -983,35 +983,28 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_17.setText("17. ");
         number_text_18.setText("18. ");
         number_text_19.setText("19. ");
-        number_text_20.setText("20. ");
-        number_text_21.setText("21. ");
-        number_text_22.setText("22. ");
-        number_text_23.setText("23. ");
 
-        recipe_text1.setText("");
-        recipe_text2.setText("");
-        recipe_text3.setText("");
-        recipe_text4.setText("");
-        recipe_text5.setText("");
-        recipe_text6.setText("");
-        recipe_text7.setText("");
-        recipe_text8.setText("");
-        recipe_text9.setText("");
-        recipe_text10.setText("");
-        recipe_text11.setText("");
-        recipe_text12.setText("");
-        recipe_text13.setText("");
-        recipe_text14.setText("");
-        recipe_text15.setText("");
-        recipe_text16.setText("");
-        recipe_text17.setText("");
-        recipe_text18.setText("");
-        recipe_text19.setText("");
-        recipe_text20.setText("");
-        recipe_text21.setText("");
-        recipe_text22.setText("");
-        recipe_text23.setText("");}
-    void recipe_29()
+        recipe_text1.setText("물을 끓이면서 재료를 전처리한다.\n" +
+                ": 소뼈 (물에 담가서 보관) / 건재료 / 그 외 재료 등으로 구분");
+        recipe_text2.setText("양파, 당근, 샐러리를 채 썰어준다.");
+        recipe_text3.setText("토마토에 + 칼집을 내주고 끓는 물에 15초 정도 데쳐준 후 찬물에 헹구며 껍질을 벗겨준다.");
+        recipe_text4.setText("소뼈를 끓는 물에 2~3분 정도 데쳐준다.");
+        recipe_text5.setText("토마토 꼭지와 씨를 제거하고 다져준다.");
+        recipe_text6.setText("소뼈 핏물, 기름 등을 제거하며 찬물에 씻겨준다.");
+        recipe_text7.setText("소뼈에 최대한 뼈만 남을 수 있게 뼈에 붙어있는 두꺼운 기름과 살코기를 제거한다.");
+        recipe_text8.setText("다시백에 타임, 파슬리 줄기, 월계수잎, 정향, 통후추 넣는다.");
+        recipe_text9.setText("팬에 식용유 1t 두르고 소뼈를 굽는다.");
+        recipe_text10.setText("구워진 소뼈 기름을 제거한다.");
+        recipe_text11.setText("팬에 버터 소량을 넣고 녹인다.");
+        recipe_text12.setText("양파를 갈색이 나도록 볶아준다.");
+        recipe_text13.setText("바닥에 갈색이 나면 물을 1T씩 부어가며 볶는다.");
+        recipe_text14.setText("양파가 진한 갈색이 나면 샐러리와 당근을 넣고 볶는다.");
+        recipe_text15.setText("충분히 볶아지면 소뼈를 넣고 살짝 볶아준다.");
+        recipe_text16.setText("물 2.5~3C, 토마토, 세사데피스 넣고 강불에서 끓인다.");
+        recipe_text17.setText("스톡이 끓으면 중간중간 올라오는 거품을 제거해가며 약불에서 5분 정도 끓인다.");
+        recipe_text18.setText("다 끓인 스톡을 체와 면보에 걸러준다.");
+        recipe_text19.setText("200ml 이상 계량하여 플레이팅 후 제출한다.");}
+    void recipe_29() //이탈리안미트소스
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1028,39 +1021,24 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_13.setText("13. ");
         number_text_14.setText("14. ");
         number_text_15.setText("15. ");
-        number_text_16.setText("16. ");
-        number_text_17.setText("17. ");
-        number_text_18.setText("18. ");
-        number_text_19.setText("19. ");
-        number_text_20.setText("20. ");
-        number_text_21.setText("21. ");
-        number_text_22.setText("22. ");
-        number_text_23.setText("23. ");
 
-        recipe_text1.setText("");
-        recipe_text2.setText("");
-        recipe_text3.setText("");
-        recipe_text4.setText("");
-        recipe_text5.setText("");
-        recipe_text6.setText("");
-        recipe_text7.setText("");
-        recipe_text8.setText("");
-        recipe_text9.setText("");
-        recipe_text10.setText("");
-        recipe_text11.setText("");
-        recipe_text12.setText("");
-        recipe_text13.setText("");
-        recipe_text14.setText("");
-        recipe_text15.setText("");
-        recipe_text16.setText("");
-        recipe_text17.setText("");
-        recipe_text18.setText("");
-        recipe_text19.setText("");
-        recipe_text20.setText("");
-        recipe_text21.setText("");
-        recipe_text22.setText("");
-        recipe_text23.setText("");}
-    void recipe_30()
+        recipe_text1.setText("재료를 전처리한다.\n" +
+                ": 소고기 / 파슬리 (물에 담가서 보관) / 건재료 / 그 외 재료 등으로 구분");
+        recipe_text2.setText("마늘, 양파, 샐러리(섬유질 제거)를 다진다.");
+        recipe_text3.setText("홀 토마토 꼭지 제거 후 다진다.");
+        recipe_text4.setText("파슬리 잎 부분을 다지고 면보에 감싸 물에 행군 뒤 수분을 제거한다.");
+        recipe_text5.setText("소고기를 다진다. (시간 부족하면 생략 가능)");
+        recipe_text6.setText("냄비에 버터 1t 넣고 녹인다.");
+        recipe_text7.setText("약불에서 마늘을 10초 정도 볶는다.");
+        recipe_text8.setText("마늘 향이 올라오면 소고기를 넣고 볶는다.");
+        recipe_text9.setText("소고기가 반정도 익으면 양파, 샐러리를 넣고 강불에 약 30초 정도 볶는다.");
+        recipe_text10.setText("다진 토마토를 넣고 볶는다.");
+        recipe_text11.setText("토마토페이스트를 크게 1T 정도 넣고 볶는다.");
+        recipe_text12.setText("물 300ml, 월계수잎 넣고 강불에 끓인다.");
+        recipe_text13.setText("소스가 끓으면 중간중간 올라오는 거품을 제거해가며 중약불에서 4~5분간 끓인다.");
+        recipe_text14.setText("소금, 후추 간을 한다.");
+        recipe_text15.setText("월계수잎을 제거하고 150ml 이상 계량하여 플레이팅 후 제출한다.");}
+    void recipe_30() //홀렌다이즈소스
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1075,43 +1053,24 @@ public class Wls_Recipe extends AppCompatActivity {
         number_text_11.setText("11. ");
         number_text_12.setText("12. ");
         number_text_13.setText("13. ");
-        number_text_14.setText("14. ");
-        number_text_15.setText("15. ");
-        number_text_16.setText("16. ");
-        number_text_17.setText("17. ");
-        number_text_18.setText("18. ");
-        number_text_19.setText("19. ");
-        number_text_20.setText("20. ");
-        number_text_21.setText("21. ");
-        number_text_22.setText("22. ");
-        number_text_23.setText("23. ");
 
-        recipe_text1.setText("");
-        recipe_text2.setText("");
-        recipe_text3.setText("");
-        recipe_text4.setText("");
-        recipe_text5.setText("");
-        recipe_text6.setText("");
-        recipe_text7.setText("");
-        recipe_text8.setText("");
-        recipe_text9.setText("");
-        recipe_text10.setText("");
-        recipe_text11.setText("");
-        recipe_text12.setText("");
-        recipe_text13.setText("");
-        recipe_text14.setText("");
-        recipe_text15.setText("");
-        recipe_text16.setText("");
-        recipe_text17.setText("");
-        recipe_text18.setText("");
-        recipe_text19.setText("");
-        recipe_text20.setText("");
-        recipe_text21.setText("");
-        recipe_text22.setText("");
-        recipe_text23.setText("");}
+        recipe_text1.setText("물을 끓이면서 재료를 전처리한다.\n" +
+                ": 달걀 / 건재료 / 그 외 재료 등으로 구분");
+        recipe_text2.setText("버터를 중탕한다. (중탕 후 중탕물 버리지 말고 나중에 다시 사용하기)");
+        recipe_text3.setText("양파를 채 썰어준다.");
+        recipe_text4.setText("파슬리 줄기 부분만 잘라 준비한다.");
+        recipe_text5.setText("레몬 즙을 짠다.");
+        recipe_text6.setText("양파, 파슬리 줄기, 월계수잎, 통후추, 식초 20ml, 물 50ml, 레몬즙을 넣고 끓여 허브에센스를 만든다.");
+        recipe_text7.setText("허브에센스를 면보에 걸러준다.");
+        recipe_text8.setText("달걀 노른자 2개를 분리하고 알끈을 제거한다.");
+        recipe_text9.setText("허브에센스 2t 넣고 따뜻한 물(버터 중탕물 사용) 위에서 휘핑기로 섞는다.");
+        recipe_text10.setText("중탕버터를 조금씩 넣으며 섞는다.");
+        recipe_text11.setText("농도가 되직해지면 허브에센스를 조금씩 넣어가며 농도를 풀어준다.");
+        recipe_text12.setText("소금, 흰후추가루로 간을 한다.");
+        recipe_text13.setText("100ml 이상 계량하여 플레이팅 후 제출한다.");}
 
     // 한식
-    void recipe_31()
+    void recipe_31() //비빔밥
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1162,7 +1121,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text21.setText("다시마를 키친타올로 감싸 부순다.");
         recipe_text22.setText("완성 그릇에 그릇에 밥을 담고 흰(무)색 재료와 유색 재료를 번갈아가며 다른 재료들과 섞이지 않게 방향을 맞춰 가지런히 담아준다.");
         recipe_text23.setText("가운데 고추장을 얹고 고추장 위에 다시마를 올려 제출한다.");}
-    void recipe_32()
+    void recipe_32() //콩나물밥
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1182,7 +1141,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text6.setText("밥을 짓는다.\n" +
                 ": 불려둔 쌀 씻기 -> 냄비에 쌀 1C, 물 1C 계량하고 콩나물, 소고기 넣어 밥 앉히기 (소고기 최대한 한 서로 붙지 않게 넣기) -> 강불에 2~3분 끓이기 -> 김 올라오면 중불에 5~6분 두기 -> 타닥타닥 소리 나면 약불에 1~2분 뜸 들이기 -> 불 끄고 5분 뜸 들이기");
         recipe_text7.setText("플레이팅 후 제출한다.");}
-    void recipe_33()
+    void recipe_33() //장국죽
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1209,7 +1168,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text10.setText("다시 죽의 형태가 나올 정도로 졸아들면 남은 물을 모두 넣고 중약불로 끓인다.");
         recipe_text11.setText("쌀알이 잘 퍼졌을 때 국간장 1t 넣고 간을 한다.");
         recipe_text12.setText("표고버섯이 위에 잘 보이게 올려 플레이팅 후 제출한다.");}
-    void recipe_34()
+    void recipe_34() //완자탕
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1251,7 +1210,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text17.setText("육수가 끓으면 완자를 넣고 완자가 떠오를 때까지 끓인다.");
         recipe_text18.setText("중간중간 올라오는 거품을 제거한다.");
         recipe_text19.setText("200ml 이상 계량하고 황/백 지단을 넣어 플레이팅 후 제출한다.");}
-    void recipe_35()
+    void recipe_35() //생선찌개
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1284,7 +1243,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text12.setText("중간중간 올라오는 거품을 제거한다.");
         recipe_text13.setText("약 5분 정도 끓인 후 청고추, 홍고추, 실파, 쑥갓 줄기를 넣고 15초 정도 끓인다.");
         recipe_text14.setText("완성 그릇에 담고 쑥갓 잎을 국물에 살짝 적셔 가운데 꽂아 플레이팅 후 제출한다. (쑥갓 잎 생략 가능)");}
-    void recipe_36()
+    void recipe_36() //두부젓국찌개
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1312,7 +1271,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text10.setText("물이 끓으면 두부 - 굴 - 홍고추, 실파를 1분 간격으로 넣고, 중간중간 올라오는 거품을 제거한다.");
         recipe_text11.setText("모든 재료 넣고 약 10초 뒤 불을 끄고 참기름 1/6t 넣는다.");
         recipe_text12.setText("200ml 이상 계량하여 플레이팅 후 제출한다.");}
-    void recipe_37()
+    void recipe_37() //제육구이
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1336,7 +1295,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text8.setText("석쇠에 돼지고기를 올려 주먹 하나 들어갈 정도 높이에서 석쇠를 돌려가며 강불에 앞뒤로 구워준다.");
         recipe_text9.setText("양념장을 덧발라 1분 정도 2차 구이를 한다. (생략 가능)");
         recipe_text10.setText("플레이팅 후 제출한다.");}
-    void recipe_38()
+    void recipe_38() //너비아니구이
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1362,7 +1321,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text9.setText("석쇠에 소고기를 올려 주먹 하나 들어갈 정도 높이에서 석쇠를 돌려가며 강불에 앞뒤로 구워준다.");
         recipe_text10.setText("양념장을 덧발라 1분 정도 2차 구이를 한다. (생략 가능)");
         recipe_text11.setText("완성 접시에 담고 잣가루를 뿌려 플레이팅 후 제출한다.");}
-    void recipe_39()
+    void recipe_39() //더덕구이
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1388,7 +1347,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text9.setText("석쇠에 더덕을 올려 주먹 하나 들어갈 정도 높이에서 석쇠를 돌려가며 중약불에 2~3분 초벌구이 한다.");
         recipe_text10.setText("초벌한 더덕에 고추장양념을 발라 약불에서 1분 정도 더 구워준다.");
         recipe_text11.setText("껍질 쪽이 위로 향하게 하여 플레이팅 후 제출한다.");}
-    void recipe_40()
+    void recipe_40() //생선양념구이
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1415,7 +1374,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text10.setText("머리가 왼쪽으로 가게 하여 플레이팅 후 제출한다.");}
 
     //조주(동민)
-    void recipe_41()
+    void recipe_41() //Pousse Cafe (푸스 카페)
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1425,7 +1384,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text2.setText("크림 드 민트 1/2oz 바스푼 이용해 그라나딘 시럽 위에 띄운다.");
         recipe_text3.setText(" 브랜디 1/2oz 바스푼 이용해 크림 드 민트 위에 띄운다.");
     }
-    void recipe_42()
+    void recipe_42() //Manhattan (맨하탄)
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1441,7 +1400,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text5.setText("잔에 있는 칠링용 얼음을 버리고 믹싱 글라스에 스트레이너를 끼워 칵테일을 따른다.");
         recipe_text6.setText("체리를 픽에 꽂아 넣는다.");
        }
-    void recipe_43()
+    void recipe_43() //Dry Martini (드라이 마티니)
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1457,7 +1416,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text5.setText("잔에 있는 칠링용 얼음을 버리고 믹싱 글라스에 스트레이너를 끼워 칵테일을 따른다.");
         recipe_text6.setText("그린 올리브를 픽에 꽂아 넣는다.");
        }
-    void recipe_44()
+    void recipe_44() //Old Fashioned (올드 패션드)
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1474,7 +1433,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text5.setText("잔에 버번위스키 1 1/2oz(1.5oz) 넣는다.");
         recipe_text6.setText("바스푼으로 8~10회 젓는다.");
         recipe_text7.setText("오렌지 슬라이스와 체리를 픽에 꽂아 잔에 꽂는다.");}
-    void recipe_45()
+    void recipe_45() //Brandy Alexander (브랜디 알렉산더)
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1491,7 +1450,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text5.setText("잔에 있는 칠링용 얼음을 버리고 칵테일을 따른다.");
         recipe_text6.setText("넛메그 파우더를 뿌려준다.");}
 
-    void recipe_46()
+    void recipe_46() //Singapore Sling (싱가폴 슬링)
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1512,7 +1471,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text7.setText("바스푼으로 8~10회 젓는다.");
         recipe_text8.setText("체리 브랜디 1/2oz 바스푼 이용해 넣어준다.");
         recipe_text9.setText("오렌지 슬라이스와 체리를 픽에 꽂아 잔에 꽂는다.");}
-    void recipe_47()
+    void recipe_47() //Black Russian (블랙 러시안)
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1521,7 +1480,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text1.setText("잔에 얼음 80% 넣는다.");
         recipe_text2.setText("잔에 보드카 1oz, 커피리큐르(깔루아) 1/2oz 넣는다.");
         recipe_text3.setText("바스푼으로 8~10회 젓는다.");}
-    void recipe_48()
+    void recipe_48() //Margarita (마가리타)
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1538,7 +1497,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text5.setText("잔에 있는 칠링용 얼음을 버리고 칵테일을 따른다.");
         recipe_text6.setText("잔 림에 레몬즙을 바르고 소금을 묻힌다.");
         recipe_text7.setText("잔에 칵테일을 따른다.");}
-    void recipe_49()
+    void recipe_49() //Rusty Nail (러스티 네일)
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
@@ -1547,7 +1506,7 @@ public class Wls_Recipe extends AppCompatActivity {
         recipe_text1.setText("잔에 얼음 80% 넣는다.");
         recipe_text2.setText("잔에 스카치 위스키 1oz, 드람뷰이 1/2oz 넣는다.");
         recipe_text3.setText("바스푼으로 8~10회 젓는다.");}
-    void recipe_50()
+    void recipe_50() //Whiskey Sour (위스키 사워)
     {
         number_text_1.setText("1. ");
         number_text_2.setText("2. ");
