@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/bg_custom_button.xml" value="0.1055" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/calendar_selector.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/recipe_btn_color.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/recipe_btn_custom.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/recipe_btn_ripple_effect.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/study_base.xml" value="0.1" />
@@ -13,7 +15,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/drawable/transparent_calendar_element.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/font/font_resource.xml" value="0.10740740740740741" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/activitiy_splash.xml" value="0.15677083333333333" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/bread.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/cookie.xml" value="0.1453804347826087" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/date_go.xml" value="0.1" />
@@ -27,7 +29,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/fragment_5.xml" value="0.2105978260869565" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/korean_food.xml" value="0.12335359675785208" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/question.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/recipe.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/recipe.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/recipe_cookie.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/western_food.xml" value="0.12335359675785208" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cooknote/app/src/main/res/layout/wls_recipe.xml" value="0.264" />

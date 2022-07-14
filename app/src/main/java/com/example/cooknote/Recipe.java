@@ -303,7 +303,7 @@ public class Recipe extends AppCompatActivity {
         btn[18].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("과일케이크");
+                Wls_Recipe("과일 케이크");
             }
         });
     }
@@ -413,7 +413,7 @@ public class Recipe extends AppCompatActivity {
         btn[30].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("초코머핀");
+                Wls_Recipe("비빔밥");
             }
         });
     }
@@ -422,7 +422,7 @@ public class Recipe extends AppCompatActivity {
         btn[31].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("버터스펀지 케이크");
+                Wls_Recipe("콩나물밥");
             }
         });
     }
@@ -431,7 +431,7 @@ public class Recipe extends AppCompatActivity {
         btn[32].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("젤리롤 케이크");
+                Wls_Recipe("장국죽");
             }
         });
     }
@@ -440,7 +440,7 @@ public class Recipe extends AppCompatActivity {
         btn[33].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("마드레느");
+                Wls_Recipe("완자탕");
             }
         });
     }
@@ -449,7 +449,7 @@ public class Recipe extends AppCompatActivity {
         btn[34].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("쇼트브레드 쿠키");
+                Wls_Recipe("생선찌개");
             }
         });
     }
@@ -458,7 +458,7 @@ public class Recipe extends AppCompatActivity {
         btn[35].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("슈");
+                Wls_Recipe("두부젓국찌개");
             }
         });
     }
@@ -467,7 +467,7 @@ public class Recipe extends AppCompatActivity {
         btn[36].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("브라우니");
+                Wls_Recipe("제육구이");
             }
         });
     }
@@ -476,7 +476,7 @@ public class Recipe extends AppCompatActivity {
         btn[37].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("과일케이크");
+                Wls_Recipe("너비아니구이");
             }
         });
     }
@@ -485,7 +485,7 @@ public class Recipe extends AppCompatActivity {
         btn[38].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("파운드케이크");
+                Wls_Recipe("더덕구이");
             }
         });
     }
@@ -494,7 +494,7 @@ public class Recipe extends AppCompatActivity {
         btn[39].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Wls_Recipe("다쿠와즈");
+                Wls_Recipe("생선양념구이");
             }
         });
     }

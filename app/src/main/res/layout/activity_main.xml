@@ -31,50 +31,56 @@
 
     </FrameLayout>
 
-    <ImageButton
-        android:id="@+id/DateGO_bt"
-        android:onClick="DateGO_bt"
-        android:layout_width="291dp"
-        android:layout_height="107dp"
-        android:layout_marginTop="45dp"
-        android:background="@android:color/transparent"
-        android:padding="0sp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/date_go"
-        tools:ignore="OnClick" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
 
-    <ImageButton
-        android:id="@+id/Recipe_bt"
-        android:layout_width="291dp"
-        android:layout_height="107dp"
-        android:layout_gravity="right"
-        android:layout_marginTop="36dp"
-        android:background="@android:color/transparent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/right" />
+        <ImageButton
+            android:id="@+id/DateGO_bt"
+            android:layout_width="291dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="45dp"
+            android:background="@android:color/transparent"
+            android:onClick="DateGO_bt"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/date_go"
+            tools:ignore="OnClick" />
 
-    <ImageButton
-        android:id="@+id/Question_bt"
-        android:layout_width="291dp"
-        android:layout_height="107dp"
-        android:layout_marginTop="40dp"
-        android:background="@android:color/transparent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/question" />
+        <ImageButton
+            android:id="@+id/Recipe_bt"
+            android:layout_width="291dp"
+            android:layout_height="107dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="36dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/right" />
 
-    <ImageButton
-        android:id="@+id/onButton"
-        android:layout_width="291dp"
-        android:layout_height="107dp"
-        android:layout_marginTop="40dp"
-        android:scaleType="centerCrop"
-        android:background="@android:color/transparent"
-        android:onClick="onButton"
-        android:src="@drawable/certificate_go"
-        android:layout_gravity="right"  />
+        <ImageButton
+            android:id="@+id/Question_bt"
+            android:layout_width="291dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/question" />
+
+        <ImageButton
+            android:id="@+id/onButton"
+            android:layout_width="291dp"
+            android:layout_height="107dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/transparent"
+            android:onClick="onButton"
+            android:scaleType="centerCrop"
+            android:src="@drawable/certificate_go" />
 
 
-
+    </LinearLayout>
 </LinearLayout>
 
 
