@@ -1,4 +1,6 @@
-package com.example.cooknote;
+package com.etonkooc.cooknote;
+
+import androidx.appcompat.widget.AppCompatButton;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -6,13 +8,17 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
-
 import java.util.Random;
 
-public class Drink extends AppCompatActivity {
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Cookie extends AppCompatActivity {
+
+    /*
+     * 내꺼 코드 베이스로 문제 개수랑 보기개수에 맞게 잘 다듬었네 굿굿
+     * 2차원 배열 작은 실수 제외하면 논리적으로는 문제 없게 잘 고쳤어
+     * */
 
     TextView tv_original;
     int category, correct;
@@ -23,16 +29,18 @@ public class Drink extends AppCompatActivity {
     String[] arrayBreadQuestion = new String[10];
     int[] arrayCorrectIndex = new int[10];
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.drink);
+        setContentView(R.layout.cookie);
         initActivity();
         setOptions();
         setBreadQuestion();
         setCorrectIndex();
         setNewQuestion();
-        }
+
+    }
 
     void chooseOption(int choose) {
         if (choose == correct) { // 정답을 맞췄을 경우
@@ -110,59 +118,59 @@ public class Drink extends AppCompatActivity {
 
 
     void setBreadQuestion() {
-        arrayBreadQuestion[0] = "다음 중 ‘싱가폴 슬링’에 들어가지 않는 재료는 무엇인가?";
-        arrayBreadQuestion[1] = "다음 중 기법이 다른 하나는 무엇인가?";
-        arrayBreadQuestion[2] = "‘마가리타’의 가니쉬로 옳은 것은 무엇인가?";
-        arrayBreadQuestion[3] = "다음 중 ‘프레쉬 레몬 스쿼시’에 들어가지 않는 재료는 무엇인가?";
-        arrayBreadQuestion[4] = "다음 중 파인애플주스가 들어가지 않는 품목은 무엇인가?";
-        arrayBreadQuestion[5] = "‘푸즈카페’의 기주는 무엇인가?";
-        arrayBreadQuestion[6] = "다음 중 shake 기법으로 제조하지 않는 품목은 무엇인가?";
-        arrayBreadQuestion[7] = "‘B-52’의 글라스로 옳은 것은 무엇인가?";
-        arrayBreadQuestion[8] = "‘맨하탄’의 가니쉬로 옳은 것은 무엇인가?";
-        arrayBreadQuestion[9] = "다음 중 blend 기법으로 제조하지 않는 품목은 무엇인가?";
+        arrayBreadQuestion[0] = "‘마들렌’ 제조 반죽법은 무엇인가?";
+        arrayBreadQuestion[1] = "롤케이크 중 바깥면이 안 쪽으로 오게 하여 말기를 하는 품목은 무엇인가?";
+        arrayBreadQuestion[2] = "다음 중 비중이 가장 높은 품목은 무엇인가?";
+        arrayBreadQuestion[3] = "블렌딩법이 아닌 품목은 무엇인가?";
+        arrayBreadQuestion[4] = "‘슈‘를 만들 때 주의해야 하는 사항으로 옳지 않은 것은 무엇인가?";
+        arrayBreadQuestion[5] = "‘치즈케이크’의 적정 비중치는?";
+        arrayBreadQuestion[6] = "다음 품목 중 비중을 측정하지 않는 제품은 무엇인가?";
+        arrayBreadQuestion[7] = "다음 중 ‘파운드케이크’ 제조 공정 중 옳지 않은 것은?";
+        arrayBreadQuestion[8] = "다음 중 ‘초코롤케이크’ 제조 공정 중 옳지 않은 것은?";
+        arrayBreadQuestion[9] = "‘타르트‘ 제조 시 포크로 바닥에 구멍을 내는 이유로 알맞은 것은?";
 
 
     }
     void setOptions() {
-        arrayOptions[0][0] = "체리 브랜디";
-        arrayOptions[0][1] = "그래나딘 시럽";
-        arrayOptions[0][2] = "레몬주스";
+        arrayOptions[0][0] = "크림법";
+        arrayOptions[0][1] = "1단계법(변형)";
+        arrayOptions[0][2] = "공립법";
 
-        arrayOptions[1][0] = "맨하탄";
-        arrayOptions[1][1] = "러스티네일";
-        arrayOptions[1][2] = "네그로니";
+        arrayOptions[1][0] = "초코롤케이크 ";
+        arrayOptions[1][1] = "젤리롤케이크 ";
+        arrayOptions[1][2] = "소프트롤케이크 ";
 
-        arrayOptions[2][0] = "레몬 슬라이스";
-        arrayOptions[2][1] = "레몬 웨지";
-        arrayOptions[2][2] = "솔트 리밍";
+        arrayOptions[2][0] = "시퐁케이크";
+        arrayOptions[2][1] = "치즈케이크";
+        arrayOptions[2][2] = "파운드케이크 ";
 
-        arrayOptions[3][0] = "라임주스";
-        arrayOptions[3][1] = "레몬즙";
-        arrayOptions[3][2] = "탄산수";
+        arrayOptions[3][0] = "타르트";
+        arrayOptions[3][1] = "사과파이";
+        arrayOptions[3][2] = "호두파이";
 
-        arrayOptions[4][0] = "버진 푸르트 펀치";
-        arrayOptions[4][1] = "사이드카";
-        arrayOptions[4][2] = "마이타이";
+        arrayOptions[4][0] = "물을 충분히 분무해 주거나 침지 시켜야 한다.";
+        arrayOptions[4][1] = "호화작업은 재료가 섞이고 나면 끝낸다.";
+        arrayOptions[4][2] = "약 15분 정도 지나기 전까진 오븐을 열면 안 된다.";
 
-        arrayOptions[5][0] = "보드카";
-        arrayOptions[5][1] = "럼";
-        arrayOptions[5][2] = "브랜디";
+        arrayOptions[5][0] = "0.4~0.5";
+        arrayOptions[5][1] = "0.6~0.7";
+        arrayOptions[5][2] = "0.7~0.8";
 
-        arrayOptions[6][0] = "뉴욕";
-        arrayOptions[6][1] = "롱아일랜드 아이스티";
-        arrayOptions[6][2] = "바카디";
+        arrayOptions[6][0] = "과일케이크";
+        arrayOptions[6][1] = "초코롤케이크";
+        arrayOptions[6][2] = "시퐁케이크";
 
-        arrayOptions[7][0] = "필스너 글라스";
-        arrayOptions[7][1] = "셰리 글라스";
-        arrayOptions[7][2] = "리큐르 글라스";
+        arrayOptions[7][0] = "크림법으로 제조하며 달걀과 버터가 분리되지 않도록 한다.";
+        arrayOptions[7][1] = "반죽 팬닝 후 평평하게 만들어 굽는다.";
+        arrayOptions[7][2] = "비중은 0.8~0.9로 맞춘다.";
 
-        arrayOptions[8][0] = "체리";
-        arrayOptions[8][1] = "올리브";
-        arrayOptions[8][2] = "레몬 슬라이스";
+        arrayOptions[8][0] = "다 구워진 반죽은 틀에서 즉시 제거 후 바로 가나슈를 바르고 말아준다.";
+        arrayOptions[8][1] = "공립법으로 제조한다.";
+        arrayOptions[8][2] = "말기가 끝난 후 잠시 고정해 둔다.";
 
-        arrayOptions[9][0] = "마이타이";
-        arrayOptions[9][1] = "블루하와이안";
-        arrayOptions[9][2] = "준벅";
+        arrayOptions[9][0] = "아몬드 반죽이 평평해지도록 한다.";
+        arrayOptions[9][1] = "밑면에 색이 더 잘 나도록 한다.";
+        arrayOptions[9][2] = "공기 층이 모여 바닥이 파이지 않도록 한다.";
         // [~2][~10] -> [~10][~2] 로 변경
     }
 
@@ -181,3 +189,4 @@ public class Drink extends AppCompatActivity {
     }
 
 }
+

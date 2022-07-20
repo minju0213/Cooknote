@@ -1,4 +1,4 @@
-package com.example.cooknote;
+package com.etonkooc.cooknote;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 

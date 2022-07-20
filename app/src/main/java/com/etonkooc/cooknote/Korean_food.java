@@ -1,26 +1,18 @@
-package com.example.cooknote;
+package com.etonkooc.cooknote;
 
-import androidx.appcompat.widget.AppCompatButton;
-
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.TextView;
-
-import java.util.Random;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
-public class Cookie extends AppCompatActivity {
+import java.util.Random;
 
-    /*
-     * 내꺼 코드 베이스로 문제 개수랑 보기개수에 맞게 잘 다듬었네 굿굿
-     * 2차원 배열 작은 실수 제외하면 논리적으로는 문제 없게 잘 고쳤어
-     * */
+public class Korean_food extends AppCompatActivity {
 
     TextView tv_original;
     int category, correct;
@@ -31,17 +23,15 @@ public class Cookie extends AppCompatActivity {
     String[] arrayBreadQuestion = new String[10];
     int[] arrayCorrectIndex = new int[10];
 
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.cookie);
+        setContentView(R.layout.korean_food);
         initActivity();
         setOptions();
         setBreadQuestion();
         setCorrectIndex();
         setNewQuestion();
-
     }
 
     void chooseOption(int choose) {
@@ -120,59 +110,59 @@ public class Cookie extends AppCompatActivity {
 
 
     void setBreadQuestion() {
-        arrayBreadQuestion[0] = "‘마들렌’ 제조 반죽법은 무엇인가?";
-        arrayBreadQuestion[1] = "롤케이크 중 바깥면이 안 쪽으로 오게 하여 말기를 하는 품목은 무엇인가?";
-        arrayBreadQuestion[2] = "다음 중 비중이 가장 높은 품목은 무엇인가?";
-        arrayBreadQuestion[3] = "블렌딩법이 아닌 품목은 무엇인가?";
-        arrayBreadQuestion[4] = "‘슈‘를 만들 때 주의해야 하는 사항으로 옳지 않은 것은 무엇인가?";
-        arrayBreadQuestion[5] = "‘치즈케이크’의 적정 비중치는?";
-        arrayBreadQuestion[6] = "다음 품목 중 비중을 측정하지 않는 제품은 무엇인가?";
-        arrayBreadQuestion[7] = "다음 중 ‘파운드케이크’ 제조 공정 중 옳지 않은 것은?";
-        arrayBreadQuestion[8] = "다음 중 ‘초코롤케이크’ 제조 공정 중 옳지 않은 것은?";
-        arrayBreadQuestion[9] = "‘타르트‘ 제조 시 포크로 바닥에 구멍을 내는 이유로 알맞은 것은?";
+        arrayBreadQuestion[0] = "‘장국죽’ 계량 시 쌀과 물의 비율은 무엇인가?";
+        arrayBreadQuestion[1] = "‘풋고추전’ 조리 시 주의해야할 점으로 틀린 것은 무엇인가?";
+        arrayBreadQuestion[2] = "‘무생채’ 조리 시 주의해야할 점으로 옳은 것은 무엇인가?";
+        arrayBreadQuestion[3] = "‘두부젓국찌개’ 조리 방법으로 옳은 것은 무엇인가?";
+        arrayBreadQuestion[4] = "다음 중 ‘생선양념구이’의 생선 손질법으로 틀린 것은 무엇인가?";
+        arrayBreadQuestion[5] = "‘무생채’ 양념장 재료로 옳지 않은 것은 무엇인가?";
+        arrayBreadQuestion[6] = "‘콩나물밥’ 조리 과정으로 옳지 않은 것은 무엇인가?";
+        arrayBreadQuestion[7] = "‘오징어볶음’ 조리 과정으로 옳은 것은?";
+        arrayBreadQuestion[8] = "완자탕 조리 시 부위별 소고기 사용 용도로 옳은 것은 무엇인가?";
+        arrayBreadQuestion[9] = "재료썰기 시 당근 골패썰기 길이로 알맞은 것은 무엇인가?";
 
 
     }
     void setOptions() {
-        arrayOptions[0][0] = "크림법";
-        arrayOptions[0][1] = "1단계법(변형)";
-        arrayOptions[0][2] = "공립법";
+        arrayOptions[0][0] = "쌀 1 : 물 2";
+        arrayOptions[0][1] = "쌀 1 : 물 6";
+        arrayOptions[0][2] = "쌀 1 : 물 3";
 
-        arrayOptions[1][0] = "초코롤케이크 ";
-        arrayOptions[1][1] = "젤리롤케이크 ";
-        arrayOptions[1][2] = "소프트롤케이크 ";
+        arrayOptions[1][0] = "고추 안에 밀가루 -> 고기 -> 달걀물 -> 밀가루 순으로 성형 후 굽는다.";
+        arrayOptions[1][1] = "고추의 머리부분과 꼬리부분이 잘려선 안 된다.";
+        arrayOptions[1][2] = "고추 길이는 5cm로 맞춘다.";
 
-        arrayOptions[2][0] = "시퐁케이크";
-        arrayOptions[2][1] = "치즈케이크";
-        arrayOptions[2][2] = "파운드케이크 ";
+        arrayOptions[2][0] = "색은 고추장으로 조절한다.";
+        arrayOptions[2][1] = "진한 빨간색이 나오게 해야한다.";
+        arrayOptions[2][2] = "버무리고 나면 삼투압 작용으로 물이 생기므로 버무리기 전 무에 있는 물기를 제거한 후 버무려야 한다.";
 
-        arrayOptions[3][0] = "타르트";
-        arrayOptions[3][1] = "사과파이";
-        arrayOptions[3][2] = "호두파이";
+        arrayOptions[3][0] = "두부 크기는 3 X 2 X 1cm 이다.";
+        arrayOptions[3][1] = "굴을 설탕물에 넣고 해감 한다.";
+        arrayOptions[3][2] = "새우젓을 다져 그대로 사용한다.";
 
-        arrayOptions[4][0] = "물을 충분히 분무해 주거나 침지 시켜야 한다.";
-        arrayOptions[4][1] = "호화작업은 재료가 섞이고 나면 끝낸다.";
-        arrayOptions[4][2] = "약 15분 정도 지나기 전까진 오븐을 열면 안 된다.";
+        arrayOptions[4][0] = "지느러미와 아가미를 제거한다.";
+        arrayOptions[4][1] = "칼 팁으로 비늘을 제거한다.";
+        arrayOptions[4][2] = "일정한 간격으로 3~4번 어슷하게 칼집을 넣는다.";
 
-        arrayOptions[5][0] = "0.4~0.5";
-        arrayOptions[5][1] = "0.6~0.7";
-        arrayOptions[5][2] = "0.7~0.8";
+        arrayOptions[5][0] = "생강";
+        arrayOptions[5][1] = "깨소금";
+        arrayOptions[5][2] = "고추장";
 
-        arrayOptions[6][0] = "과일케이크";
-        arrayOptions[6][1] = "초코롤케이크";
-        arrayOptions[6][2] = "시퐁케이크";
+        arrayOptions[6][0] = "고기는 얇게 채썬다.";
+        arrayOptions[6][1] = "콩나물은 거두절미한다.";
+        arrayOptions[6][2] = "불린 쌀과 동량의 물을 부어 익힌다.";
 
-        arrayOptions[7][0] = "크림법으로 제조하며 달걀과 버터가 분리되지 않도록 한다.";
-        arrayOptions[7][1] = "반죽 팬닝 후 평평하게 만들어 굽는다.";
-        arrayOptions[7][2] = "비중은 0.8~0.9로 맞춘다.";
+        arrayOptions[7][0] = "오징어는 손질 후 몸통에 세로로 칼집을 넣어준다.";
+        arrayOptions[7][1] = "양념장은 미리 제조한다.";
+        arrayOptions[7][2] = "오징어는 부위별로 6cm로 잘라준다.";
 
-        arrayOptions[8][0] = "다 구워진 반죽은 틀에서 즉시 제거 후 바로 가나슈를 바르고 말아준다.";
-        arrayOptions[8][1] = "공립법으로 제조한다.";
-        arrayOptions[8][2] = "말기가 끝난 후 잠시 고정해 둔다.";
+        arrayOptions[8][0] = "사태 – 육수용 / 살코기 – 완자용";
+        arrayOptions[8][1] = "사태 – 완자용 / 살코기 – 육수용";
+        arrayOptions[8][2] = "사태 – 고명용 / 살코기 – 육수, 완자용";
 
-        arrayOptions[9][0] = "아몬드 반죽이 평평해지도록 한다.";
-        arrayOptions[9][1] = "밑면에 색이 더 잘 나도록 한다.";
-        arrayOptions[9][2] = "공기 층이 모여 바닥이 파이지 않도록 한다.";
+        arrayOptions[9][0] = "5 X 1 X 0.2cm";
+        arrayOptions[9][1] = "5 X 1.5 X 0.5cm";
+        arrayOptions[9][2] = "5 X 1.5 X 0.2cm";
         // [~2][~10] -> [~10][~2] 로 변경
     }
 
@@ -191,4 +181,3 @@ public class Cookie extends AppCompatActivity {
     }
 
 }
-

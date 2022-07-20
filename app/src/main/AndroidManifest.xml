@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.cooknote">
+    package="com.etonkooc.cooknote">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cooknote">
         
-        <activity android:name=".SplashActivity"
+        <activity android:name="com.etonkooc.cooknote.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,36 +21,36 @@
         </activity>
 
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.etonkooc.cooknote.MainActivity">
         </activity>
 
         <!--메인 버튼들-->
 
-        <activity android:name=".Question">
+        <activity android:name="com.etonkooc.cooknote.Question">
         </activity>
 
-        <activity android:name=".Recipe">
+        <activity android:name="com.etonkooc.cooknote.Recipe">
         </activity>
 
 
         <!--퀘스챤 버튼들-->
-        <activity android:name=".Bread">
+        <activity android:name="com.etonkooc.cooknote.Bread">
         </activity>
 
-        <activity android:name=".Cookie">
+        <activity android:name="com.etonkooc.cooknote.Cookie">
         </activity>
 
-        <activity android:name=".Korean_food">
+        <activity android:name="com.etonkooc.cooknote.Korean_food">
         </activity>
 
-        <activity android:name=".Western_food">
+        <activity android:name="com.etonkooc.cooknote.Western_food">
         </activity>
 
-        <activity android:name=".Drink">
+        <activity android:name="com.etonkooc.cooknote.Drink">
         </activity>
 
         <!--레시피-->
-        <activity android:name=".Wls_Recipe">
+        <activity android:name="com.etonkooc.cooknote.Wls_Recipe">
         </activity>
     </application>
 </manifest>

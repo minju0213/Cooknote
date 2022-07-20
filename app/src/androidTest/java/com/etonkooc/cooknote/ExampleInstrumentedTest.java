@@ -1,4 +1,4 @@
-package com.example.cooknote;
+package com.etonkooc.cooknote;
 
 import android.content.Context;
 

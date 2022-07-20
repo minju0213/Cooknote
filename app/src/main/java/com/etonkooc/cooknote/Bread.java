@@ -1,13 +1,11 @@
-package com.example.cooknote;
+package com.etonkooc.cooknote;
 
 import androidx.appcompat.widget.AppCompatButton;
 
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.util.Random;
@@ -15,18 +13,17 @@ import java.util.Random;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Western_food extends AppCompatActivity {
+public class Bread extends AppCompatActivity {
 
     /*
-     * 내꺼 코드 베이스로 문제 개수랑 보기개수에 맞게 잘 다듬었네 굿굿
-     * 2차원 배열 작은 실수 제외하면 논리적으로는 문제 없게 잘 고쳤어
-     * */
-
+    * 내꺼 코드 베이스로 문제 개수랑 보기개수에 맞게 잘 다듬었네 굿굿
+    * 2차원 배열 작은 실수 제외하면 논리적으로는 문제 없게 잘 고쳤어
+    * */
 
     TextView tv_original;
     int category, correct;
     AppCompatButton[] btn_option = new AppCompatButton[3];
-    //    String[][] arrayOptions = new String[3][10];
+//    String[][] arrayOptions = new String[3][10];
     String[][] arrayOptions = new String[10][4];
     // 10개의 문제의 3개의 보기라서 10개의 방을 가진 3개의 배열이 아닌 3개의 방을 가진 10개의 배열로 선언
     String[] arrayBreadQuestion = new String[10];
@@ -36,7 +33,7 @@ public class Western_food extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.western_food);
+        setContentView(R.layout.bread);
         initActivity();
         setOptions();
         setBreadQuestion();
@@ -121,73 +118,73 @@ public class Western_food extends AppCompatActivity {
 
 
     void setBreadQuestion() {
-        arrayBreadQuestion[0] = "‘스파게티 까르보나라’의 농후제로 적절한 것은 무엇인가?";
-        arrayBreadQuestion[1] = "‘포테이토 샐러드’ 공정에 대한 설명으로 옳지 않은 것은 무엇인가?";
-        arrayBreadQuestion[2] = "다음 중 ‘바베큐 폭찹’의 지급 재료로 옳은 것은 무엇인가?";
-        arrayBreadQuestion[3] = "다음 중 ‘살리스버리 스테이크’에 곁들여내는 당근 모양의 명칭은 무엇인가?";
-        arrayBreadQuestion[4] = "‘프렌치 어니언 스프’에 사용되는 양파의 조리 형태로 옳은 것은 무엇인가?";
-        arrayBreadQuestion[5] = "‘치킨커틀렛’ 조리 과정으로 옳지 않은 것은 무엇인가?";
-        arrayBreadQuestion[6] = "‘홀렌다이즈 소스’의 재료로 옳지 않은 것은 무엇인가?";
-        arrayBreadQuestion[7] = "다음 중 머랭의 청정 작용을 이용하여 맑게 끓여낸 스프는 무엇인가?";
-        arrayBreadQuestion[8] = "다음 중 루를 이용하여 조리하는 품목은 무엇인가?";
-        arrayBreadQuestion[9] = "다음 중 ‘치즈 오믈렛’ 조리 과정으로 옳은 것은 무엇인가?";
+        arrayBreadQuestion[0] = "다음 중 굽기 전 물을 분무해야 \n 하는 품목은 무엇인가?";
+        arrayBreadQuestion[1] = "빵도넛의 튀김 기름 온도는 \n 몇 도가 적절한가?";
+        arrayBreadQuestion[2] = "다음 중 토핑물 제조에서 \n 크림법 거품 정도의 순서로 \n 알맞은 것은 무엇인가?";
+        arrayBreadQuestion[3] = "호밀빵의 반죽 혼합 \n 완료 단계로 알맞은 것은?";
+        arrayBreadQuestion[4] = "단팥빵 제조 공정에서 \n 위생상 주의해야 할 부분은 \n 무엇인가?";
+        arrayBreadQuestion[5] = "다음 식빵 품목 중 틀 밑에서 \n 2차 발효를 완료해야 하는 \n품목이 아닌 것은 무엇인가?";
+        arrayBreadQuestion[6] = "다음 품목 중 최종 단계 후기에서 \n 반죽 제조를 마무리하는 제품은 무엇인가?";
+        arrayBreadQuestion[7] = "그리시니 성형 길이로 \n 올바른 것은 무엇인가?";
+        arrayBreadQuestion[8] = "다음 중 1차 발효 완료점을 \n 확인하는 방법으로 올바르지 \n않은 것은?";
+        arrayBreadQuestion[9] = "다음 품목 중 2차 발효 후 물에 \n 데치는 공정을 진행해야 하는 \n 품목은 무엇인가?";
 
 
     }
     void setOptions() {
-        arrayOptions[0][0] = "루";
-        arrayOptions[0][1] = "노른자";
-        arrayOptions[0][2] = "식용유";
+        arrayOptions[0][0] = "호밀빵";
+        arrayOptions[0][1] = "풀먼식빵";
+        arrayOptions[0][2] = "단팥빵";
 
-        arrayOptions[1][0] = "마요네즈는 감자가 충분히 식었을 때 버무린다.";
-        arrayOptions[1][1] = "감자는 사방 1cm 크기의 정육면체로 잘라 익힌다.";
-        arrayOptions[1][2] = "양파는 채썰어 소금물에 담가 매운 맛을 제거한다.";
+        arrayOptions[1][0] = "160~175℃";
+        arrayOptions[1][1] = "175~185℃";
+        arrayOptions[1][2] = "185~195℃";
 
-        arrayOptions[2][0] = "백설탕";
-        arrayOptions[2][1] = "당근";
-        arrayOptions[2][2] = "우스터소스";
+        arrayOptions[2][0] = "소보루 < 밤식빵 < 모카빵";
+        arrayOptions[2][1] = "모카빵 < 밤식빵 < 소보루";
+        arrayOptions[2][2] = "소보루 < 모카빵 < 밤식빵";
 
-        arrayOptions[3][0] = "vichy";
-        arrayOptions[3][1] = "concase";
-        arrayOptions[3][2] = "batonnet";
+        arrayOptions[3][0] = "발전 단계";
+        arrayOptions[3][1] = "최종 단계";
+        arrayOptions[3][2] = "렛다운 단계";
 
-        arrayOptions[4][0] = "마리네이드";
-        arrayOptions[4][1] = "브루리";
-        arrayOptions[4][2] = "콩피";
+        arrayOptions[4][0] = "앙금을 분할 후 맨손으로 둥글리기 해선 안된다.";
+        arrayOptions[4][1] = "팽이 사용 후 물로 설거지해야 한다.";
+        arrayOptions[4][2] = "앙금이 묻은 헤라를 작업대에 내려놓으면 안 된다.";
 
-        arrayOptions[5][0] = "닭고기를 일정한 두께로 저며 펴준 후에 칼등으로 두드려 준다.";
-        arrayOptions[5][1] = "딥팻후라이로 조리한다.";
-        arrayOptions[5][2] = "닭고기에 붙어있는 껍질은 제거한다.";
+        arrayOptions[5][0] = "풀먼식빵";
+        arrayOptions[5][1] = "밤식빵";
+        arrayOptions[5][2] = "우유식빵";
 
-        arrayOptions[6][0] = "정제버터";
-        arrayOptions[6][1] = "밀가루";
-        arrayOptions[6][2] = "양파";
+        arrayOptions[6][0] = "비상식빵";
+        arrayOptions[6][1] = "스위트롤";
+        arrayOptions[6][2] = "그리시니";
 
-        arrayOptions[7][0] = "프렌치 어니언 스프";
-        arrayOptions[7][1] = "비프콘소매";
-        arrayOptions[7][2] = "미네스트로니 스프";
+        arrayOptions[7][0] = "25-30cm";
+        arrayOptions[7][1] = "35-40cm";
+        arrayOptions[7][2] = "45-50cm";
 
-        arrayOptions[8][0] = "치킨 알라킹";
-        arrayOptions[8][1] = "홀렌다이즈 소스";
-        arrayOptions[8][2] = "포테이토 크림 스프";
+        arrayOptions[8][0] = "반죽의 부피가 약 2배 정도 늘어나고 망사 그물 구조(거미줄)가 생겼는지 확인한다.";
+        arrayOptions[8][1] = "핑거 테스트를 진행한다.";
+        arrayOptions[8][2] = "반죽의 향과 색감을 보고 확인한다.";
 
-        arrayOptions[9][0] = "달걀은 잘 풀어 체에 내려준 후 소금을 섞는다.";
-        arrayOptions[9][1] = "내부가 완벽하게 익을 수 있도록 충분히 시간을 들인다.";
-        arrayOptions[9][2] = "치즈는 반죽과 내부에 나눠 넣는다.";
+        arrayOptions[9][0] = "빵도넛";
+        arrayOptions[9][1] = "베이글";
+        arrayOptions[9][2] = "더치빵";
         // [~2][~10] -> [~10][~2] 로 변경
     }
 
     void setCorrectIndex() {
-        arrayCorrectIndex[0] = 1;
-        arrayCorrectIndex[1] = 0;
+        arrayCorrectIndex[0] = 0;
+        arrayCorrectIndex[1] = 1;
         arrayCorrectIndex[2] = 2;
         arrayCorrectIndex[3] = 0;
-        arrayCorrectIndex[4] = 1;
+        arrayCorrectIndex[4] = 2;
         arrayCorrectIndex[5] = 2;
-        arrayCorrectIndex[6] = 1;
+        arrayCorrectIndex[6] = 0;
         arrayCorrectIndex[7] = 1;
-        arrayCorrectIndex[8] = 0;
-        arrayCorrectIndex[9] = 2;
+        arrayCorrectIndex[8] = 2;
+        arrayCorrectIndex[9] = 1;
 
     }
 

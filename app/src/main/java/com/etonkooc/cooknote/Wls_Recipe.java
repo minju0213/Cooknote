@@ -1,11 +1,9 @@
-package com.example.cooknote;
+package com.etonkooc.cooknote;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Button;
 import android.widget.TextView;
 
 public class Wls_Recipe extends AppCompatActivity {
