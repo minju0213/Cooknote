@@ -23,9 +23,7 @@ public class Cookie extends AppCompatActivity {
     TextView tv_original;
     int category, correct;
     AppCompatButton[] btn_option = new AppCompatButton[3];
-    //    String[][] arrayOptions = new String[3][10];
-    String[][] arrayOptions = new String[10][4];
-    // 10개의 문제의 3개의 보기라서 10개의 방을 가진 3개의 배열이 아닌 3개의 방을 가진 10개의 배열로 선언
+    String[][] arrayOptions = new String[10][3];
     String[] arrayBreadQuestion = new String[10];
     int[] arrayCorrectIndex = new int[10];
 
@@ -74,14 +72,11 @@ public class Cookie extends AppCompatActivity {
         correct = arrayCorrectIndex[index]; // 정답 자리 index
 
         tv_original.setText(arrayBreadQuestion[index]);
-        btn_option[correct].setText(arrayOptions[index][correct]);
+
         // 정답 보기 버튼을 index번 문제의 correct번 보기로 표시
 
         for (int i = 0; i < btn_option.length; i++) {
-            if (i != correct) {
-                btn_option[i].setText(arrayOptions[index][i]);
-                // index번 문제의 1~3번 보기중 랜덤하게 표시되도록 변경
-            }
+            btn_option[i].setText(arrayOptions[index][i]);
         }
     }
 
@@ -102,7 +97,6 @@ public class Cookie extends AppCompatActivity {
         btn_option[2] = (AppCompatButton) findViewById(R.id.btn_option3);
 
 
-
         for (int i = 0; i < btn_option.length; i++) {
             int finalI = i;
             btn_option[i].setOnClickListener(new View.OnClickListener() {
@@ -113,8 +107,6 @@ public class Cookie extends AppCompatActivity {
             });
         }
     }
-
-
 
 
     void setBreadQuestion() {
@@ -131,6 +123,7 @@ public class Cookie extends AppCompatActivity {
 
 
     }
+
     void setOptions() {
         arrayOptions[0][0] = "크림법";
         arrayOptions[0][1] = "1단계법(변형)";
@@ -171,7 +164,7 @@ public class Cookie extends AppCompatActivity {
         arrayOptions[9][0] = "아몬드 반죽이 평평해지도록 한다.";
         arrayOptions[9][1] = "밑면에 색이 더 잘 나도록 한다.";
         arrayOptions[9][2] = "공기 층이 모여 바닥이 파이지 않도록 한다.";
-        // [~2][~10] -> [~10][~2] 로 변경
+
     }
 
     void setCorrectIndex() {
